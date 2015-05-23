@@ -25,6 +25,14 @@
   $(document).ready(function() {
     webruby = new WEBRUBY({print_level: getQueryLevel()});
 
+    $("#clear-history").click(function() {
+      $("#output").empty()
+    })
+
+    $("#clear-input").click(function() {
+      editor.setValue('')
+    })
+
     $("#submit-button").click(function() {
       lines = [];
       printed = false;
@@ -38,20 +46,12 @@
       var element = $("#output");
       if (!element) return; // perhaps during startup
 
-      if ($('#clear-history').is(':checked')) {
-        element.empty();
-      }
-
       element.html(lines.join('<br>') + '<hr>' + element.html());
 
       if ($('#clear-check').is(':checked')) {
         // clears current mrb states
         webruby.close();
         webruby = new WEBRUBY({print_level: 2});
-      }
-
-      if ($('#clear-input').is(':checked')) {
-        editor.setValue('');
       }
     });
 

@@ -12,7 +12,7 @@
       height: 100%;
       position: relative;
     }
-    #submit-button {
+    .button {
       width: 90px;
       height: 40px;
       background-color: red;
@@ -34,19 +34,19 @@
     <div id="editor-container">
       <div id="editor">5.times { puts "Ruby is awesome!" }</div>
     </div>
-    <!--
-      <input id="clear-check" type="checkbox">Start new irb</input><br>
-    -->
-    <button type="button" id="submit-button" href="#">Run</button>
-    <input id="clear-input" type="checkbox">Clear editor</input>
-    <input id="clear-history" type="checkbox">Clear history</input>
+
+    <button type="button" id="submit-button" class="button">Run</button>
+    <button type="button" id="clear-input" class="button">Clear editor</button>
+    <button type="button" id="clear-history" class="button">Clear history</button>
   </div>
   <script src="js/ace.js" type="text/javascript" charset="utf-8"></script>
   <script>
     var editor = ace.edit("editor");
     editor.setTheme("ace/theme/monokai");
     editor.getSession().setMode("ace/mode/ruby");
+    editor.getSession().setUseSoftTabs(true);
     editor.getSession().setTabSize(2);
+    editor.setShowPrintMargin(false);
   </script>
   <hr>
   <div id="output" style="font-family: Courier New,Courier,monospace;"></div>
