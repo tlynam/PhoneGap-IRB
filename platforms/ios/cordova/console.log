@@ -642,3 +642,83 @@ To disable web storage backup to iCloud, set the BackupWebStorage preference to 
 2015-05-23 10:47:56.531 RubyIRB[2122:35606] Resetting plugins due to page load.
 2015-05-23 10:47:57.061 RubyIRB[2122:35606] Finished load of: file:///Users/todd/Library/Developer/CoreSimulator/Devices/E2649248-58F3-456E-8214-7B3542FF94E7/data/Containers/Bundle/Application/C564731B-9735-4B56-A08E-32751B863465/RubyIRB.app/www/index.html
 2015-05-23 10:48:05.265 RubyIRB[2122:35634] Terminating since there is no system app.
+2015-06-11 18:48:32.806 RubyIRB[17632:1284153] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/todd/Library/Developer/CoreSimulator/Devices/E2649248-58F3-456E-8214-7B3542FF94E7/data/Containers/Data/Application/28685B26-36C7-4F38-BDF1-170D9790874B/Library/Cookies/Cookies.binarycookies
+2015-06-11 18:48:33.038 RubyIRB[17632:1284153] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-11 18:48:33.039 RubyIRB[17632:1284153] Multi-tasking -> Device: YES, App: YES
+2015-06-11 18:48:33.051 RubyIRB[17632:1284153] Unlimited access to network resources
+2015-06-11 18:48:33.060 RubyIRB[17632:1284153] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-06-11 18:48:33.465 RubyIRB[17632:1284153] [CDVTimer][splashscreen] 132.493019ms
+2015-06-11 18:48:33.466 RubyIRB[17632:1284153] [CDVTimer][TotalPluginStartup] 132.641971ms
+2015-06-11 18:48:33.579 RubyIRB[17632:1284153] Resetting plugins due to page load.
+2015-06-11 18:48:34.066 RubyIRB[17632:1284153] Finished load of: file:///Users/todd/Library/Developer/CoreSimulator/Devices/E2649248-58F3-456E-8214-7B3542FF94E7/data/Containers/Bundle/Application/73EB780A-047E-4763-8935-D510F757C131/RubyIRB.app/www/index.html
+2015-06-11 19:13:33.180 RubyIRB[18370:1391794] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/todd/Library/Developer/CoreSimulator/Devices/E2649248-58F3-456E-8214-7B3542FF94E7/data/Containers/Data/Application/423DE454-A807-4EB9-8371-7161E1E56E30/Library/Cookies/Cookies.binarycookies
+2015-06-11 19:13:33.284 RubyIRB[18370:1391794] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-11 19:13:33.284 RubyIRB[18370:1391794] Multi-tasking -> Device: YES, App: YES
+2015-06-11 19:13:33.298 RubyIRB[18370:1391794] Unlimited access to network resources
+2015-06-11 19:13:33.301 RubyIRB[18370:1391794] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-06-11 19:13:33.516 RubyIRB[18370:1391794] [CDVTimer][splashscreen] 111.477017ms
+2015-06-11 19:13:33.516 RubyIRB[18370:1391794] [CDVTimer][TotalPluginStartup] 111.621022ms
+2015-06-11 19:13:33.633 RubyIRB[18370:1391794] Resetting plugins due to page load.
+2015-06-11 19:13:34.083 RubyIRB[18370:1391794] Finished load of: file:///Users/todd/Library/Developer/CoreSimulator/Devices/E2649248-58F3-456E-8214-7B3542FF94E7/data/Containers/Bundle/Application/A723D135-F42B-4754-A16F-5C8A78DE1EC1/RubyIRB.app/www/index.html
+2015-06-11 19:23:44.902 RubyIRB[18755:1445979] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/todd/Library/Developer/CoreSimulator/Devices/E2649248-58F3-456E-8214-7B3542FF94E7/data/Containers/Data/Application/3284AF22-2CFA-4ADE-AC7F-9DB199E3CEA2/Library/Cookies/Cookies.binarycookies
+2015-06-11 19:23:45.023 RubyIRB[18755:1445979] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-11 19:23:45.024 RubyIRB[18755:1445979] Multi-tasking -> Device: YES, App: YES
+2015-06-11 19:23:45.026 RubyIRB[18755:1445979] Unlimited access to network resources
+2015-06-11 19:23:45.028 RubyIRB[18755:1445979] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-06-11 19:23:45.421 RubyIRB[18755:1445979] [CDVTimer][splashscreen] 48.714995ms
+2015-06-11 19:23:45.421 RubyIRB[18755:1445979] [CDVTimer][TotalPluginStartup] 48.875034ms
+2015-06-11 19:23:45.553 RubyIRB[18755:1445979] Resetting plugins due to page load.
+2015-06-11 19:23:46.124 RubyIRB[18755:1445979] Finished load of: file:///Users/todd/Library/Developer/CoreSimulator/Devices/E2649248-58F3-456E-8214-7B3542FF94E7/data/Containers/Bundle/Application/3E2F7247-3781-4A6F-9AC7-3580E9A81A68/RubyIRB.app/www/index.html
+2015-06-11 19:32:44.163 RubyIRB[19536:1478808] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/todd/Library/Developer/CoreSimulator/Devices/E2649248-58F3-456E-8214-7B3542FF94E7/data/Containers/Data/Application/A09F0C01-1476-4A60-806E-C85F06CF01DF/Library/Cookies/Cookies.binarycookies
+2015-06-11 19:32:44.268 RubyIRB[19536:1478808] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-11 19:32:44.269 RubyIRB[19536:1478808] Multi-tasking -> Device: YES, App: YES
+2015-06-11 19:32:44.270 RubyIRB[19536:1478808] Unlimited access to network resources
+2015-06-11 19:32:44.273 RubyIRB[19536:1478808] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-06-11 19:32:44.361 RubyIRB[19536:1478808] [CDVTimer][splashscreen] 14.486969ms
+2015-06-11 19:32:44.361 RubyIRB[19536:1478808] [CDVTimer][TotalPluginStartup] 14.635026ms
+2015-06-11 19:32:44.496 RubyIRB[19536:1478808] Resetting plugins due to page load.
+2015-06-11 19:32:44.931 RubyIRB[19536:1478808] Finished load of: file:///Users/todd/Library/Developer/CoreSimulator/Devices/E2649248-58F3-456E-8214-7B3542FF94E7/data/Containers/Bundle/Application/DB4EAB4E-EEAC-452C-AD40-3A8D671DD0C0/RubyIRB.app/www/index.html
+2015-06-11 19:42:54.781 RubyIRB[20281:1513532] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/todd/Library/Developer/CoreSimulator/Devices/E2649248-58F3-456E-8214-7B3542FF94E7/data/Containers/Data/Application/6820DF7C-604E-407A-889E-E2404552CB98/Library/Cookies/Cookies.binarycookies
+2015-06-11 19:42:54.974 RubyIRB[20281:1513532] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-11 19:42:54.975 RubyIRB[20281:1513532] Multi-tasking -> Device: YES, App: YES
+2015-06-11 19:42:54.976 RubyIRB[20281:1513532] Unlimited access to network resources
+2015-06-11 19:42:54.980 RubyIRB[20281:1513532] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-06-11 19:42:55.076 RubyIRB[20281:1513532] [CDVTimer][splashscreen] 13.651013ms
+2015-06-11 19:42:55.076 RubyIRB[20281:1513532] [CDVTimer][TotalPluginStartup] 13.792992ms
+2015-06-11 19:42:55.197 RubyIRB[20281:1513532] Resetting plugins due to page load.
+2015-06-11 19:42:55.629 RubyIRB[20281:1513532] Finished load of: file:///Users/todd/Library/Developer/CoreSimulator/Devices/E2649248-58F3-456E-8214-7B3542FF94E7/data/Containers/Bundle/Application/4DC5F9B6-D62D-497A-8BF3-4893A281C0BD/RubyIRB.app/www/index.html

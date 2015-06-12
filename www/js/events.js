@@ -23,6 +23,14 @@
   };
 
   $(document).ready(function() {
+    var editor = CodeMirror.fromTextArea(document.getElementById("code"), {
+      mode: "text/x-ruby",
+      lineNumbers: true,
+      styleActiveLine: true,
+      indentUnit: 2,
+      theme: "solarized light"
+    });
+
     webruby = new WEBRUBY({print_level: getQueryLevel()});
 
     $("#clear-history").click(function() {

@@ -1,12 +1,9 @@
-Using web-based irb from
+irb on your phone!
 
+Using code from:
 https://github.com/joshnuss/mruby-web-irb
 
-Setup Instructions
-
+Setup Instructions:
 Install cordova
 For ios emulator: cordova emulate ios
-
-Known Issues
-
-Keyboard currently doesn't work on iPad.  Am going to try another javascript editor.
+Haven't tried but should work on android and other cordova platforms
