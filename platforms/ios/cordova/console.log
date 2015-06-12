@@ -722,3 +722,19 @@ To disable web storage backup to iCloud, set the BackupWebStorage preference to 
 2015-06-11 19:42:55.076 RubyIRB[20281:1513532] [CDVTimer][TotalPluginStartup] 13.792992ms
 2015-06-11 19:42:55.197 RubyIRB[20281:1513532] Resetting plugins due to page load.
 2015-06-11 19:42:55.629 RubyIRB[20281:1513532] Finished load of: file:///Users/todd/Library/Developer/CoreSimulator/Devices/E2649248-58F3-456E-8214-7B3542FF94E7/data/Containers/Bundle/Application/4DC5F9B6-D62D-497A-8BF3-4893A281C0BD/RubyIRB.app/www/index.html
+2015-06-11 19:56:00.831 RubyIRB[21315:1565311] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/todd/Library/Developer/CoreSimulator/Devices/E2649248-58F3-456E-8214-7B3542FF94E7/data/Containers/Data/Application/1EF8D27E-1687-466A-AA59-1FCFB93FEF65/Library/Cookies/Cookies.binarycookies
+2015-06-11 19:56:00.970 RubyIRB[21315:1565311] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-11 19:56:00.971 RubyIRB[21315:1565311] Multi-tasking -> Device: YES, App: YES
+2015-06-11 19:56:00.972 RubyIRB[21315:1565311] Unlimited access to network resources
+2015-06-11 19:56:00.975 RubyIRB[21315:1565311] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-06-11 19:56:01.063 RubyIRB[21315:1565311] [CDVTimer][splashscreen] 17.223001ms
+2015-06-11 19:56:01.063 RubyIRB[21315:1565311] [CDVTimer][TotalPluginStartup] 17.413974ms
+2015-06-11 19:56:01.252 RubyIRB[21315:1565311] Resetting plugins due to page load.
+2015-06-11 19:56:01.703 RubyIRB[21315:1565311] Finished load of: file:///Users/todd/Library/Developer/CoreSimulator/Devices/E2649248-58F3-456E-8214-7B3542FF94E7/data/Containers/Bundle/Application/EB641384-E1F3-40F5-BD5C-8408494950E8/RubyIRB.app/www/index.html
