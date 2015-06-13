@@ -15,3 +15,35 @@ To disable web storage backup to iCloud, set the BackupWebStorage preference to 
 2015-06-12 17:20:45.788 TryRuby[1673:43902] Resetting plugins due to page load.
 2015-06-12 17:20:46.248 TryRuby[1673:43902] Finished load of: file:///Users/todd/Library/Developer/CoreSimulator/Devices/E2649248-58F3-456E-8214-7B3542FF94E7/data/Containers/Bundle/Application/EFE46A83-666F-4B9F-8514-F23406F9B076/TryRuby.app/www/index.html
 2015-06-12 17:20:55.159 TryRuby[1673:43966] Terminating since there is no system app.
+2015-06-12 17:53:45.139 TryRuby[2323:60708] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/todd/Library/Developer/CoreSimulator/Devices/E2649248-58F3-456E-8214-7B3542FF94E7/data/Containers/Data/Application/577C89F0-7C10-4320-8B4E-9F45F76FC85D/Library/Cookies/Cookies.binarycookies
+2015-06-12 17:53:45.373 TryRuby[2323:60708] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-12 17:53:45.374 TryRuby[2323:60708] Multi-tasking -> Device: YES, App: YES
+2015-06-12 17:53:45.376 TryRuby[2323:60708] Unlimited access to network resources
+2015-06-12 17:53:45.379 TryRuby[2323:60708] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-06-12 17:53:45.476 TryRuby[2323:60708] [CDVTimer][splashscreen] 18.441975ms
+2015-06-12 17:53:45.476 TryRuby[2323:60708] [CDVTimer][TotalPluginStartup] 18.606007ms
+2015-06-12 17:53:45.535 TryRuby[2323:60708] Resetting plugins due to page load.
+2015-06-12 17:53:45.988 TryRuby[2323:60708] Finished load of: file:///Users/todd/Library/Developer/CoreSimulator/Devices/E2649248-58F3-456E-8214-7B3542FF94E7/data/Containers/Bundle/Application/184E67BB-CFBB-4319-886E-F8A4B8BE1B37/TryRuby.app/www/index.html
+2015-06-13 10:38:29.958 TryRuby[1828:43974] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/todd/Library/Developer/CoreSimulator/Devices/E2649248-58F3-456E-8214-7B3542FF94E7/data/Containers/Data/Application/CAD68E59-5C93-45FE-A4D4-F9F42D1309BF/Library/Cookies/Cookies.binarycookies
+2015-06-13 10:38:30.194 TryRuby[1828:43974] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-13 10:38:30.194 TryRuby[1828:43974] Multi-tasking -> Device: YES, App: YES
+2015-06-13 10:38:30.207 TryRuby[1828:43974] Unlimited access to network resources
+2015-06-13 10:38:30.214 TryRuby[1828:43974] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-06-13 10:38:30.589 TryRuby[1828:43974] [CDVTimer][splashscreen] 110.946000ms
+2015-06-13 10:38:30.590 TryRuby[1828:43974] [CDVTimer][TotalPluginStartup] 111.108005ms
+2015-06-13 10:38:30.698 TryRuby[1828:43974] Resetting plugins due to page load.
+2015-06-13 10:38:31.152 TryRuby[1828:43974] Finished load of: file:///Users/todd/Library/Developer/CoreSimulator/Devices/E2649248-58F3-456E-8214-7B3542FF94E7/data/Containers/Bundle/Application/75084538-9B0D-4F38-8839-2DB904F71CBB/TryRuby.app/www/index.html
