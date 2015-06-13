@@ -28,11 +28,11 @@
         }
     },
     "installed_plugins": {
-        "cordova-plugin-whitelist": {
-            "PACKAGE_NAME": "irb"
-        },
         "cordova-plugin-splashscreen": {
-            "PACKAGE_NAME": "irb"
+            "PACKAGE_NAME": "com.Todd.TryRuby"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.Todd.TryRuby"
         }
     },
     "dependent_plugins": {}
