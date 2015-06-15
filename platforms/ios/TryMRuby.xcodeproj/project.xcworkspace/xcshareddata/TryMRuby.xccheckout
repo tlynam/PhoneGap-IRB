@@ -5,16 +5,16 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>773F182F-6D8D-4D94-B64D-A905F97B2B71</string>
+	<string>8397F92C-1347-4D96-BB1E-27977EB181F7</string>
 	<key>IDESourceControlProjectName</key>
-	<string>TryRuby</string>
+	<string>TryMRuby</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>ECE7710EA437E8A35962EDD53BAC9AB887DE9FD2</key>
 		<string>https://github.com/tlynam/PhoneGap-IRB.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>platforms/ios/TryRuby.xcodeproj</string>
+	<string>platforms/ios/TryMRuby.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>ECE7710EA437E8A35962EDD53BAC9AB887DE9FD2</key>

@@ -19,8 +19,8 @@ module.exports.metadata =
 // TOP OF METADATA
 {
     "cordova-plugin-splashscreen": "2.0.0",
-    "cordova-plugin-whitelist": "1.0.0",
-    "cordova-plugin-statusbar": "1.0.0"
+    "cordova-plugin-statusbar": "1.0.0",
+    "cordova-plugin-whitelist": "1.0.0"
 }
 // BOTTOM OF METADATA
 });
