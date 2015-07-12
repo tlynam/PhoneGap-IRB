@@ -23,15 +23,27 @@
                             "count": 1
                         },
                         {
-                            "xml": "<feature name=\"StatusBar\"><param name=\"ios-package\" value=\"CDVStatusBar\" /><param name=\"onload\" value=\"true\" /></feature>",
+                            "xml": "<preference name=\"Fullscreen\" value=\"true\" />",
                             "count": 1
                         },
                         {
-                            "xml": "<preference name=\"StatusBarOverlaysWebView\" value=\"true\" />",
+                            "xml": "<feature name=\"HiddenStatusbarOverlay\"><param name=\"ios-package\" value=\"APPHiddenStatusbarOverlay\" /></feature>",
                             "count": 1
-                        },
+                        }
+                    ]
+                }
+            },
+            "*-Info.plist": {
+                "parents": {
+                    "UIStatusBarHidden": [
                         {
-                            "xml": "<preference name=\"StatusBarStyle\" value=\"lightcontent\" />",
+                            "xml": "<true />",
+                            "count": 1
+                        }
+                    ],
+                    "UIViewControllerBasedStatusBarAppearance": [
+                        {
+                            "xml": "<false />",
                             "count": 1
                         }
                     ]
@@ -43,10 +55,10 @@
         "cordova-plugin-splashscreen": {
             "PACKAGE_NAME": "com.todd.TryMRuby"
         },
-        "cordova-plugin-statusbar": {
+        "cordova-plugin-whitelist": {
             "PACKAGE_NAME": "com.todd.TryMRuby"
         },
-        "cordova-plugin-whitelist": {
+        "de.appplant.cordova.plugin.hidden-statusbar-overlay": {
             "PACKAGE_NAME": "com.todd.TryMRuby"
         }
     },
