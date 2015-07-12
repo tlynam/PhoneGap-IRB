@@ -1,0 +1,511 @@
+<!doctype html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+    <!-- RD version: 0.33.0  -->
+    <!--  filepage  -->
+  <meta charset="utf-8">
+          
+  <!-- Use the .htaccess and remove these lines to avoid edge case issues.
+       More info: h5bp.com/b/378 -->
+  <!-- meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" -->
+
+
+	<title>File: Makefile [Ruby mruby]</title>
+  <link rel="stylesheet" href="css/inuit.css" >
+  <link rel="stylesheet" href="css/grid.inuit.css" >
+  <link rel="stylesheet" href="css/2011.css" type="text/css" >
+  <link rel="stylesheet" href="css/rdoc.css" type="text/css" >
+  <!-- rel_prefix  = '' -->
+    
+    <!-- WHY? -->
+    
+    
+  <!-- rel_prefix = '.'   asset_rel_prefix = '.'  --> 
+
+</head>
+
+<body class="file">
+<div id='actionbar' >
+<div class='wrapper'>
+<ul class='grids g0'>
+	<li class='grid-2' ><a href='../index.html' target='_top' >Home</a></li>
+	<li class='grid-2' ><a href='../core' target='_top' >Core </a></li>
+	<li class='grid-2' ><a href='../stdlib' target='_top' >Std-lib </a></li>
+
+	 <!-- li class='grid-2' ><a href='/zems' target='_top' >Zems</a></li -->
+   <li class='grid-2' ><a href='../downloads' target='_top' >Downloads</a></li>
+	 <li class='grid-5 right' id='rd-action-search'><form id="searchbox_011815814100681837392:wnccv6st5qk" action="http://ruby-doc.com/search.html"><input type="hidden" name="cx" value="011815814100681837392:wnccv6st5qk" ><input  id='rd-search-input' name="q" type="text" size="20" >&#160;&#160;<input type="submit" name="sa" value="Search" ><input type="hidden" name="cof" value="FORID:9" ></form></li>
+	</ul></div>
+</div> <!-- end action bar -->
+<!-- VERSION HEADER for mruby NOT FOUND -->          <div class='wrapper'>
+
+  <div id="metadata">
+    <div id="home-metadata">
+      <header>
+			<div id="home-section" class="section">
+        <h3 class="section-header">
+          <a href="http://ruby-doc.org/core-mruby/index.html">Home</a>
+          <a href="http://ruby-doc.org/core-mruby/index.html#classes">Classes</a>
+          <a href="http://ruby-doc.org/core-mruby/index.html#methods">Methods</a>
+        </h3>
+      </div>
+      </header>
+		</div>
+
+		<div id="project-metadata">
+			
+			
+			<div id="fileindex-section" class="section project-section">
+				<h3 class="section-header">Files</h3>
+				<ul>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="AUTHORS.html">AUTHORS</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="INSTALL.html">INSTALL</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="LEGAL.html">LEGAL</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="MITL.html">MITL</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="Makefile.html">Makefile</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="NEWS.html">NEWS</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="Rakefile.html">Rakefile</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="TODO.html">TODO</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="examples/mrbgems/c_and_ruby_extension_example/mrbgem_rake.html">mrbgem.rake</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="examples/mrbgems/c_extension_example/mrbgem_rake.html">mrbgem.rake</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="examples/mrbgems/ruby_extension_example/mrbgem_rake.html">mrbgem.rake</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="mrbgems/default_gembox.html">default.gembox</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="mrbgems/full-core_gembox.html">full-core.gembox</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="mrbgems/mruby-array-ext/mrbgem_rake.html">mrbgem.rake</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="mrbgems/mruby-bin-debugger/mrbgem_rake.html">mrbgem.rake</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="mrbgems/mruby-bin-mirb/mrbgem_rake.html">mrbgem.rake</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="mrbgems/mruby-bin-mruby-config/mrbgem_rake.html">mrbgem.rake</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="mrbgems/mruby-bin-mruby-config/mruby-config.html">mruby-config</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="mrbgems/mruby-bin-mruby-config/mruby-config_bat.html">mruby-config.bat</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="mrbgems/mruby-bin-mruby/mrbgem_rake.html">mrbgem.rake</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="mrbgems/mruby-bin-strip/mrbgem_rake.html">mrbgem.rake</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="mrbgems/mruby-enum-ext/mrbgem_rake.html">mrbgem.rake</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="mrbgems/mruby-enum-lazy/mrbgem_rake.html">mrbgem.rake</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="mrbgems/mruby-enumerator/mrbgem_rake.html">mrbgem.rake</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="mrbgems/mruby-eval/mrbgem_rake.html">mrbgem.rake</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="mrbgems/mruby-exit/mrbgem_rake.html">mrbgem.rake</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="mrbgems/mruby-fiber/mrbgem_rake.html">mrbgem.rake</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="mrbgems/mruby-hash-ext/mrbgem_rake.html">mrbgem.rake</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="mrbgems/mruby-kernel-ext/mrbgem_rake.html">mrbgem.rake</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="mrbgems/mruby-math/mrbgem_rake.html">mrbgem.rake</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="mrbgems/mruby-numeric-ext/mrbgem_rake.html">mrbgem.rake</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="mrbgems/mruby-object-ext/mrbgem_rake.html">mrbgem.rake</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="mrbgems/mruby-objectspace/mrbgem_rake.html">mrbgem.rake</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="mrbgems/mruby-print/mrbgem_rake.html">mrbgem.rake</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="mrbgems/mruby-proc-ext/mrbgem_rake.html">mrbgem.rake</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="mrbgems/mruby-random/mrbgem_rake.html">mrbgem.rake</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="mrbgems/mruby-range-ext/mrbgem_rake.html">mrbgem.rake</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="mrbgems/mruby-sprintf/mrbgem_rake.html">mrbgem.rake</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="mrbgems/mruby-string-ext/mrbgem_rake.html">mrbgem.rake</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="mrbgems/mruby-string-utf8/mrbgem_rake.html">mrbgem.rake</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="mrbgems/mruby-struct/mrbgem_rake.html">mrbgem.rake</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="mrbgems/mruby-symbol-ext/mrbgem_rake.html">mrbgem.rake</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="mrbgems/mruby-time/mrbgem_rake.html">mrbgem.rake</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="mrbgems/mruby-toplevel-ext/mrbgem_rake.html">mrbgem.rake</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="mrblib/mrblib_rake.html">mrblib.rake</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="src/keywords.html">keywords</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="src/lex_def.html">lex.def</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="src/mruby_core_rake.html">mruby_core.rake</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="tasks/libmruby_rake.html">libmruby.rake</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="tasks/mrbgem_spec_rake.html">mrbgem_spec.rake</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="tasks/mrbgems_rake.html">mrbgems.rake</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="tasks/mrbgems_test_rake.html">mrbgems_test.rake</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="tasks/mruby_build_rake.html">mruby_build.rake</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="tasks/mruby_build_commands_rake.html">mruby_build_commands.rake</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="tasks/mruby_build_gem_rake.html">mruby_build_gem.rake</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="tasks/ruby_ext_rake.html">ruby_ext.rake</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="tasks/toolchains/androideabi_rake.html">androideabi.rake</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="tasks/toolchains/clang_rake.html">clang.rake</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="tasks/toolchains/gcc_rake.html">gcc.rake</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="tasks/toolchains/visualcpp_rake.html">visualcpp.rake</a></li>
+				
+        <!-- local_rel_prefix -->
+					<li class="file"><a href="tools/mrbc/mrbc_rake.html">mrbc.rake</a></li>
+				
+				</ul>
+			</div>
+			
+
+			<div id="classindex-section" class="section project-section">
+				<h3 class="section-header">Class Index
+					<span class="search-toggle"><img src="images/find.png"
+						height="16" width="16" alt="[+]"
+						title="show/hide quicksearch" ></span></h3>
+				<form action="Makefile.html#" method="get" accept-charset="utf-8" class="initially-hidden">
+				<fieldset>
+					<legend>Quicksearch</legend>
+					<input type="text" name="quicksearch" value="" class="quicksearch-field" >
+				</fieldset>
+				</form>
+
+				<ul class="link-list">
+				
+        <!--  local_rel_prefix -->
+					<li><a href="ArgumentError.html">ArgumentError</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="Array.html">Array</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="BinTest_MrubyBinDebugger.html">BinTest_MrubyBinDebugger</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="CRubyExtension.html">CRubyExtension</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="Comparable.html">Comparable</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="Enumerable.html">Enumerable</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="Enumerable/Lazy.html">Enumerable::Lazy</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="Enumerator.html">Enumerator</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="Enumerator/Generator.html">Enumerator::Generator</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="Enumerator/Yielder.html">Enumerator::Yielder</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="Exception.html">Exception</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="Float.html">Float</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="FloatDomainError.html">FloatDomainError</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="Hash.html">Hash</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="IndexError.html">IndexError</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="Integer.html">Integer</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="Integral.html">Integral</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="Isect.html">Isect</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="Kernel.html">Kernel</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="KeyError.html">KeyError</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="KlassWithSecret.html">KlassWithSecret</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="LocalJumpError.html">LocalJumpError</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="MRBDoc.html">MRBDoc</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="MRBFile.html">MRBFile</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="MRuby.html">MRuby</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="Math.html">Math</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="MiniRake.html">MiniRake</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="MiniRake/DSL.html">MiniRake::DSL</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="MiniRake/FileTask.html">MiniRake::FileTask</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="MiniRake/Task.html">MiniRake::Task</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="Module.html">Module</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="NameError.html">NameError</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="NilClass.html">NilClass</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="NoMethodError.html">NoMethodError</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="NotImplementedError.html">NotImplementedError</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="Numeric.html">Numeric</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="Object.html">Object</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="Plane.html">Plane</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="Proc.html">Proc</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="Rake.html">Rake</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="RakeApp.html">RakeApp</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="Rand.html">Rand</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="Range.html">Range</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="RangeError.html">RangeError</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="Ray.html">Ray</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="RegexpError.html">RegexpError</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="RubyExtension.html">RubyExtension</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="Scene.html">Scene</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="Sphere.html">Sphere</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="StopIteration.html">StopIteration</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="String.html">String</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="Struct.html">Struct</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="Symbol.html">Symbol</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="TestEvalConstScope.html">TestEvalConstScope</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="Time.html">Time</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="ToplevelTestModule1.html">ToplevelTestModule1</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="ToplevelTestModule2.html">ToplevelTestModule2</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="TypeError.html">TypeError</a></li>
+				
+        <!--  local_rel_prefix -->
+					<li><a href="Vec.html">Vec</a></li>
+				
+				</ul>
+				<div id="no-class-search-results" style="display: none;">No matching classes.</div>
+			</div>
+
+			
+			<div id="debugging-toggle"><img src="images/bug.png"
+				alt="toggle debugging" height="16" width="16" ></div>
+			
+		</div>
+	</div>
+  <div class='adzbox'  id="azk83167">
+      
+   <div id="carbonads-container"><div class="carbonad"><div id="azcarbon"></div><script type="text/javascript">var z = document.createElement("script"); z.type = "text/javascript"; z.async = true; z.src = "http://engine.carbonads.com/z/19647/azcarbon_2_1_0_VERT"; var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(z, s);</script></div></div>
+
+   
+  </div> 
+	<div id="documentation">
+		
+<p># mruby is using <a href="Rake.html">Rake</a> (<a
+href="http://rake.rubyforge.org">rake.rubyforge.org</a>) as a build tool. #
+We provide a minimalistic version called minirake inside of our # codebase.</p>
+
+<p>RAKE = ruby ./minirake</p>
+
+<p>all :</p>
+
+<pre>$(RAKE)</pre>
+
+<p>.PHONY : all</p>
+
+<p>test : all</p>
+
+<pre>$(RAKE) test</pre>
+
+<p>.PHONY : test</p>
+
+<p>clean :</p>
+
+<pre>$(RAKE) clean</pre>
+
+<p>.PHONY : clean</p>
+
+	</div>
+
+	<div id="validator-badges">
+		<p><small>Generated with Rubydoc Rdoc Generator 0.33.0</small>.</p>
+	</div>
+
+    
+     <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-335317-2', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+    
+
+
+</body>
+
+</html>
+

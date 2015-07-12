@@ -1,0 +1,2649 @@
+
+  <title>Class: Array (Ruby mruby) </title>
+  <!-- link rel="stylesheet" href=".css/obf.css"  -->
+  <link rel="stylesheet" href="css/inuit.css" >
+  <link rel="stylesheet" href="css/grid.inuit.css" >
+  <link rel="stylesheet" href="css/2011.css" type="text/css" >
+  <link rel="stylesheet" href="css/rdoc.css" type="text/css" >
+
+  <script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
+  <script src="js/thickbox-compressed.js" type="text/javascript" charset="utf-8"></script>
+  <script src="js/quicksearch.js" type="text/javascript" charset="utf-8"></script>
+  <script src="js/rubydoc.js" type="text/javascript" charset="utf-8"></script>
+
+
+<script src="js/highlight.min.js"></script>
+<script>
+  hljs.tabReplace = '  ';
+  hljs.initHighlightingOnLoad();
+  </script>
+
+  <style type='text/css'>
+
+    #vulns-alert #vulns{
+      background-color: #c33 ! important;
+      width: 100%;
+      text-align: center;
+   }
+
+   #vulns-alert #vulns a {
+    color: #F99 ! important;
+   }
+ </style>
+
+</head>
+
+<body id="top" class="class rdocstar">
+
+<!-- VERSION HEADER for mruby NOT FOUND --></div> <!-- end action bar -->
+ <div class='wrapper'>
+  <div id="metadata">
+    <div id="home-metadata">
+      <div id="home-section" class="section">
+        <h3 class="section-header">
+          <a href="http://ruby-doc.org/core-mruby/index.html">Home</a>
+          <a href="http://ruby-doc.org/core-mruby/index.html#classes">Classes</a>
+          <a href="http://ruby-doc.org/core-mruby/index.html#methods">Methods</a>
+
+        </h3>
+      </div>
+    </div>
+
+    <div id="file-metadata">
+      <div id="file-list-section" class="section">
+        <h3 class="section-header">In Files</h3>
+        <div class="section-body">
+          <ul id='file-metadata'>
+
+
+
+
+          <li class='in-file'>mrbgems/mruby-array-ext/mrblib/array.rb</li>
+
+
+          <li class='in-file'>mrblib/array.rb</li>
+
+          </ul>
+        </div>
+      </div>
+
+
+    </div>
+
+    <div id="class-metadata">
+
+      <!-- Parent Class -->
+      <div id="parent-class-section" class="section">
+        <h3 class="section-header">Parent</h3>
+
+        <p class="link"><a href="Object.html">Object</a></p>
+
+      </div>
+
+
+
+
+
+
+
+      <!-- Method Quickref -->
+      <div id="method-list-section" class="section">
+        <h3 class="section-header">Methods</h3>
+        <ul class="link-list">
+
+          <li><a href="Array.html#method-c-new">::new</a></li>
+
+          <li><a href="Array.html#method-i-26">#&</a></li>
+
+          <li><a href="Array.html#method-i-2D">#-</a></li>
+
+          <li><a href="Array.html#method-i-3C-3D-3E">#<=></a></li>
+
+          <li><a href="Array.html#method-i-3D-3D">#==</a></li>
+
+          <li><a href="Array.html#method-i-__svalue">#__svalue</a></li>
+
+          <li><a href="Array.html#method-i-_inspect">#_inspect</a></li>
+
+          <li><a href="Array.html#method-i-bsearch">#bsearch</a></li>
+
+          <li><a href="Array.html#method-i-collect-21">#collect!</a></li>
+
+          <li><a href="Array.html#method-i-compact">#compact</a></li>
+
+          <li><a href="Array.html#method-i-compact-21">#compact!</a></li>
+
+          <li><a href="Array.html#method-i-delete">#delete</a></li>
+
+          <li><a href="Array.html#method-i-delete_if">#delete_if</a></li>
+
+          <li><a href="Array.html#method-i-each">#each</a></li>
+
+          <li><a href="Array.html#method-i-each_index">#each_index</a></li>
+
+          <li><a href="Array.html#method-i-eql-3F">#eql?</a></li>
+
+          <li><a href="Array.html#method-i-fetch">#fetch</a></li>
+
+          <li><a href="Array.html#method-i-fill">#fill</a></li>
+
+          <li><a href="Array.html#method-i-flatten">#flatten</a></li>
+
+          <li><a href="Array.html#method-i-flatten-21">#flatten!</a></li>
+
+          <li><a href="Array.html#method-i-insert">#insert</a></li>
+
+          <li><a href="Array.html#method-i-inspect">#inspect</a></li>
+
+          <li><a href="Array.html#method-i-keep_if">#keep_if</a></li>
+
+          <li><a href="Array.html#method-i-map-21">#map!</a></li>
+
+          <li><a href="Array.html#method-i-reject-21">#reject!</a></li>
+
+          <li><a href="Array.html#method-i-reverse_each">#reverse_each</a></li>
+
+          <li><a href="Array.html#method-i-rotate">#rotate</a></li>
+
+          <li><a href="Array.html#method-i-rotate-21">#rotate!</a></li>
+
+          <li><a href="Array.html#method-i-select-21">#select!</a></li>
+
+          <li><a href="Array.html#method-i-sort-21">#sort!</a></li>
+
+          <li><a href="Array.html#method-i-to_s">#to_s</a></li>
+
+          <li><a href="Array.html#method-i-uniq">#uniq</a></li>
+
+          <li><a href="Array.html#method-i-uniq-21">#uniq!</a></li>
+
+          <li><a href="Array.html#method-i-7C">#|</a></li>
+
+        </ul>
+      </div>
+
+
+
+      <!-- Included Modules -->
+      <div id="includes-section" class="section">
+        <h3 class="section-header">Included Modules</h3>
+        <ul class="link-list">
+
+
+          <li><a class="include" href="Enumerable.html">Enumerable</a></li>
+
+
+        </ul>
+      </div>
+
+    </div>
+
+    <div id="project-metadata">
+
+
+      <div id="fileindex-section" class="section project-section">
+        <h3 class="section-header">Files</h3>
+        <ul id='files'>
+
+
+          <li class="file"><a href="AUTHORS.html">AUTHORS</a></li>
+
+
+          <li class="file"><a href="INSTALL.html">INSTALL</a></li>
+
+
+          <li class="file"><a href="LEGAL.html">LEGAL</a></li>
+
+
+          <li class="file"><a href="MITL.html">MITL</a></li>
+
+
+          <li class="file"><a href="Makefile.html">Makefile</a></li>
+
+
+          <li class="file"><a href="NEWS.html">NEWS</a></li>
+
+
+          <li class="file"><a href="Rakefile.html">Rakefile</a></li>
+
+
+          <li class="file"><a href="TODO.html">TODO</a></li>
+
+
+          <li class="file"><a href="examples/mrbgems/c_and_ruby_extension_example/mrbgem_rake.html">mrbgem.rake</a></li>
+
+
+          <li class="file"><a href="examples/mrbgems/c_extension_example/mrbgem_rake.html">mrbgem.rake</a></li>
+
+
+          <li class="file"><a href="examples/mrbgems/ruby_extension_example/mrbgem_rake.html">mrbgem.rake</a></li>
+
+
+          <li class="file"><a href="mrbgems/default_gembox.html">default.gembox</a></li>
+
+
+          <li class="file"><a href="mrbgems/full-core_gembox.html">full-core.gembox</a></li>
+
+
+          <li class="file"><a href="mrbgems/mruby-array-ext/mrbgem_rake.html">mrbgem.rake</a></li>
+
+
+          <li class="file"><a href="mrbgems/mruby-bin-debugger/mrbgem_rake.html">mrbgem.rake</a></li>
+
+
+          <li class="file"><a href="mrbgems/mruby-bin-mirb/mrbgem_rake.html">mrbgem.rake</a></li>
+
+
+          <li class="file"><a href="mrbgems/mruby-bin-mruby-config/mrbgem_rake.html">mrbgem.rake</a></li>
+
+
+          <li class="file"><a href="mrbgems/mruby-bin-mruby-config/mruby-config.html">mruby-config</a></li>
+
+
+          <li class="file"><a href="mrbgems/mruby-bin-mruby-config/mruby-config_bat.html">mruby-config.bat</a></li>
+
+
+          <li class="file"><a href="mrbgems/mruby-bin-mruby/mrbgem_rake.html">mrbgem.rake</a></li>
+
+
+          <li class="file"><a href="mrbgems/mruby-bin-strip/mrbgem_rake.html">mrbgem.rake</a></li>
+
+
+          <li class="file"><a href="mrbgems/mruby-enum-ext/mrbgem_rake.html">mrbgem.rake</a></li>
+
+
+          <li class="file"><a href="mrbgems/mruby-enum-lazy/mrbgem_rake.html">mrbgem.rake</a></li>
+
+
+          <li class="file"><a href="mrbgems/mruby-enumerator/mrbgem_rake.html">mrbgem.rake</a></li>
+
+
+          <li class="file"><a href="mrbgems/mruby-eval/mrbgem_rake.html">mrbgem.rake</a></li>
+
+
+          <li class="file"><a href="mrbgems/mruby-exit/mrbgem_rake.html">mrbgem.rake</a></li>
+
+
+          <li class="file"><a href="mrbgems/mruby-fiber/mrbgem_rake.html">mrbgem.rake</a></li>
+
+
+          <li class="file"><a href="mrbgems/mruby-hash-ext/mrbgem_rake.html">mrbgem.rake</a></li>
+
+
+          <li class="file"><a href="mrbgems/mruby-kernel-ext/mrbgem_rake.html">mrbgem.rake</a></li>
+
+
+          <li class="file"><a href="mrbgems/mruby-math/mrbgem_rake.html">mrbgem.rake</a></li>
+
+
+          <li class="file"><a href="mrbgems/mruby-numeric-ext/mrbgem_rake.html">mrbgem.rake</a></li>
+
+
+          <li class="file"><a href="mrbgems/mruby-object-ext/mrbgem_rake.html">mrbgem.rake</a></li>
+
+
+          <li class="file"><a href="mrbgems/mruby-objectspace/mrbgem_rake.html">mrbgem.rake</a></li>
+
+
+          <li class="file"><a href="mrbgems/mruby-print/mrbgem_rake.html">mrbgem.rake</a></li>
+
+
+          <li class="file"><a href="mrbgems/mruby-proc-ext/mrbgem_rake.html">mrbgem.rake</a></li>
+
+
+          <li class="file"><a href="mrbgems/mruby-random/mrbgem_rake.html">mrbgem.rake</a></li>
+
+
+          <li class="file"><a href="mrbgems/mruby-range-ext/mrbgem_rake.html">mrbgem.rake</a></li>
+
+
+          <li class="file"><a href="mrbgems/mruby-sprintf/mrbgem_rake.html">mrbgem.rake</a></li>
+
+
+          <li class="file"><a href="mrbgems/mruby-string-ext/mrbgem_rake.html">mrbgem.rake</a></li>
+
+
+          <li class="file"><a href="mrbgems/mruby-string-utf8/mrbgem_rake.html">mrbgem.rake</a></li>
+
+
+          <li class="file"><a href="mrbgems/mruby-struct/mrbgem_rake.html">mrbgem.rake</a></li>
+
+
+          <li class="file"><a href="mrbgems/mruby-symbol-ext/mrbgem_rake.html">mrbgem.rake</a></li>
+
+
+          <li class="file"><a href="mrbgems/mruby-time/mrbgem_rake.html">mrbgem.rake</a></li>
+
+
+          <li class="file"><a href="mrbgems/mruby-toplevel-ext/mrbgem_rake.html">mrbgem.rake</a></li>
+
+
+          <li class="file"><a href="mrblib/mrblib_rake.html">mrblib.rake</a></li>
+
+
+          <li class="file"><a href="src/keywords.html">keywords</a></li>
+
+
+          <li class="file"><a href="src/lex_def.html">lex.def</a></li>
+
+
+          <li class="file"><a href="src/mruby_core_rake.html">mruby_core.rake</a></li>
+
+
+          <li class="file"><a href="tasks/libmruby_rake.html">libmruby.rake</a></li>
+
+
+          <li class="file"><a href="tasks/mrbgem_spec_rake.html">mrbgem_spec.rake</a></li>
+
+
+          <li class="file"><a href="tasks/mrbgems_rake.html">mrbgems.rake</a></li>
+
+
+          <li class="file"><a href="tasks/mrbgems_test_rake.html">mrbgems_test.rake</a></li>
+
+
+          <li class="file"><a href="tasks/mruby_build_rake.html">mruby_build.rake</a></li>
+
+
+          <li class="file"><a href="tasks/mruby_build_commands_rake.html">mruby_build_commands.rake</a></li>
+
+
+          <li class="file"><a href="tasks/mruby_build_gem_rake.html">mruby_build_gem.rake</a></li>
+
+
+          <li class="file"><a href="tasks/ruby_ext_rake.html">ruby_ext.rake</a></li>
+
+
+          <li class="file"><a href="tasks/toolchains/androideabi_rake.html">androideabi.rake</a></li>
+
+
+          <li class="file"><a href="tasks/toolchains/clang_rake.html">clang.rake</a></li>
+
+
+          <li class="file"><a href="tasks/toolchains/gcc_rake.html">gcc.rake</a></li>
+
+
+          <li class="file"><a href="tasks/toolchains/visualcpp_rake.html">visualcpp.rake</a></li>
+
+
+          <li class="file"><a href="tools/mrbc/mrbc_rake.html">mrbc.rake</a></li>
+
+        </ul>
+      </div>
+
+
+      <div id="classindex-section" class="section project-section">
+        <h3 class="section-header">Class/Module Index
+          <span class="search-toggle"><img src="images/find.png"
+            height="16" width="16" alt="[+]"
+            title="show/hide quicksearch" /></span></h3>
+        <form action="Array.html#" method="get" accept-charset="utf-8" class="initially-hidden">
+        <fieldset>
+          <legend>Quicksearch</legend>
+          <input type="text" name="quicksearch" value=""
+            class="quicksearch-field" />
+        </fieldset>
+        </form>
+
+        <ul class="link-list">
+
+
+
+          <li><a href="ArgumentError.html">ArgumentError</a></li>
+
+
+
+          <li><a href="Array.html">Array</a></li>
+
+
+
+          <li><a href="BinTest_MrubyBinDebugger.html">BinTest_MrubyBinDebugger</a></li>
+
+
+
+          <li><a href="CRubyExtension.html">CRubyExtension</a></li>
+
+
+
+          <li><a href="Comparable.html">Comparable</a></li>
+
+
+
+          <li><a href="Enumerable.html">Enumerable</a></li>
+
+
+
+          <li><a href="Enumerable/Lazy.html">Enumerable::Lazy</a></li>
+
+
+
+          <li><a href="Enumerator.html">Enumerator</a></li>
+
+
+
+          <li><a href="Enumerator/Generator.html">Enumerator::Generator</a></li>
+
+
+
+          <li><a href="Enumerator/Yielder.html">Enumerator::Yielder</a></li>
+
+
+
+          <li><a href="Exception.html">Exception</a></li>
+
+
+
+          <li><a href="Float.html">Float</a></li>
+
+
+
+          <li><a href="FloatDomainError.html">FloatDomainError</a></li>
+
+
+
+          <li><a href="Hash.html">Hash</a></li>
+
+
+
+          <li><a href="IndexError.html">IndexError</a></li>
+
+
+
+          <li><a href="Integer.html">Integer</a></li>
+
+
+
+          <li><a href="Integral.html">Integral</a></li>
+
+
+
+          <li><a href="Isect.html">Isect</a></li>
+
+
+
+          <li><a href="Kernel.html">Kernel</a></li>
+
+
+
+          <li><a href="KeyError.html">KeyError</a></li>
+
+
+
+          <li><a href="KlassWithSecret.html">KlassWithSecret</a></li>
+
+
+
+          <li><a href="LocalJumpError.html">LocalJumpError</a></li>
+
+
+
+          <li><a href="MRBDoc.html">MRBDoc</a></li>
+
+
+
+          <li><a href="MRBFile.html">MRBFile</a></li>
+
+
+
+          <li><a href="MRuby.html">MRuby</a></li>
+
+
+
+          <li><a href="Math.html">Math</a></li>
+
+
+
+          <li><a href="MiniRake.html">MiniRake</a></li>
+
+
+
+          <li><a href="MiniRake/DSL.html">MiniRake::DSL</a></li>
+
+
+
+          <li><a href="MiniRake/FileTask.html">MiniRake::FileTask</a></li>
+
+
+
+          <li><a href="MiniRake/Task.html">MiniRake::Task</a></li>
+
+
+
+          <li><a href="Module.html">Module</a></li>
+
+
+
+          <li><a href="NameError.html">NameError</a></li>
+
+
+
+          <li><a href="NilClass.html">NilClass</a></li>
+
+
+
+          <li><a href="NoMethodError.html">NoMethodError</a></li>
+
+
+
+          <li><a href="NotImplementedError.html">NotImplementedError</a></li>
+
+
+
+          <li><a href="Numeric.html">Numeric</a></li>
+
+
+
+          <li><a href="Object.html">Object</a></li>
+
+
+
+          <li><a href="Plane.html">Plane</a></li>
+
+
+
+          <li><a href="Proc.html">Proc</a></li>
+
+
+
+          <li><a href="Rake.html">Rake</a></li>
+
+
+
+          <li><a href="RakeApp.html">RakeApp</a></li>
+
+
+
+          <li><a href="Rand.html">Rand</a></li>
+
+
+
+          <li><a href="Range.html">Range</a></li>
+
+
+
+          <li><a href="RangeError.html">RangeError</a></li>
+
+
+
+          <li><a href="Ray.html">Ray</a></li>
+
+
+
+          <li><a href="RegexpError.html">RegexpError</a></li>
+
+
+
+          <li><a href="RubyExtension.html">RubyExtension</a></li>
+
+
+
+          <li><a href="Scene.html">Scene</a></li>
+
+
+
+          <li><a href="Sphere.html">Sphere</a></li>
+
+
+
+          <li><a href="StopIteration.html">StopIteration</a></li>
+
+
+
+          <li><a href="String.html">String</a></li>
+
+
+
+          <li><a href="Struct.html">Struct</a></li>
+
+
+
+          <li><a href="Symbol.html">Symbol</a></li>
+
+
+
+          <li><a href="TestEvalConstScope.html">TestEvalConstScope</a></li>
+
+
+
+          <li><a href="Time.html">Time</a></li>
+
+
+
+          <li><a href="ToplevelTestModule1.html">ToplevelTestModule1</a></li>
+
+
+
+          <li><a href="ToplevelTestModule2.html">ToplevelTestModule2</a></li>
+
+
+
+          <li><a href="TypeError.html">TypeError</a></li>
+
+
+
+          <li><a href="Vec.html">Vec</a></li>
+
+        </ul>
+        <div id="no-class-search-results" style="display: none;">No matching classes.</div>
+      </div>
+
+
+      <div id="debugging-toggle"><img src="images/bug.png"
+        alt="toggle debugging" height="16" width="16" /></div>
+
+    </div>
+  </div> <!-- metadata -->
+  <div class='adzbox'  id="azk83167">
+
+   <div id="carbonads-container"><div class="carbonad"><div id="azcarbon"></div><script type="text/javascript">var z = document.createElement("script"); z.type = "text/javascript"; z.async = true; z.src = "http://engine.carbonads.com/z/19647/azcarbon_2_1_0_VERT"; var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(z, s);</script></div></div>
+
+
+  </div>
+  <div id="documentation">
+    <h1 class="class">Array</h1>
+
+    <div id="description" class="description">
+
+<p><a href="Array.html">Array</a> is enumerable</p>
+
+    </div><!-- description -->
+
+
+
+
+    <div id="5Buntitled-5D" class="documentation-section">
+
+
+
+
+
+      <!-- Constants -->
+      <div id="constants-list" class="section">
+        <h3 class="section-header">Constants</h3>
+        <dl>
+
+          <dt><a name="NONE">NONE</a></dt>
+
+          <dd class="description"></dd>
+
+
+        </dl>
+      </div>
+
+
+
+
+      <!-- Methods -->
+
+      <div id="public-class-method-details" class="method-section section">
+        <h3 class="section-header">Public Class Methods</h3>
+
+
+        <div id="new-method" class="method-detail ">
+          <a name="method-c-new"></a>
+
+
+          <div class="method-heading">
+            <span class="method-name">new</span><span
+              class="method-args">(size=0, obj=nil, &block)</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+
+          <div>
+
+
+            <p>Private method for <a href="Array.html">Array</a> creation.</p>
+
+<p>ISO 15.2.12.5.15</p>
+
+
+
+            <div class="method-source-code" id="new-source">
+              <pre> <!-- method.markup_code 290 -->
+               <span class="ruby-comment"># File mrblib/array.rb, line 69</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">initialize</span>(<span class="ruby-identifier">size</span>=<span class="ruby-value">0</span>, <span class="ruby-identifier">obj</span>=<span class="ruby-keyword">nil</span>, <span class="ruby-operator">&amp;</span><span class="ruby-identifier">block</span>)
+  <span class="ruby-identifier">raise</span> <span class="ruby-constant">TypeError</span>, <span class="ruby-string">&quot;expected Integer for 1st argument&quot;</span> <span class="ruby-keyword">unless</span> <span class="ruby-identifier">size</span>.<span class="ruby-identifier">kind_of?</span> <span class="ruby-constant">Integer</span>
+  <span class="ruby-identifier">raise</span> <span class="ruby-constant">ArgumentError</span>, <span class="ruby-string">&quot;negative array size&quot;</span> <span class="ruby-keyword">if</span> <span class="ruby-identifier">size</span> <span class="ruby-operator">&lt;</span> <span class="ruby-value">0</span>
+
+  <span class="ruby-keyword">self</span>.<span class="ruby-identifier">clear</span>
+  <span class="ruby-keyword">if</span> <span class="ruby-identifier">size</span> <span class="ruby-operator">&gt;</span> <span class="ruby-value">0</span>
+    <span class="ruby-keyword">self</span>[<span class="ruby-identifier">size</span> <span class="ruby-operator">-</span> <span class="ruby-value">1</span>] = <span class="ruby-keyword">nil</span>  <span class="ruby-comment"># allocate</span>
+
+    <span class="ruby-identifier">idx</span> = <span class="ruby-value">0</span>
+    <span class="ruby-keyword">while</span>(<span class="ruby-identifier">idx</span> <span class="ruby-operator">&lt;</span> <span class="ruby-identifier">size</span>)
+      <span class="ruby-keyword">self</span>[<span class="ruby-identifier">idx</span>] = (<span class="ruby-identifier">block</span>)<span class="ruby-operator">?</span> <span class="ruby-identifier">block</span>.<span class="ruby-identifier">call</span>(<span class="ruby-identifier">idx</span>)<span class="ruby-operator">:</span> <span class="ruby-identifier">obj</span>
+      <span class="ruby-identifier">idx</span> <span class="ruby-operator">+=</span> <span class="ruby-value">1</span>
+    <span class="ruby-keyword">end</span>
+  <span class="ruby-keyword">end</span>
+
+  <span class="ruby-keyword">self</span>
+<span class="ruby-keyword">end</span>
+            </pre>
+            </div><!-- new-source -->
+
+          </div>
+
+
+
+
+        </div><!-- new-method -->
+
+      </div><!-- public-class-method-details -->
+
+      <div id="public-instance-method-details" class="method-section section">
+        <h3 class="section-header">Public Instance Methods</h3>
+
+
+        <div id="26-method" class="method-detail ">
+          <a name="method-i-26"></a>
+
+
+
+          <div class="method-heading">
+            <span class="method-callseq">ary & other_ary      &rarr; new_ary</span>
+
+            <span class="method-click-advice">click to toggle source</span>
+
+          </div>
+
+
+          <div>
+
+
+            <p>Set Intersection—Returns a new array containing elements common to the two
+arrays, with no duplicates.</p>
+
+<pre class="ruby">[ <span class="ruby-value">1</span>, <span class="ruby-value">1</span>, <span class="ruby-value">3</span>, <span class="ruby-value">5</span> ] <span class="ruby-operator">&amp;</span> [ <span class="ruby-value">1</span>, <span class="ruby-value">2</span>, <span class="ruby-value">3</span> ]   <span class="ruby-comment">#=&gt; [ 1, 3 ]</span>
+</pre>
+
+
+
+            <div class="method-source-code" id="26-source">
+              <pre> <!-- method.markup_code 290 -->
+               <span class="ruby-comment"># File mrbgems/mruby-array-ext/mrblib/array.rb, line 114</span>
+<span class="ruby-keyword">def</span> <span class="ruby-operator">&amp;</span>(<span class="ruby-identifier">elem</span>)
+  <span class="ruby-identifier">raise</span> <span class="ruby-constant">TypeError</span>, <span class="ruby-node">&quot;can't convert #{elem.class} into Array&quot;</span> <span class="ruby-keyword">unless</span> <span class="ruby-identifier">elem</span>.<span class="ruby-identifier">class</span> <span class="ruby-operator">==</span> <span class="ruby-constant">Array</span>
+
+  <span class="ruby-identifier">hash</span> = {}
+  <span class="ruby-identifier">array</span> = []
+  <span class="ruby-identifier">elem</span>.<span class="ruby-identifier">each</span>{<span class="ruby-operator">|</span><span class="ruby-identifier">v</span><span class="ruby-operator">|</span> <span class="ruby-identifier">hash</span>[<span class="ruby-identifier">v</span>] = <span class="ruby-keyword">true</span> }
+  <span class="ruby-keyword">self</span>.<span class="ruby-identifier">each</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">v</span><span class="ruby-operator">|</span>
+    <span class="ruby-keyword">if</span> <span class="ruby-identifier">hash</span>[<span class="ruby-identifier">v</span>]
+      <span class="ruby-identifier">array</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-identifier">v</span>
+      <span class="ruby-identifier">hash</span>.<span class="ruby-identifier">delete</span> <span class="ruby-identifier">v</span>
+    <span class="ruby-keyword">end</span>
+  <span class="ruby-keyword">end</span>
+  <span class="ruby-identifier">array</span>
+<span class="ruby-keyword">end</span>
+            </pre>
+            </div><!-- 26-source -->
+
+          </div>
+
+
+
+
+        </div><!-- 26-method -->
+
+        <div id="2D-method" class="method-detail ">
+          <a name="method-i-2D"></a>
+
+
+
+          <div class="method-heading">
+            <span class="method-callseq">ary - other_ary    &rarr; new_ary</span>
+
+            <span class="method-click-advice">click to toggle source</span>
+
+          </div>
+
+
+          <div>
+
+
+            <p><a href="Array.html">Array</a> Difference---Returns a new array that is a
+copy of the original array, removing any items that also appear in
+<em>other_ary</em>. (If you need set-like behavior, see the library class
+Set.)</p>
+
+<pre class="ruby">[ <span class="ruby-value">1</span>, <span class="ruby-value">1</span>, <span class="ruby-value">2</span>, <span class="ruby-value">2</span>, <span class="ruby-value">3</span>, <span class="ruby-value">3</span>, <span class="ruby-value">4</span>, <span class="ruby-value">5</span> ] <span class="ruby-operator">-</span> [ <span class="ruby-value">1</span>, <span class="ruby-value">2</span>, <span class="ruby-value">4</span> ]  <span class="ruby-comment">#=&gt;  [ 3, 3, 5 ]</span>
+</pre>
+
+
+
+            <div class="method-source-code" id="2D-source">
+              <pre> <!-- method.markup_code 290 -->
+               <span class="ruby-comment"># File mrbgems/mruby-array-ext/mrblib/array.rb, line 78</span>
+<span class="ruby-keyword">def</span> <span class="ruby-operator">-</span>(<span class="ruby-identifier">elem</span>)
+  <span class="ruby-identifier">raise</span> <span class="ruby-constant">TypeError</span>, <span class="ruby-node">&quot;can't convert #{elem.class} into Array&quot;</span> <span class="ruby-keyword">unless</span> <span class="ruby-identifier">elem</span>.<span class="ruby-identifier">class</span> <span class="ruby-operator">==</span> <span class="ruby-constant">Array</span>
+
+  <span class="ruby-identifier">hash</span> = {}
+  <span class="ruby-identifier">array</span> = []
+  <span class="ruby-identifier">elem</span>.<span class="ruby-identifier">each</span> { <span class="ruby-operator">|</span><span class="ruby-identifier">x</span><span class="ruby-operator">|</span> <span class="ruby-identifier">hash</span>[<span class="ruby-identifier">x</span>] = <span class="ruby-keyword">true</span> }
+  <span class="ruby-keyword">self</span>.<span class="ruby-identifier">each</span> { <span class="ruby-operator">|</span><span class="ruby-identifier">x</span><span class="ruby-operator">|</span> <span class="ruby-identifier">array</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-identifier">x</span> <span class="ruby-keyword">unless</span> <span class="ruby-identifier">hash</span>[<span class="ruby-identifier">x</span>] }
+  <span class="ruby-identifier">array</span>
+<span class="ruby-keyword">end</span>
+            </pre>
+            </div><!-- 2D-source -->
+
+          </div>
+
+
+
+
+        </div><!-- 2D-method -->
+
+        <div id="3C-3D-3E-method" class="method-detail ">
+          <a name="method-i-3C-3D-3E"></a>
+
+
+          <div class="method-heading">
+            <span class="method-name">&lt;=&gt;</span><span
+              class="method-args">(other)</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+
+          <div>
+
+
+            <pre>Comparison---Returns an integer (-1, 0, or +1)
+if this array is less than, equal to, or greater than &lt;i&gt;other_ary&lt;/i&gt;.
+Each object in each array is compared (using &lt;=&gt;). If any value isn't
+equal, then that inequality is the return value. If all the
+values found are equal, then the return is based on a
+comparison of the array lengths.  Thus, two arrays are
+``equal'' according to &lt;code&gt;Array#&lt;=&gt;&lt;/code&gt; if and only if they have
+the same length and the value of each element is equal to the
+value of the corresponding element in the other array.</pre>
+
+<p>ISO 15.2.12.5.36 (x)</p>
+
+
+
+            <div class="method-source-code" id="3C-3D-3E-source">
+              <pre> <!-- method.markup_code 290 -->
+               <span class="ruby-comment"># File mrblib/array.rb, line 154</span>
+<span class="ruby-keyword">def</span> <span class="ruby-operator">&lt;=&gt;</span>(<span class="ruby-identifier">other</span>)
+  <span class="ruby-identifier">other</span> = <span class="ruby-keyword">self</span>.<span class="ruby-identifier">__ary_cmp</span>(<span class="ruby-identifier">other</span>)
+  <span class="ruby-keyword">return</span> <span class="ruby-value">0</span> <span class="ruby-keyword">if</span> <span class="ruby-value">0</span> <span class="ruby-operator">==</span> <span class="ruby-identifier">other</span>
+  <span class="ruby-keyword">return</span> <span class="ruby-keyword">nil</span> <span class="ruby-keyword">if</span> <span class="ruby-keyword">nil</span> <span class="ruby-operator">==</span> <span class="ruby-identifier">other</span>
+
+  <span class="ruby-identifier">len</span> = <span class="ruby-keyword">self</span>.<span class="ruby-identifier">size</span>
+  <span class="ruby-identifier">n</span> = <span class="ruby-identifier">other</span>.<span class="ruby-identifier">size</span>
+  <span class="ruby-keyword">if</span> <span class="ruby-identifier">len</span> <span class="ruby-operator">&gt;</span> <span class="ruby-identifier">n</span>
+    <span class="ruby-identifier">len</span> = <span class="ruby-identifier">n</span>
+  <span class="ruby-keyword">end</span>
+  <span class="ruby-identifier">i</span> = <span class="ruby-value">0</span>
+  <span class="ruby-keyword">while</span> <span class="ruby-identifier">i</span> <span class="ruby-operator">&lt;</span> <span class="ruby-identifier">len</span>
+    <span class="ruby-identifier">n</span> = (<span class="ruby-keyword">self</span>[<span class="ruby-identifier">i</span>] <span class="ruby-operator">&lt;=&gt;</span> <span class="ruby-identifier">other</span>[<span class="ruby-identifier">i</span>])
+    <span class="ruby-keyword">return</span> <span class="ruby-identifier">n</span> <span class="ruby-keyword">if</span> <span class="ruby-identifier">n</span> <span class="ruby-operator">==</span> <span class="ruby-keyword">nil</span>
+    <span class="ruby-keyword">return</span> <span class="ruby-identifier">n</span> <span class="ruby-keyword">if</span> <span class="ruby-identifier">n</span> <span class="ruby-operator">!=</span> <span class="ruby-value">0</span>
+    <span class="ruby-identifier">i</span> <span class="ruby-operator">+=</span> <span class="ruby-value">1</span>
+  <span class="ruby-keyword">end</span>
+  <span class="ruby-identifier">len</span> = <span class="ruby-keyword">self</span>.<span class="ruby-identifier">size</span> <span class="ruby-operator">-</span> <span class="ruby-identifier">other</span>.<span class="ruby-identifier">size</span>
+  <span class="ruby-keyword">if</span> <span class="ruby-identifier">len</span> <span class="ruby-operator">==</span> <span class="ruby-value">0</span>
+    <span class="ruby-value">0</span>
+  <span class="ruby-keyword">elsif</span> <span class="ruby-identifier">len</span> <span class="ruby-operator">&gt;</span> <span class="ruby-value">0</span>
+    <span class="ruby-value">1</span>
+  <span class="ruby-keyword">else</span>
+    <span class="ruby-value">-1</span>
+  <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span>
+            </pre>
+            </div><!-- 3C-3D-3E-source -->
+
+          </div>
+
+
+
+
+        </div><!-- 3C-3D-3E-method -->
+
+        <div id="3D-3D-method" class="method-detail ">
+          <a name="method-i-3D-3D"></a>
+
+
+          <div class="method-heading">
+            <span class="method-name">==</span><span
+              class="method-args">(other)</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+
+          <div>
+
+
+            <pre>Equality---Two arrays are equal if they contain the same number
+of elements and if each element is equal to (according to
+Object.==) the corresponding element in the other array.</pre>
+
+<p>ISO 15.2.12.5.33 (x)</p>
+
+
+
+            <div class="method-source-code" id="3D-3D-source">
+              <pre> <!-- method.markup_code 290 -->
+               <span class="ruby-comment"># File mrblib/array.rb, line 111</span>
+<span class="ruby-keyword">def</span> <span class="ruby-operator">==</span>(<span class="ruby-identifier">other</span>)
+  <span class="ruby-identifier">other</span> = <span class="ruby-keyword">self</span>.<span class="ruby-identifier">__ary_eq</span>(<span class="ruby-identifier">other</span>)
+  <span class="ruby-keyword">return</span> <span class="ruby-keyword">false</span> <span class="ruby-keyword">if</span> <span class="ruby-identifier">other</span> <span class="ruby-operator">==</span> <span class="ruby-keyword">false</span>
+  <span class="ruby-keyword">return</span> <span class="ruby-keyword">true</span>  <span class="ruby-keyword">if</span> <span class="ruby-identifier">other</span> <span class="ruby-operator">==</span> <span class="ruby-keyword">true</span>
+  <span class="ruby-identifier">len</span> = <span class="ruby-keyword">self</span>.<span class="ruby-identifier">size</span>
+  <span class="ruby-identifier">i</span> = <span class="ruby-value">0</span>
+  <span class="ruby-keyword">while</span> <span class="ruby-identifier">i</span> <span class="ruby-operator">&lt;</span> <span class="ruby-identifier">len</span>
+    <span class="ruby-keyword">return</span> <span class="ruby-keyword">false</span> <span class="ruby-keyword">if</span> <span class="ruby-keyword">self</span>[<span class="ruby-identifier">i</span>] <span class="ruby-operator">!=</span> <span class="ruby-identifier">other</span>[<span class="ruby-identifier">i</span>]
+    <span class="ruby-identifier">i</span> <span class="ruby-operator">+=</span> <span class="ruby-value">1</span>
+  <span class="ruby-keyword">end</span>
+  <span class="ruby-keyword">return</span> <span class="ruby-keyword">true</span>
+<span class="ruby-keyword">end</span>
+            </pre>
+            </div><!-- 3D-3D-source -->
+
+          </div>
+
+
+
+
+        </div><!-- 3D-3D-method -->
+
+        <div id="__svalue-method" class="method-detail ">
+          <a name="method-i-__svalue"></a>
+
+
+          <div class="method-heading">
+            <span class="method-name">__svalue</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+
+          <div>
+
+
+            <p>internal method to convert multi-value to single value</p>
+
+
+
+            <div class="method-source-code" id="__svalue-source">
+              <pre> <!-- method.markup_code 290 -->
+               <span class="ruby-comment"># File mrblib/array.rb, line 196</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">__svalue</span>
+  <span class="ruby-keyword">if</span> <span class="ruby-keyword">self</span>.<span class="ruby-identifier">size</span> <span class="ruby-operator">&lt;</span> <span class="ruby-value">2</span>
+    <span class="ruby-keyword">self</span>.<span class="ruby-identifier">first</span>
+  <span class="ruby-keyword">else</span>
+    <span class="ruby-keyword">self</span>
+  <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span>
+            </pre>
+            </div><!-- __svalue-source -->
+
+          </div>
+
+
+
+
+        </div><!-- __svalue-method -->
+
+        <div id="_inspect-method" class="method-detail ">
+          <a name="method-i-_inspect"></a>
+
+
+          <div class="method-heading">
+            <span class="method-name">_inspect</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+
+          <div>
+
+
+
+
+
+
+            <div class="method-source-code" id="_inspect-source">
+              <pre> <!-- method.markup_code 290 -->
+               <span class="ruby-comment"># File mrblib/array.rb, line 87</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">_inspect</span>
+  <span class="ruby-keyword">return</span> <span class="ruby-string">&quot;[]&quot;</span> <span class="ruby-keyword">if</span> <span class="ruby-keyword">self</span>.<span class="ruby-identifier">size</span> <span class="ruby-operator">==</span> <span class="ruby-value">0</span>
+  <span class="ruby-string">&quot;[&quot;</span><span class="ruby-operator">+</span><span class="ruby-keyword">self</span>.<span class="ruby-identifier">map</span>{<span class="ruby-operator">|</span><span class="ruby-identifier">x</span><span class="ruby-operator">|</span><span class="ruby-identifier">x</span>.<span class="ruby-identifier">inspect</span>}.<span class="ruby-identifier">join</span>(<span class="ruby-string">&quot;, &quot;</span>)<span class="ruby-operator">+</span><span class="ruby-string">&quot;]&quot;</span>
+<span class="ruby-keyword">end</span>
+            </pre>
+            </div><!-- _inspect-source -->
+
+          </div>
+
+
+
+
+        </div><!-- _inspect-method -->
+
+        <div id="bsearch-method" class="method-detail ">
+          <a name="method-i-bsearch"></a>
+
+
+
+          <div class="method-heading">
+            <span class="method-callseq">bsearch {|x| block }  &rarr; elem</span>
+
+            <span class="method-click-advice">click to toggle source</span>
+
+          </div>
+
+
+          <div>
+
+
+            <p>By using binary search, finds a value from this array which meets the given
+condition in O(log n) where n is the size of the array.</p>
+
+<p>You can use this method in two use cases: a find-minimum mode and a
+find-any mode.  In either case, the elements of the array must be monotone
+(or sorted) with respect to the block.</p>
+
+<p>In find-minimum mode (this is a good choice for typical use case), the
+block must return true or false, and there must be an index i (0 &lt;= i
+&lt;= ary.size) so that:</p>
+<ul><li>
+<p>the block returns false for any element whose index is less than i, and</p>
+</li><li>
+<p>the block returns true for any element whose index is greater than or equal
+to i.</p>
+</li></ul>
+
+<p>This method returns the i-th element.  If i is equal to ary.size, it
+returns nil.</p>
+
+<pre class="ruby"><span class="ruby-identifier">ary</span> = [<span class="ruby-value">0</span>, <span class="ruby-value">4</span>, <span class="ruby-value">7</span>, <span class="ruby-value">10</span>, <span class="ruby-value">12</span>]
+<span class="ruby-identifier">ary</span>.<span class="ruby-identifier">bsearch</span> {<span class="ruby-operator">|</span><span class="ruby-identifier">x</span><span class="ruby-operator">|</span> <span class="ruby-identifier">x</span> <span class="ruby-operator">&gt;=</span>   <span class="ruby-value">4</span> } <span class="ruby-comment">#=&gt; 4</span>
+<span class="ruby-identifier">ary</span>.<span class="ruby-identifier">bsearch</span> {<span class="ruby-operator">|</span><span class="ruby-identifier">x</span><span class="ruby-operator">|</span> <span class="ruby-identifier">x</span> <span class="ruby-operator">&gt;=</span>   <span class="ruby-value">6</span> } <span class="ruby-comment">#=&gt; 7</span>
+<span class="ruby-identifier">ary</span>.<span class="ruby-identifier">bsearch</span> {<span class="ruby-operator">|</span><span class="ruby-identifier">x</span><span class="ruby-operator">|</span> <span class="ruby-identifier">x</span> <span class="ruby-operator">&gt;=</span>  <span class="ruby-value">-1</span> } <span class="ruby-comment">#=&gt; 0</span>
+<span class="ruby-identifier">ary</span>.<span class="ruby-identifier">bsearch</span> {<span class="ruby-operator">|</span><span class="ruby-identifier">x</span><span class="ruby-operator">|</span> <span class="ruby-identifier">x</span> <span class="ruby-operator">&gt;=</span> <span class="ruby-value">100</span> } <span class="ruby-comment">#=&gt; nil</span>
+</pre>
+
+<p>In find-any mode (this behaves like libc’s bsearch(3)), the block must
+return a number, and there must be two indices i and j (0 &lt;= i &lt;= j
+&lt;= ary.size) so that:</p>
+<ul><li>
+<p>the block returns a positive number for <a href="http://ruby-doc.org/core-mruby/k">ary</a> if 0 &lt;= k
+&lt; i,</p>
+</li><li>
+<p>the block returns zero for <a href="http://ruby-doc.org/core-mruby/k">ary</a> if i &lt;= k &lt; j, and</p>
+</li><li>
+<p>the block returns a negative number for <a href="http://ruby-doc.org/core-mruby/k">ary</a> if j &lt;= k
+&lt; ary.size.</p>
+</li></ul>
+
+<p>Under this condition, this method returns any element whose index is within
+i…j.  If i is equal to j (i.e., there is no element that satisfies the
+block), this method returns nil.</p>
+
+<pre class="ruby"><span class="ruby-identifier">ary</span> = [<span class="ruby-value">0</span>, <span class="ruby-value">4</span>, <span class="ruby-value">7</span>, <span class="ruby-value">10</span>, <span class="ruby-value">12</span>]
+<span class="ruby-comment"># try to find v such that 4 &lt;= v &lt; 8</span>
+<span class="ruby-identifier">ary</span>.<span class="ruby-identifier">bsearch</span> {<span class="ruby-operator">|</span><span class="ruby-identifier">x</span><span class="ruby-operator">|</span> <span class="ruby-value">1</span> <span class="ruby-operator">-</span> (<span class="ruby-identifier">x</span> <span class="ruby-operator">/</span> <span class="ruby-value">4</span>).<span class="ruby-identifier">truncate</span> } <span class="ruby-comment">#=&gt; 4 or 7</span>
+<span class="ruby-comment"># try to find v such that 8 &lt;= v &lt; 10</span>
+<span class="ruby-identifier">ary</span>.<span class="ruby-identifier">bsearch</span> {<span class="ruby-operator">|</span><span class="ruby-identifier">x</span><span class="ruby-operator">|</span> <span class="ruby-value">4</span> <span class="ruby-operator">-</span> (<span class="ruby-identifier">x</span> <span class="ruby-operator">/</span> <span class="ruby-value">2</span>).<span class="ruby-identifier">truncate</span> } <span class="ruby-comment">#=&gt; nil</span>
+</pre>
+
+<p>You must not mix the two modes at a time; the block must always return
+either true/false, or always return a number.  It is undefined which value
+is actually picked up at each iteration.</p>
+
+
+
+            <div class="method-source-code" id="bsearch-source">
+              <pre> <!-- method.markup_code 290 -->
+               <span class="ruby-comment"># File mrbgems/mruby-array-ext/mrblib/array.rb, line 569</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">bsearch</span>(<span class="ruby-operator">&amp;</span><span class="ruby-identifier">block</span>)
+  <span class="ruby-keyword">return</span> <span class="ruby-identifier">to_enum</span> <span class="ruby-operator">:</span><span class="ruby-identifier">bsearch</span> <span class="ruby-keyword">unless</span> <span class="ruby-identifier">block_given?</span>
+
+  <span class="ruby-identifier">low</span> = <span class="ruby-value">0</span>
+  <span class="ruby-identifier">high</span> = <span class="ruby-keyword">self</span>.<span class="ruby-identifier">size</span>
+  <span class="ruby-identifier">satisfied</span> = <span class="ruby-keyword">false</span>
+  <span class="ruby-keyword">while</span> <span class="ruby-identifier">low</span> <span class="ruby-operator">&lt;</span> <span class="ruby-identifier">high</span>
+    <span class="ruby-identifier">mid</span> = <span class="ruby-identifier">low</span> <span class="ruby-operator">+</span> ((<span class="ruby-identifier">high</span> <span class="ruby-operator">-</span> <span class="ruby-identifier">low</span>) <span class="ruby-operator">/</span> <span class="ruby-value">2</span>).<span class="ruby-identifier">truncate</span>
+    <span class="ruby-identifier">val</span> = <span class="ruby-keyword">self</span>[<span class="ruby-identifier">mid</span>]
+    <span class="ruby-identifier">v</span> = <span class="ruby-identifier">block</span>.<span class="ruby-identifier">call</span>(<span class="ruby-identifier">val</span>)
+    <span class="ruby-keyword">if</span> <span class="ruby-identifier">v</span>.<span class="ruby-identifier">is_a?</span>(<span class="ruby-constant">Integer</span>)
+      <span class="ruby-keyword">return</span> <span class="ruby-identifier">val</span> <span class="ruby-keyword">if</span> <span class="ruby-identifier">v</span> <span class="ruby-operator">==</span> <span class="ruby-value">0</span>
+      <span class="ruby-identifier">smaller</span> = <span class="ruby-identifier">v</span> <span class="ruby-operator">&lt;</span> <span class="ruby-value">0</span>
+    <span class="ruby-keyword">elsif</span> <span class="ruby-identifier">v</span> <span class="ruby-operator">==</span> <span class="ruby-keyword">true</span>
+      <span class="ruby-identifier">satisfied</span> = <span class="ruby-keyword">true</span>
+      <span class="ruby-identifier">smaller</span> = <span class="ruby-keyword">true</span>
+    <span class="ruby-keyword">elsif</span> <span class="ruby-identifier">v</span> <span class="ruby-operator">==</span> <span class="ruby-keyword">false</span> <span class="ruby-operator">||</span> <span class="ruby-identifier">v</span> <span class="ruby-operator">==</span> <span class="ruby-keyword">nil</span>
+      <span class="ruby-identifier">smaller</span> = <span class="ruby-keyword">false</span>
+    <span class="ruby-keyword">end</span>
+    <span class="ruby-keyword">if</span> <span class="ruby-identifier">smaller</span>
+      <span class="ruby-identifier">high</span> = <span class="ruby-identifier">mid</span>
+    <span class="ruby-keyword">else</span>
+      <span class="ruby-identifier">low</span> = <span class="ruby-identifier">mid</span> <span class="ruby-operator">+</span> <span class="ruby-value">1</span>
+    <span class="ruby-keyword">end</span>
+  <span class="ruby-keyword">end</span>
+  <span class="ruby-keyword">return</span> <span class="ruby-keyword">nil</span> <span class="ruby-keyword">if</span> <span class="ruby-identifier">low</span> <span class="ruby-operator">==</span> <span class="ruby-keyword">self</span>.<span class="ruby-identifier">size</span>
+  <span class="ruby-keyword">return</span> <span class="ruby-keyword">nil</span> <span class="ruby-keyword">unless</span> <span class="ruby-identifier">satisfied</span>
+  <span class="ruby-keyword">self</span>[<span class="ruby-identifier">low</span>]
+<span class="ruby-keyword">end</span>
+            </pre>
+            </div><!-- bsearch-source -->
+
+          </div>
+
+
+
+
+        </div><!-- bsearch-method -->
+
+        <div id="collect-21-method" class="method-detail ">
+          <a name="method-i-collect-21"></a>
+
+
+          <div class="method-heading">
+            <span class="method-name">collect!</span><span
+              class="method-args">(&block)</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+
+          <div>
+
+
+            <p>Calls the given block for each element of <code>self</code> and pass the
+respective element. Each element will be replaced by the resulting values.</p>
+
+<p>ISO 15.2.12.5.7</p>
+
+
+
+            <div class="method-source-code" id="collect-21-source">
+              <pre> <!-- method.markup_code 290 -->
+               <span class="ruby-comment"># File mrblib/array.rb, line 50</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">collect!</span>(<span class="ruby-operator">&amp;</span><span class="ruby-identifier">block</span>)
+  <span class="ruby-keyword">return</span> <span class="ruby-identifier">to_enum</span> <span class="ruby-operator">:</span><span class="ruby-identifier">collect!</span> <span class="ruby-keyword">unless</span> <span class="ruby-identifier">block_given?</span>
+
+  <span class="ruby-keyword">self</span>.<span class="ruby-identifier">each_index</span>{<span class="ruby-operator">|</span><span class="ruby-identifier">idx</span><span class="ruby-operator">|</span>
+    <span class="ruby-keyword">self</span>[<span class="ruby-identifier">idx</span>] = <span class="ruby-identifier">block</span>.<span class="ruby-identifier">call</span>(<span class="ruby-keyword">self</span>[<span class="ruby-identifier">idx</span>])
+  }
+  <span class="ruby-keyword">self</span>
+<span class="ruby-keyword">end</span>
+            </pre>
+            </div><!-- collect-21-source -->
+
+          </div>
+
+
+          <div class="aliases">
+            Also aliased as: <a href="Array.html#method-i-map-21">map!</a>
+          </div>
+
+
+
+        </div><!-- collect-21-method -->
+
+        <div id="compact-method" class="method-detail ">
+          <a name="method-i-compact"></a>
+
+
+
+          <div class="method-heading">
+            <span class="method-callseq">compact     &rarr; new_ary</span>
+
+            <span class="method-click-advice">click to toggle source</span>
+
+          </div>
+
+
+          <div>
+
+
+            <p>Returns a copy of <code>self</code> with all <code>nil</code> elements
+removed.</p>
+
+<pre class="ruby">[ <span class="ruby-string">&quot;a&quot;</span>, <span class="ruby-keyword">nil</span>, <span class="ruby-string">&quot;b&quot;</span>, <span class="ruby-keyword">nil</span>, <span class="ruby-string">&quot;c&quot;</span>, <span class="ruby-keyword">nil</span> ].<span class="ruby-identifier">compact</span>
+                  <span class="ruby-comment">#=&gt; [ &quot;a&quot;, &quot;b&quot;, &quot;c&quot; ]</span>
+</pre>
+
+
+
+            <div class="method-source-code" id="compact-source">
+              <pre> <!-- method.markup_code 290 -->
+               <span class="ruby-comment"># File mrbgems/mruby-array-ext/mrblib/array.rb, line 202</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">compact</span>
+  <span class="ruby-identifier">result</span> = <span class="ruby-keyword">self</span>.<span class="ruby-identifier">dup</span>
+  <span class="ruby-identifier">result</span>.<span class="ruby-identifier">compact!</span>
+  <span class="ruby-identifier">result</span>
+<span class="ruby-keyword">end</span>
+            </pre>
+            </div><!-- compact-source -->
+
+          </div>
+
+
+
+
+        </div><!-- compact-method -->
+
+        <div id="compact-21-method" class="method-detail ">
+          <a name="method-i-compact-21"></a>
+
+
+
+          <div class="method-heading">
+            <span class="method-callseq">compact!    &rarr; ary  or  nil</span>
+
+            <span class="method-click-advice">click to toggle source</span>
+
+          </div>
+
+
+          <div>
+
+
+            <p>Removes <code>nil</code> elements from the array. Returns <code>nil</code>
+if no changes were made, otherwise returns <em>ary</em>.</p>
+
+<pre class="ruby">[ <span class="ruby-string">&quot;a&quot;</span>, <span class="ruby-keyword">nil</span>, <span class="ruby-string">&quot;b&quot;</span>, <span class="ruby-keyword">nil</span>, <span class="ruby-string">&quot;c&quot;</span> ].<span class="ruby-identifier">compact!</span> <span class="ruby-comment">#=&gt; [ &quot;a&quot;, &quot;b&quot;, &quot;c&quot; ]</span>
+[ <span class="ruby-string">&quot;a&quot;</span>, <span class="ruby-string">&quot;b&quot;</span>, <span class="ruby-string">&quot;c&quot;</span> ].<span class="ruby-identifier">compact!</span>           <span class="ruby-comment">#=&gt; nil</span>
+</pre>
+
+
+
+            <div class="method-source-code" id="compact-21-source">
+              <pre> <!-- method.markup_code 290 -->
+               <span class="ruby-comment"># File mrbgems/mruby-array-ext/mrblib/array.rb, line 219</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">compact!</span>
+  <span class="ruby-identifier">result</span> = <span class="ruby-keyword">self</span>.<span class="ruby-identifier">select</span> { <span class="ruby-operator">|</span><span class="ruby-identifier">e</span><span class="ruby-operator">|</span> <span class="ruby-identifier">e</span> <span class="ruby-operator">!=</span> <span class="ruby-keyword">nil</span> }
+  <span class="ruby-keyword">if</span> <span class="ruby-identifier">result</span>.<span class="ruby-identifier">size</span> <span class="ruby-operator">==</span> <span class="ruby-keyword">self</span>.<span class="ruby-identifier">size</span>
+    <span class="ruby-keyword">nil</span>
+  <span class="ruby-keyword">else</span>
+    <span class="ruby-keyword">self</span>.<span class="ruby-identifier">replace</span>(<span class="ruby-identifier">result</span>)
+  <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span>
+            </pre>
+            </div><!-- compact-21-source -->
+
+          </div>
+
+
+
+
+        </div><!-- compact-21-method -->
+
+        <div id="delete-method" class="method-detail ">
+          <a name="method-i-delete"></a>
+
+
+          <div class="method-heading">
+            <span class="method-name">delete</span><span
+              class="method-args">(key, &block)</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+
+          <div>
+
+
+            <p>Delete element with index <code>key</code></p>
+
+
+
+            <div class="method-source-code" id="delete-source">
+              <pre> <!-- method.markup_code 290 -->
+               <span class="ruby-comment"># File mrblib/array.rb, line 183</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">delete</span>(<span class="ruby-identifier">key</span>, <span class="ruby-operator">&amp;</span><span class="ruby-identifier">block</span>)
+  <span class="ruby-keyword">while</span> <span class="ruby-identifier">i</span> = <span class="ruby-keyword">self</span>.<span class="ruby-identifier">index</span>(<span class="ruby-identifier">key</span>)
+    <span class="ruby-keyword">self</span>.<span class="ruby-identifier">delete_at</span>(<span class="ruby-identifier">i</span>)
+    <span class="ruby-identifier">ret</span> = <span class="ruby-identifier">key</span>
+  <span class="ruby-keyword">end</span>
+  <span class="ruby-keyword">if</span> <span class="ruby-identifier">ret</span> <span class="ruby-operator">==</span> <span class="ruby-keyword">nil</span> <span class="ruby-operator">&amp;&amp;</span> <span class="ruby-identifier">block</span>
+    <span class="ruby-identifier">block</span>.<span class="ruby-identifier">call</span>
+  <span class="ruby-keyword">else</span>
+    <span class="ruby-identifier">ret</span>
+  <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span>
+            </pre>
+            </div><!-- delete-source -->
+
+          </div>
+
+
+
+
+        </div><!-- delete-method -->
+
+        <div id="delete_if-method" class="method-detail ">
+          <a name="method-i-delete_if"></a>
+
+
+
+          <div class="method-heading">
+            <span class="method-callseq">delete_if { |item| block }  &rarr; ary</span>
+
+            <span class="method-click-advice">click to toggle source</span>
+
+          </div>
+
+          <div class="method-heading">
+            <span class="method-callseq">delete_if                   &rarr; Enumerator</span>
+
+          </div>
+
+
+          <div>
+
+
+            <p>Deletes every element of <code>self</code> for which block evaluates to
+<code>true</code>.</p>
+
+<p>The array is changed instantly every time the block is called, not after
+the iteration is over.</p>
+
+<p>See also <a href="Array.html#method-i-reject-21">#reject!</a></p>
+
+<p>If no block is given, an <a href="Enumerator.html">Enumerator</a> is
+returned instead.</p>
+
+<pre class="ruby"><span class="ruby-identifier">scores</span> = [ <span class="ruby-value">97</span>, <span class="ruby-value">42</span>, <span class="ruby-value">75</span> ]
+<span class="ruby-identifier">scores</span>.<span class="ruby-identifier">delete_if</span> {<span class="ruby-operator">|</span><span class="ruby-identifier">score</span><span class="ruby-operator">|</span> <span class="ruby-identifier">score</span> <span class="ruby-operator">&lt;</span> <span class="ruby-value">80</span> }   <span class="ruby-comment">#=&gt; [97]</span>
+</pre>
+
+
+
+            <div class="method-source-code" id="delete_if-source">
+              <pre> <!-- method.markup_code 290 -->
+               <span class="ruby-comment"># File mrbgems/mruby-array-ext/mrblib/array.rb, line 450</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">delete_if</span>(<span class="ruby-operator">&amp;</span><span class="ruby-identifier">block</span>)
+  <span class="ruby-keyword">return</span> <span class="ruby-identifier">to_enum</span> <span class="ruby-operator">:</span><span class="ruby-identifier">delete_if</span> <span class="ruby-keyword">unless</span> <span class="ruby-identifier">block_given?</span>
+
+  <span class="ruby-identifier">idx</span> = <span class="ruby-value">0</span>
+  <span class="ruby-keyword">while</span> <span class="ruby-identifier">idx</span> <span class="ruby-operator">&lt;</span> <span class="ruby-keyword">self</span>.<span class="ruby-identifier">size</span> <span class="ruby-keyword">do</span>
+    <span class="ruby-keyword">if</span> <span class="ruby-identifier">block</span>.<span class="ruby-identifier">call</span>(<span class="ruby-keyword">self</span>[<span class="ruby-identifier">idx</span>])
+      <span class="ruby-keyword">self</span>.<span class="ruby-identifier">delete_at</span>(<span class="ruby-identifier">idx</span>)
+    <span class="ruby-keyword">else</span>
+      <span class="ruby-identifier">idx</span> <span class="ruby-operator">+=</span> <span class="ruby-value">1</span>
+    <span class="ruby-keyword">end</span>
+  <span class="ruby-keyword">end</span>
+  <span class="ruby-keyword">self</span>
+<span class="ruby-keyword">end</span>
+            </pre>
+            </div><!-- delete_if-source -->
+
+          </div>
+
+
+
+
+        </div><!-- delete_if-method -->
+
+        <div id="each-method" class="method-detail ">
+          <a name="method-i-each"></a>
+
+
+          <div class="method-heading">
+            <span class="method-name">each</span><span
+              class="method-args">(&block)</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+
+          <div>
+
+
+            <p>Calls the given block for each element of <code>self</code> and pass the
+respective element.</p>
+
+<p>ISO 15.2.12.5.10</p>
+
+
+
+            <div class="method-source-code" id="each-source">
+              <pre> <!-- method.markup_code 290 -->
+               <span class="ruby-comment"># File mrblib/array.rb, line 12</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">each</span>(<span class="ruby-operator">&amp;</span><span class="ruby-identifier">block</span>)
+  <span class="ruby-keyword">return</span> <span class="ruby-identifier">to_enum</span> <span class="ruby-operator">:</span><span class="ruby-identifier">each</span> <span class="ruby-keyword">unless</span> <span class="ruby-identifier">block_given?</span>
+
+  <span class="ruby-identifier">idx</span>, <span class="ruby-identifier">length</span> = <span class="ruby-value">-1</span>, <span class="ruby-keyword">self</span>.<span class="ruby-identifier">length</span><span class="ruby-operator">-</span><span class="ruby-value">1</span>
+  <span class="ruby-keyword">while</span> <span class="ruby-identifier">idx</span> <span class="ruby-operator">&lt;</span> <span class="ruby-identifier">length</span> <span class="ruby-keyword">and</span> <span class="ruby-identifier">length</span> <span class="ruby-operator">&lt;=</span> <span class="ruby-keyword">self</span>.<span class="ruby-identifier">length</span> <span class="ruby-keyword">and</span> <span class="ruby-identifier">length</span> = <span class="ruby-keyword">self</span>.<span class="ruby-identifier">length</span><span class="ruby-operator">-</span><span class="ruby-value">1</span>
+    <span class="ruby-identifier">elm</span> = <span class="ruby-keyword">self</span>[<span class="ruby-identifier">idx</span> <span class="ruby-operator">+=</span> <span class="ruby-value">1</span>]
+    <span class="ruby-keyword">unless</span> <span class="ruby-identifier">elm</span>
+      <span class="ruby-keyword">if</span> <span class="ruby-identifier">elm</span> <span class="ruby-operator">==</span> <span class="ruby-keyword">nil</span> <span class="ruby-keyword">and</span> <span class="ruby-identifier">length</span> <span class="ruby-operator">&gt;=</span> <span class="ruby-keyword">self</span>.<span class="ruby-identifier">length</span>
+        <span class="ruby-keyword">break</span>
+      <span class="ruby-keyword">end</span>
+    <span class="ruby-keyword">end</span>
+    <span class="ruby-identifier">block</span>.<span class="ruby-identifier">call</span>(<span class="ruby-identifier">elm</span>)
+  <span class="ruby-keyword">end</span>
+  <span class="ruby-keyword">self</span>
+<span class="ruby-keyword">end</span>
+            </pre>
+            </div><!-- each-source -->
+
+          </div>
+
+
+
+
+        </div><!-- each-method -->
+
+        <div id="each_index-method" class="method-detail ">
+          <a name="method-i-each_index"></a>
+
+
+          <div class="method-heading">
+            <span class="method-name">each_index</span><span
+              class="method-args">(&block)</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+
+          <div>
+
+
+            <p>Calls the given block for each element of <code>self</code> and pass the
+index of the respective element.</p>
+
+<p>ISO 15.2.12.5.11</p>
+
+
+
+            <div class="method-source-code" id="each_index-source">
+              <pre> <!-- method.markup_code 290 -->
+               <span class="ruby-comment"># File mrblib/array.rb, line 33</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">each_index</span>(<span class="ruby-operator">&amp;</span><span class="ruby-identifier">block</span>)
+  <span class="ruby-keyword">return</span> <span class="ruby-identifier">to_enum</span> <span class="ruby-operator">:</span><span class="ruby-identifier">each_index</span> <span class="ruby-keyword">unless</span> <span class="ruby-identifier">block_given?</span>
+
+  <span class="ruby-identifier">idx</span> = <span class="ruby-value">0</span>
+  <span class="ruby-keyword">while</span>(<span class="ruby-identifier">idx</span> <span class="ruby-operator">&lt;</span> <span class="ruby-identifier">length</span>)
+    <span class="ruby-identifier">block</span>.<span class="ruby-identifier">call</span>(<span class="ruby-identifier">idx</span>)
+    <span class="ruby-identifier">idx</span> <span class="ruby-operator">+=</span> <span class="ruby-value">1</span>
+  <span class="ruby-keyword">end</span>
+  <span class="ruby-keyword">self</span>
+<span class="ruby-keyword">end</span>
+            </pre>
+            </div><!-- each_index-source -->
+
+          </div>
+
+
+
+
+        </div><!-- each_index-method -->
+
+        <div id="eql-3F-method" class="method-detail ">
+          <a name="method-i-eql-3F"></a>
+
+
+          <div class="method-heading">
+            <span class="method-name">eql?</span><span
+              class="method-args">(other)</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+
+          <div>
+
+
+            <pre>Returns &lt;code&gt;true&lt;/code&gt; if +self+ and _other_ are the same object,
+or are both arrays with the same content.</pre>
+
+<p>ISO 15.2.12.5.34 (x)</p>
+
+
+
+            <div class="method-source-code" id="eql-3F-source">
+              <pre> <!-- method.markup_code 290 -->
+               <span class="ruby-comment"># File mrblib/array.rb, line 129</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">eql?</span>(<span class="ruby-identifier">other</span>)
+  <span class="ruby-identifier">other</span> = <span class="ruby-keyword">self</span>.<span class="ruby-identifier">__ary_eq</span>(<span class="ruby-identifier">other</span>)
+  <span class="ruby-keyword">return</span> <span class="ruby-keyword">false</span> <span class="ruby-keyword">if</span> <span class="ruby-identifier">other</span> <span class="ruby-operator">==</span> <span class="ruby-keyword">false</span>
+  <span class="ruby-keyword">return</span> <span class="ruby-keyword">true</span>  <span class="ruby-keyword">if</span> <span class="ruby-identifier">other</span> <span class="ruby-operator">==</span> <span class="ruby-keyword">true</span>
+  <span class="ruby-identifier">len</span> = <span class="ruby-keyword">self</span>.<span class="ruby-identifier">size</span>
+  <span class="ruby-identifier">i</span> = <span class="ruby-value">0</span>
+  <span class="ruby-keyword">while</span> <span class="ruby-identifier">i</span> <span class="ruby-operator">&lt;</span> <span class="ruby-identifier">len</span>
+    <span class="ruby-keyword">return</span> <span class="ruby-keyword">false</span> <span class="ruby-keyword">unless</span> <span class="ruby-keyword">self</span>[<span class="ruby-identifier">i</span>].<span class="ruby-identifier">eql?</span>(<span class="ruby-identifier">other</span>[<span class="ruby-identifier">i</span>])
+    <span class="ruby-identifier">i</span> <span class="ruby-operator">+=</span> <span class="ruby-value">1</span>
+  <span class="ruby-keyword">end</span>
+  <span class="ruby-keyword">return</span> <span class="ruby-keyword">true</span>
+<span class="ruby-keyword">end</span>
+            </pre>
+            </div><!-- eql-3F-source -->
+
+          </div>
+
+
+
+
+        </div><!-- eql-3F-method -->
+
+        <div id="fetch-method" class="method-detail ">
+          <a name="method-i-fetch"></a>
+
+
+
+          <div class="method-heading">
+            <span class="method-callseq">fetch(index)                    &rarr; obj</span>
+
+            <span class="method-click-advice">click to toggle source</span>
+
+          </div>
+
+          <div class="method-heading">
+            <span class="method-callseq">fetch(index, default)           &rarr; obj</span>
+
+          </div>
+
+          <div class="method-heading">
+            <span class="method-callseq">fetch(index) { |index| block }  &rarr; obj</span>
+
+          </div>
+
+
+          <div>
+
+
+            <p>Tries to return the element at position <code>index</code>, but throws an
+<a href="IndexError.html">IndexError</a> exception if the referenced
+<code>index</code> lies outside of the array bounds.  This error can be
+prevented by supplying a second argument, which will act as a
+<code>default</code> value.</p>
+
+<p>Alternatively, if a block is given it will only be executed when an invalid
+<code>index</code> is referenced.  Negative values of <code>index</code>
+count from the end of the array.</p>
+
+<pre class="ruby"><span class="ruby-identifier">a</span> = [ <span class="ruby-value">11</span>, <span class="ruby-value">22</span>, <span class="ruby-value">33</span>, <span class="ruby-value">44</span> ]
+<span class="ruby-identifier">a</span>.<span class="ruby-identifier">fetch</span>(<span class="ruby-value">1</span>)               <span class="ruby-comment">#=&gt; 22</span>
+<span class="ruby-identifier">a</span>.<span class="ruby-identifier">fetch</span>(<span class="ruby-value">-1</span>)              <span class="ruby-comment">#=&gt; 44</span>
+<span class="ruby-identifier">a</span>.<span class="ruby-identifier">fetch</span>(<span class="ruby-value">4</span>, <span class="ruby-string">'cat'</span>)        <span class="ruby-comment">#=&gt; &quot;cat&quot;</span>
+<span class="ruby-identifier">a</span>.<span class="ruby-identifier">fetch</span>(<span class="ruby-value">100</span>) { <span class="ruby-operator">|</span><span class="ruby-identifier">i</span><span class="ruby-operator">|</span> <span class="ruby-identifier">puts</span> <span class="ruby-node">&quot;#{i} is out of bounds&quot;</span> }
+                         <span class="ruby-comment">#=&gt; &quot;100 is out of bounds&quot;</span>
+</pre>
+
+
+
+            <div class="method-source-code" id="fetch-source">
+              <pre> <!-- method.markup_code 290 -->
+               <span class="ruby-comment"># File mrbgems/mruby-array-ext/mrblib/array.rb, line 264</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">fetch</span>(<span class="ruby-identifier">n</span>=<span class="ruby-keyword">nil</span>, <span class="ruby-identifier">ifnone</span>=<span class="ruby-constant">NONE</span>, <span class="ruby-operator">&amp;</span><span class="ruby-identifier">block</span>)
+  <span class="ruby-identifier">warn</span> <span class="ruby-string">&quot;block supersedes default value argument&quot;</span> <span class="ruby-keyword">if</span> <span class="ruby-identifier">n</span> <span class="ruby-operator">!=</span> <span class="ruby-keyword">nil</span> <span class="ruby-operator">&amp;&amp;</span> <span class="ruby-identifier">ifnone</span> <span class="ruby-operator">!=</span> <span class="ruby-constant">NONE</span> <span class="ruby-operator">&amp;&amp;</span> <span class="ruby-identifier">block</span>
+
+  <span class="ruby-identifier">idx</span> = <span class="ruby-identifier">n</span>
+  <span class="ruby-keyword">if</span> <span class="ruby-identifier">idx</span> <span class="ruby-operator">&lt;</span> <span class="ruby-value">0</span>
+    <span class="ruby-identifier">idx</span> <span class="ruby-operator">+=</span> <span class="ruby-identifier">size</span>
+  <span class="ruby-keyword">end</span>
+  <span class="ruby-keyword">if</span> <span class="ruby-identifier">idx</span> <span class="ruby-operator">&lt;</span> <span class="ruby-value">0</span> <span class="ruby-operator">||</span> <span class="ruby-identifier">size</span> <span class="ruby-operator">&lt;=</span> <span class="ruby-identifier">idx</span>
+    <span class="ruby-keyword">return</span> <span class="ruby-identifier">block</span>.<span class="ruby-identifier">call</span>(<span class="ruby-identifier">n</span>) <span class="ruby-keyword">if</span> <span class="ruby-identifier">block</span>
+    <span class="ruby-keyword">if</span> <span class="ruby-identifier">ifnone</span> <span class="ruby-operator">==</span> <span class="ruby-constant">NONE</span>
+      <span class="ruby-identifier">raise</span> <span class="ruby-constant">IndexError</span>, <span class="ruby-node">&quot;index #{n} outside of array bounds: #{-size}...#{size}&quot;</span>
+    <span class="ruby-keyword">end</span>
+    <span class="ruby-keyword">return</span> <span class="ruby-identifier">ifnone</span>
+  <span class="ruby-keyword">end</span>
+  <span class="ruby-keyword">self</span>[<span class="ruby-identifier">idx</span>]
+<span class="ruby-keyword">end</span>
+            </pre>
+            </div><!-- fetch-source -->
+
+          </div>
+
+
+
+
+        </div><!-- fetch-method -->
+
+        <div id="fill-method" class="method-detail ">
+          <a name="method-i-fill"></a>
+
+
+
+          <div class="method-heading">
+            <span class="method-callseq">fill(obj)                                 &rarr; ary</span>
+
+            <span class="method-click-advice">click to toggle source</span>
+
+          </div>
+
+          <div class="method-heading">
+            <span class="method-callseq">fill(obj, start [, length])               &rarr; ary</span>
+
+          </div>
+
+          <div class="method-heading">
+            <span class="method-callseq">fill(obj, range )                         &rarr; ary</span>
+
+          </div>
+
+          <div class="method-heading">
+            <span class="method-callseq">fill { |index| block }                    &rarr; ary</span>
+
+          </div>
+
+          <div class="method-heading">
+            <span class="method-callseq">fill(start [, length] ) { |index| block } &rarr; ary</span>
+
+          </div>
+
+          <div class="method-heading">
+            <span class="method-callseq">fill(range) { |index| block }             &rarr; ary</span>
+
+          </div>
+
+
+          <div>
+
+
+            <p>The first three forms set the selected elements of <code>self</code> (which
+may be the entire array) to <code>obj</code>.</p>
+
+<p>A <code>start</code> of <code>nil</code> is equivalent to zero.</p>
+
+<p>A <code>length</code> of <code>nil</code> is equivalent to the length of
+the array.</p>
+
+<p>The last three forms fill the array with the value of the given block,
+which is passed the absolute index of each element to be filled.</p>
+
+<p>Negative values of <code>start</code> count from the end of the array,
+where <code>-1</code> is the last element.</p>
+
+<pre class="ruby"><span class="ruby-identifier">a</span> = [ <span class="ruby-string">&quot;a&quot;</span>, <span class="ruby-string">&quot;b&quot;</span>, <span class="ruby-string">&quot;c&quot;</span>, <span class="ruby-string">&quot;d&quot;</span> ]
+<span class="ruby-identifier">a</span>.<span class="ruby-identifier">fill</span>(<span class="ruby-string">&quot;x&quot;</span>)              <span class="ruby-comment">#=&gt; [&quot;x&quot;, &quot;x&quot;, &quot;x&quot;, &quot;x&quot;]</span>
+<span class="ruby-identifier">a</span>.<span class="ruby-identifier">fill</span>(<span class="ruby-string">&quot;w&quot;</span>, <span class="ruby-value">-1</span>)          <span class="ruby-comment">#=&gt; [&quot;x&quot;, &quot;x&quot;, &quot;x&quot;, &quot;w&quot;]</span>
+<span class="ruby-identifier">a</span>.<span class="ruby-identifier">fill</span>(<span class="ruby-string">&quot;z&quot;</span>, <span class="ruby-value">2</span>, <span class="ruby-value">2</span>)        <span class="ruby-comment">#=&gt; [&quot;x&quot;, &quot;x&quot;, &quot;z&quot;, &quot;z&quot;]</span>
+<span class="ruby-identifier">a</span>.<span class="ruby-identifier">fill</span>(<span class="ruby-string">&quot;y&quot;</span>, <span class="ruby-value">0</span><span class="ruby-operator">..</span><span class="ruby-value">1</span>)        <span class="ruby-comment">#=&gt; [&quot;y&quot;, &quot;y&quot;, &quot;z&quot;, &quot;z&quot;]</span>
+<span class="ruby-identifier">a</span>.<span class="ruby-identifier">fill</span> { <span class="ruby-operator">|</span><span class="ruby-identifier">i</span><span class="ruby-operator">|</span> <span class="ruby-identifier">i</span><span class="ruby-operator">*</span><span class="ruby-identifier">i</span> }       <span class="ruby-comment">#=&gt; [0, 1, 4, 9]</span>
+<span class="ruby-identifier">a</span>.<span class="ruby-identifier">fill</span>(<span class="ruby-value">-2</span>) { <span class="ruby-operator">|</span><span class="ruby-identifier">i</span><span class="ruby-operator">|</span> <span class="ruby-identifier">i</span><span class="ruby-operator">*</span><span class="ruby-identifier">i</span><span class="ruby-operator">*</span><span class="ruby-identifier">i</span> } <span class="ruby-comment">#=&gt; [0, 1, 8, 27]</span>
+<span class="ruby-identifier">a</span>.<span class="ruby-identifier">fill</span>(<span class="ruby-value">1</span>, <span class="ruby-value">2</span>) { <span class="ruby-operator">|</span><span class="ruby-identifier">i</span><span class="ruby-operator">|</span> <span class="ruby-identifier">i</span><span class="ruby-operator">+</span><span class="ruby-value">1</span> } <span class="ruby-comment">#=&gt; [0, 2, 3, 27]</span>
+<span class="ruby-identifier">a</span>.<span class="ruby-identifier">fill</span>(<span class="ruby-value">0</span><span class="ruby-operator">..</span><span class="ruby-value">1</span>) { <span class="ruby-operator">|</span><span class="ruby-identifier">i</span><span class="ruby-operator">|</span> <span class="ruby-identifier">i</span><span class="ruby-operator">+</span><span class="ruby-value">1</span> } <span class="ruby-comment">#=&gt; [1, 2, 3, 27]</span>
+</pre>
+
+
+
+            <div class="method-source-code" id="fill-source">
+              <pre> <!-- method.markup_code 290 -->
+               <span class="ruby-comment"># File mrbgems/mruby-array-ext/mrblib/array.rb, line 314</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">fill</span>(<span class="ruby-identifier">arg0</span>=<span class="ruby-keyword">nil</span>, <span class="ruby-identifier">arg1</span>=<span class="ruby-keyword">nil</span>, <span class="ruby-identifier">arg2</span>=<span class="ruby-keyword">nil</span>, <span class="ruby-operator">&amp;</span><span class="ruby-identifier">block</span>)
+  <span class="ruby-keyword">if</span> <span class="ruby-identifier">arg0</span> <span class="ruby-operator">==</span> <span class="ruby-keyword">nil</span> <span class="ruby-operator">&amp;&amp;</span> <span class="ruby-identifier">arg1</span> <span class="ruby-operator">==</span> <span class="ruby-keyword">nil</span> <span class="ruby-operator">&amp;&amp;</span> <span class="ruby-identifier">arg2</span> <span class="ruby-operator">==</span> <span class="ruby-keyword">nil</span> <span class="ruby-operator">&amp;&amp;</span> <span class="ruby-operator">!</span><span class="ruby-identifier">block</span>
+    <span class="ruby-identifier">raise</span> <span class="ruby-constant">ArgumentError</span>, <span class="ruby-string">&quot;wrong number of arguments (0 for 1..3)&quot;</span>
+  <span class="ruby-keyword">end</span>
+
+  <span class="ruby-identifier">beg</span> = <span class="ruby-identifier">len</span> = <span class="ruby-value">0</span>
+  <span class="ruby-identifier">ary</span> = []
+  <span class="ruby-keyword">if</span> <span class="ruby-identifier">block</span>
+    <span class="ruby-keyword">if</span> <span class="ruby-identifier">arg0</span> <span class="ruby-operator">==</span> <span class="ruby-keyword">nil</span> <span class="ruby-operator">&amp;&amp;</span> <span class="ruby-identifier">arg1</span> <span class="ruby-operator">==</span> <span class="ruby-keyword">nil</span> <span class="ruby-operator">&amp;&amp;</span> <span class="ruby-identifier">arg2</span> <span class="ruby-operator">==</span> <span class="ruby-keyword">nil</span>
+      <span class="ruby-comment"># ary.fill { |index| block }                    -&gt; ary</span>
+      <span class="ruby-identifier">beg</span> = <span class="ruby-value">0</span>
+      <span class="ruby-identifier">len</span> = <span class="ruby-keyword">self</span>.<span class="ruby-identifier">size</span>
+    <span class="ruby-keyword">elsif</span> <span class="ruby-identifier">arg0</span> <span class="ruby-operator">!=</span> <span class="ruby-keyword">nil</span> <span class="ruby-operator">&amp;&amp;</span> <span class="ruby-identifier">arg0</span>.<span class="ruby-identifier">kind_of?</span>(<span class="ruby-constant">Range</span>)
+      <span class="ruby-comment"># ary.fill(range) { |index| block }             -&gt; ary</span>
+      <span class="ruby-identifier">beg</span> = <span class="ruby-identifier">arg0</span>.<span class="ruby-identifier">begin</span>
+      <span class="ruby-identifier">beg</span> <span class="ruby-operator">+=</span> <span class="ruby-keyword">self</span>.<span class="ruby-identifier">size</span> <span class="ruby-keyword">if</span> <span class="ruby-identifier">beg</span> <span class="ruby-operator">&lt;</span> <span class="ruby-value">0</span>
+      <span class="ruby-identifier">len</span> = <span class="ruby-identifier">arg0</span>.<span class="ruby-identifier">end</span>
+      <span class="ruby-identifier">len</span> <span class="ruby-operator">+=</span> <span class="ruby-keyword">self</span>.<span class="ruby-identifier">size</span> <span class="ruby-keyword">if</span> <span class="ruby-identifier">len</span> <span class="ruby-operator">&lt;</span> <span class="ruby-value">0</span>
+      <span class="ruby-identifier">len</span> <span class="ruby-operator">+=</span> <span class="ruby-value">1</span> <span class="ruby-keyword">unless</span> <span class="ruby-identifier">arg0</span>.<span class="ruby-identifier">exclude_end?</span>
+    <span class="ruby-keyword">elsif</span> <span class="ruby-identifier">arg0</span> <span class="ruby-operator">!=</span> <span class="ruby-keyword">nil</span>
+      <span class="ruby-comment"># ary.fill(start [, length] ) { |index| block } -&gt; ary</span>
+      <span class="ruby-identifier">beg</span> = <span class="ruby-identifier">arg0</span>
+      <span class="ruby-identifier">beg</span> <span class="ruby-operator">+=</span> <span class="ruby-keyword">self</span>.<span class="ruby-identifier">size</span> <span class="ruby-keyword">if</span> <span class="ruby-identifier">beg</span> <span class="ruby-operator">&lt;</span> <span class="ruby-value">0</span>
+      <span class="ruby-keyword">if</span> <span class="ruby-identifier">arg1</span> <span class="ruby-operator">==</span> <span class="ruby-keyword">nil</span>
+        <span class="ruby-identifier">len</span> = <span class="ruby-keyword">self</span>.<span class="ruby-identifier">size</span>
+      <span class="ruby-keyword">else</span>
+        <span class="ruby-identifier">len</span> = <span class="ruby-identifier">arg0</span> <span class="ruby-operator">+</span> <span class="ruby-identifier">arg1</span>
+      <span class="ruby-keyword">end</span>
+    <span class="ruby-keyword">end</span>
+  <span class="ruby-keyword">else</span>
+    <span class="ruby-keyword">if</span> <span class="ruby-identifier">arg0</span> <span class="ruby-operator">!=</span> <span class="ruby-keyword">nil</span> <span class="ruby-operator">&amp;&amp;</span> <span class="ruby-identifier">arg1</span> <span class="ruby-operator">==</span> <span class="ruby-keyword">nil</span> <span class="ruby-operator">&amp;&amp;</span> <span class="ruby-identifier">arg2</span> <span class="ruby-operator">==</span> <span class="ruby-keyword">nil</span>
+      <span class="ruby-comment"># ary.fill(obj)                                 -&gt; ary</span>
+      <span class="ruby-identifier">beg</span> = <span class="ruby-value">0</span>
+      <span class="ruby-identifier">len</span> = <span class="ruby-keyword">self</span>.<span class="ruby-identifier">size</span>
+    <span class="ruby-keyword">elsif</span> <span class="ruby-identifier">arg0</span> <span class="ruby-operator">!=</span> <span class="ruby-keyword">nil</span> <span class="ruby-operator">&amp;&amp;</span> <span class="ruby-identifier">arg1</span> <span class="ruby-operator">!=</span> <span class="ruby-keyword">nil</span> <span class="ruby-operator">&amp;&amp;</span> <span class="ruby-identifier">arg1</span>.<span class="ruby-identifier">kind_of?</span>(<span class="ruby-constant">Range</span>)
+      <span class="ruby-comment"># ary.fill(obj, range )                         -&gt; ary</span>
+      <span class="ruby-identifier">beg</span> = <span class="ruby-identifier">arg1</span>.<span class="ruby-identifier">begin</span>
+      <span class="ruby-identifier">beg</span> <span class="ruby-operator">+=</span> <span class="ruby-keyword">self</span>.<span class="ruby-identifier">size</span> <span class="ruby-keyword">if</span> <span class="ruby-identifier">beg</span> <span class="ruby-operator">&lt;</span> <span class="ruby-value">0</span>
+      <span class="ruby-identifier">len</span> = <span class="ruby-identifier">arg1</span>.<span class="ruby-identifier">end</span>
+      <span class="ruby-identifier">len</span> <span class="ruby-operator">+=</span> <span class="ruby-keyword">self</span>.<span class="ruby-identifier">size</span> <span class="ruby-keyword">if</span> <span class="ruby-identifier">len</span> <span class="ruby-operator">&lt;</span> <span class="ruby-value">0</span>
+      <span class="ruby-identifier">len</span> <span class="ruby-operator">+=</span> <span class="ruby-value">1</span> <span class="ruby-keyword">unless</span> <span class="ruby-identifier">arg1</span>.<span class="ruby-identifier">exclude_end?</span>
+    <span class="ruby-keyword">elsif</span> <span class="ruby-identifier">arg0</span> <span class="ruby-operator">!=</span> <span class="ruby-keyword">nil</span> <span class="ruby-operator">&amp;&amp;</span> <span class="ruby-identifier">arg1</span> <span class="ruby-operator">!=</span> <span class="ruby-keyword">nil</span>
+      <span class="ruby-comment"># ary.fill(obj, start [, length])               -&gt; ary</span>
+      <span class="ruby-identifier">beg</span> = <span class="ruby-identifier">arg1</span>
+      <span class="ruby-identifier">beg</span> <span class="ruby-operator">+=</span> <span class="ruby-keyword">self</span>.<span class="ruby-identifier">size</span> <span class="ruby-keyword">if</span> <span class="ruby-identifier">beg</span> <span class="ruby-operator">&lt;</span> <span class="ruby-value">0</span>
+      <span class="ruby-keyword">if</span> <span class="ruby-identifier">arg2</span> <span class="ruby-operator">==</span> <span class="ruby-keyword">nil</span>
+        <span class="ruby-identifier">len</span> = <span class="ruby-keyword">self</span>.<span class="ruby-identifier">size</span>
+      <span class="ruby-keyword">else</span>
+        <span class="ruby-identifier">len</span> = <span class="ruby-identifier">beg</span> <span class="ruby-operator">+</span> <span class="ruby-identifier">arg2</span>
+      <span class="ruby-keyword">end</span>
+    <span class="ruby-keyword">end</span>
+  <span class="ruby-keyword">end</span>
+
+  <span class="ruby-identifier">i</span> = <span class="ruby-identifier">beg</span>
+  <span class="ruby-keyword">if</span> <span class="ruby-identifier">block</span>
+    <span class="ruby-keyword">while</span> <span class="ruby-identifier">i</span> <span class="ruby-operator">&lt;</span> <span class="ruby-identifier">len</span>
+      <span class="ruby-keyword">self</span>[<span class="ruby-identifier">i</span>] = <span class="ruby-identifier">block</span>.<span class="ruby-identifier">call</span>(<span class="ruby-identifier">i</span>)
+      <span class="ruby-identifier">i</span> <span class="ruby-operator">+=</span> <span class="ruby-value">1</span>
+    <span class="ruby-keyword">end</span>
+  <span class="ruby-keyword">else</span>
+    <span class="ruby-keyword">while</span> <span class="ruby-identifier">i</span> <span class="ruby-operator">&lt;</span> <span class="ruby-identifier">len</span>
+      <span class="ruby-keyword">self</span>[<span class="ruby-identifier">i</span>] = <span class="ruby-identifier">arg0</span>
+      <span class="ruby-identifier">i</span> <span class="ruby-operator">+=</span> <span class="ruby-value">1</span>
+    <span class="ruby-keyword">end</span>
+  <span class="ruby-keyword">end</span>
+  <span class="ruby-keyword">self</span>
+<span class="ruby-keyword">end</span>
+            </pre>
+            </div><!-- fill-source -->
+
+          </div>
+
+
+
+
+        </div><!-- fill-method -->
+
+        <div id="flatten-method" class="method-detail ">
+          <a name="method-i-flatten"></a>
+
+
+
+          <div class="method-heading">
+            <span class="method-callseq">flatten &rarr; new_ary</span>
+
+            <span class="method-click-advice">click to toggle source</span>
+
+          </div>
+
+          <div class="method-heading">
+            <span class="method-callseq">flatten(level) &rarr; new_ary</span>
+
+          </div>
+
+
+          <div>
+
+
+            <p>Returns a new array that is a one-dimensional flattening of this array
+(recursively). That is, for every element that is an array, extract its
+elements into the new array.  If the optional <em>level</em> argument
+determines the level of recursion to flatten.</p>
+
+<pre class="ruby"><span class="ruby-identifier">s</span> = [ <span class="ruby-value">1</span>, <span class="ruby-value">2</span>, <span class="ruby-value">3</span> ]           <span class="ruby-comment">#=&gt; [1, 2, 3]</span>
+<span class="ruby-identifier">t</span> = [ <span class="ruby-value">4</span>, <span class="ruby-value">5</span>, <span class="ruby-value">6</span>, [<span class="ruby-value">7</span>, <span class="ruby-value">8</span>] ]   <span class="ruby-comment">#=&gt; [4, 5, 6, [7, 8]]</span>
+<span class="ruby-identifier">a</span> = [ <span class="ruby-identifier">s</span>, <span class="ruby-identifier">t</span>, <span class="ruby-value">9</span>, <span class="ruby-value">10</span> ]       <span class="ruby-comment">#=&gt; [[1, 2, 3], [4, 5, 6, [7, 8]], 9, 10]</span>
+<span class="ruby-identifier">a</span>.<span class="ruby-identifier">flatten</span>                 <span class="ruby-comment">#=&gt; [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]</span>
+<span class="ruby-identifier">a</span> = [ <span class="ruby-value">1</span>, <span class="ruby-value">2</span>, [<span class="ruby-value">3</span>, [<span class="ruby-value">4</span>, <span class="ruby-value">5</span>] ] ]
+<span class="ruby-identifier">a</span>.<span class="ruby-identifier">flatten</span>(<span class="ruby-value">1</span>)              <span class="ruby-comment">#=&gt; [1, 2, 3, [4, 5]]</span>
+</pre>
+
+
+
+            <div class="method-source-code" id="flatten-source">
+              <pre> <!-- method.markup_code 290 -->
+               <span class="ruby-comment"># File mrbgems/mruby-array-ext/mrblib/array.rb, line 146</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">flatten</span>(<span class="ruby-identifier">depth</span>=<span class="ruby-keyword">nil</span>)
+  <span class="ruby-identifier">ar</span> = []
+  <span class="ruby-keyword">self</span>.<span class="ruby-identifier">each</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">e</span><span class="ruby-operator">|</span>
+    <span class="ruby-keyword">if</span> <span class="ruby-identifier">e</span>.<span class="ruby-identifier">is_a?</span>(<span class="ruby-constant">Array</span>) <span class="ruby-operator">&amp;&amp;</span> (<span class="ruby-identifier">depth</span>.<span class="ruby-identifier">nil?</span> <span class="ruby-operator">||</span> <span class="ruby-identifier">depth</span> <span class="ruby-operator">&gt;</span> <span class="ruby-value">0</span>)
+      <span class="ruby-identifier">ar</span> <span class="ruby-operator">+=</span> <span class="ruby-identifier">e</span>.<span class="ruby-identifier">flatten</span>(<span class="ruby-identifier">depth</span>.<span class="ruby-identifier">nil?</span> <span class="ruby-operator">?</span> <span class="ruby-keyword">nil</span> <span class="ruby-operator">:</span> <span class="ruby-identifier">depth</span> <span class="ruby-operator">-</span> <span class="ruby-value">1</span>)
+    <span class="ruby-keyword">else</span>
+      <span class="ruby-identifier">ar</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-identifier">e</span>
+    <span class="ruby-keyword">end</span>
+  <span class="ruby-keyword">end</span>
+  <span class="ruby-identifier">ar</span>
+<span class="ruby-keyword">end</span>
+            </pre>
+            </div><!-- flatten-source -->
+
+          </div>
+
+
+
+
+        </div><!-- flatten-method -->
+
+        <div id="flatten-21-method" class="method-detail ">
+          <a name="method-i-flatten-21"></a>
+
+
+
+          <div class="method-heading">
+            <span class="method-callseq">flatten!        &rarr; ary or nil</span>
+
+            <span class="method-click-advice">click to toggle source</span>
+
+          </div>
+
+          <div class="method-heading">
+            <span class="method-callseq">flatten!(level) &rarr; array or nil</span>
+
+          </div>
+
+
+          <div>
+
+
+            <p>Flattens <code>self</code> in place. Returns <code>nil</code> if no
+modifications were made (i.e., <em>ary</em> contains no subarrays.)  If the
+optional <em>level</em> argument determines the level of recursion to
+flatten.</p>
+
+<pre class="ruby"><span class="ruby-identifier">a</span> = [ <span class="ruby-value">1</span>, <span class="ruby-value">2</span>, [<span class="ruby-value">3</span>, [<span class="ruby-value">4</span>, <span class="ruby-value">5</span>] ] ]
+<span class="ruby-identifier">a</span>.<span class="ruby-identifier">flatten!</span>   <span class="ruby-comment">#=&gt; [1, 2, 3, 4, 5]</span>
+<span class="ruby-identifier">a</span>.<span class="ruby-identifier">flatten!</span>   <span class="ruby-comment">#=&gt; nil</span>
+<span class="ruby-identifier">a</span>            <span class="ruby-comment">#=&gt; [1, 2, 3, 4, 5]</span>
+<span class="ruby-identifier">a</span> = [ <span class="ruby-value">1</span>, <span class="ruby-value">2</span>, [<span class="ruby-value">3</span>, [<span class="ruby-value">4</span>, <span class="ruby-value">5</span>] ] ]
+<span class="ruby-identifier">a</span>.<span class="ruby-identifier">flatten!</span>(<span class="ruby-value">1</span>) <span class="ruby-comment">#=&gt; [1, 2, 3, [4, 5]]</span>
+</pre>
+
+
+
+            <div class="method-source-code" id="flatten-21-source">
+              <pre> <!-- method.markup_code 290 -->
+               <span class="ruby-comment"># File mrbgems/mruby-array-ext/mrblib/array.rb, line 175</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">flatten!</span>(<span class="ruby-identifier">depth</span>=<span class="ruby-keyword">nil</span>)
+  <span class="ruby-identifier">modified</span> = <span class="ruby-keyword">false</span>
+  <span class="ruby-identifier">ar</span> = []
+  <span class="ruby-keyword">self</span>.<span class="ruby-identifier">each</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">e</span><span class="ruby-operator">|</span>
+    <span class="ruby-keyword">if</span> <span class="ruby-identifier">e</span>.<span class="ruby-identifier">is_a?</span>(<span class="ruby-constant">Array</span>) <span class="ruby-operator">&amp;&amp;</span> (<span class="ruby-identifier">depth</span>.<span class="ruby-identifier">nil?</span> <span class="ruby-operator">||</span> <span class="ruby-identifier">depth</span> <span class="ruby-operator">&gt;</span> <span class="ruby-value">0</span>)
+      <span class="ruby-identifier">ar</span> <span class="ruby-operator">+=</span> <span class="ruby-identifier">e</span>.<span class="ruby-identifier">flatten</span>(<span class="ruby-identifier">depth</span>.<span class="ruby-identifier">nil?</span> <span class="ruby-operator">?</span> <span class="ruby-keyword">nil</span> <span class="ruby-operator">:</span> <span class="ruby-identifier">depth</span> <span class="ruby-operator">-</span> <span class="ruby-value">1</span>)
+      <span class="ruby-identifier">modified</span> = <span class="ruby-keyword">true</span>
+    <span class="ruby-keyword">else</span>
+      <span class="ruby-identifier">ar</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-identifier">e</span>
+    <span class="ruby-keyword">end</span>
+  <span class="ruby-keyword">end</span>
+  <span class="ruby-keyword">if</span> <span class="ruby-identifier">modified</span>
+    <span class="ruby-keyword">self</span>.<span class="ruby-identifier">replace</span>(<span class="ruby-identifier">ar</span>)
+  <span class="ruby-keyword">else</span>
+    <span class="ruby-keyword">nil</span>
+  <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span>
+            </pre>
+            </div><!-- flatten-21-source -->
+
+          </div>
+
+
+
+
+        </div><!-- flatten-21-method -->
+
+        <div id="insert-method" class="method-detail ">
+          <a name="method-i-insert"></a>
+
+
+
+          <div class="method-heading">
+            <span class="method-callseq">insert(index, obj...)  &rarr; ary</span>
+
+            <span class="method-click-advice">click to toggle source</span>
+
+          </div>
+
+
+          <div>
+
+
+            <p>Inserts the given values before the element with the given
+<code>index</code>.</p>
+
+<p>Negative indices count backwards from the end of the array, where
+<code>-1</code> is the last element.</p>
+
+<pre class="ruby"><span class="ruby-identifier">a</span> = <span class="ruby-node">%w{ a b c d }</span>
+<span class="ruby-identifier">a</span>.<span class="ruby-identifier">insert</span>(<span class="ruby-value">2</span>, <span class="ruby-value">99</span>)         <span class="ruby-comment">#=&gt; [&quot;a&quot;, &quot;b&quot;, 99, &quot;c&quot;, &quot;d&quot;]</span>
+<span class="ruby-identifier">a</span>.<span class="ruby-identifier">insert</span>(<span class="ruby-value">-2</span>, <span class="ruby-value">1</span>, <span class="ruby-value">2</span>, <span class="ruby-value">3</span>)   <span class="ruby-comment">#=&gt; [&quot;a&quot;, &quot;b&quot;, 99, &quot;c&quot;, 1, 2, 3, &quot;d&quot;]</span>
+</pre>
+
+
+
+            <div class="method-source-code" id="insert-source">
+              <pre> <!-- method.markup_code 290 -->
+               <span class="ruby-comment"># File mrbgems/mruby-array-ext/mrblib/array.rb, line 511</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">insert</span>(<span class="ruby-identifier">idx</span>, <span class="ruby-operator">*</span><span class="ruby-identifier">args</span>)
+  <span class="ruby-identifier">idx</span> <span class="ruby-operator">+=</span> <span class="ruby-keyword">self</span>.<span class="ruby-identifier">size</span> <span class="ruby-operator">+</span> <span class="ruby-value">1</span> <span class="ruby-keyword">if</span> <span class="ruby-identifier">idx</span> <span class="ruby-operator">&lt;</span> <span class="ruby-value">0</span>
+  <span class="ruby-keyword">self</span>[<span class="ruby-identifier">idx</span>, <span class="ruby-value">0</span>] = <span class="ruby-identifier">args</span>
+  <span class="ruby-keyword">self</span>
+<span class="ruby-keyword">end</span>
+            </pre>
+            </div><!-- insert-source -->
+
+          </div>
+
+
+
+
+        </div><!-- insert-method -->
+
+        <div id="inspect-method" class="method-detail ">
+          <a name="method-i-inspect"></a>
+
+
+          <div class="method-heading">
+            <span class="method-name">inspect</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+
+          <div>
+
+
+            <p>Return the contents of this array as a string.</p>
+
+<p>ISO 15.2.12.5.31 (x)</p>
+
+
+
+            <div class="method-source-code" id="inspect-source">
+              <pre> <!-- method.markup_code 290 -->
+               <span class="ruby-comment"># File mrblib/array.rb, line 95</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">inspect</span>
+  <span class="ruby-keyword">begin</span>
+    <span class="ruby-keyword">self</span>.<span class="ruby-identifier">_inspect</span>
+  <span class="ruby-keyword">rescue</span> <span class="ruby-constant">SystemStackError</span>
+    <span class="ruby-string">&quot;[...]&quot;</span>
+  <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span>
+            </pre>
+            </div><!-- inspect-source -->
+
+          </div>
+
+
+          <div class="aliases">
+            Also aliased as: <a href="Array.html#method-i-to_s">to_s</a>
+          </div>
+
+
+
+        </div><!-- inspect-method -->
+
+        <div id="keep_if-method" class="method-detail ">
+          <a name="method-i-keep_if"></a>
+
+
+
+          <div class="method-heading">
+            <span class="method-callseq">keep_if { |item| block } &rarr; ary</span>
+
+            <span class="method-click-advice">click to toggle source</span>
+
+          </div>
+
+          <div class="method-heading">
+            <span class="method-callseq">keep_if                  &rarr; Enumerator</span>
+
+          </div>
+
+
+          <div>
+
+
+            <p>Deletes every element of <code>self</code> for which the given block
+evaluates to <code>false</code>.</p>
+
+<p>See also <a href="Array.html#method-i-select-21">#select!</a></p>
+
+<p>If no block is given, an <a href="Enumerator.html">Enumerator</a> is
+returned instead.</p>
+
+<pre class="ruby"><span class="ruby-identifier">a</span> = [<span class="ruby-value">1</span>, <span class="ruby-value">2</span>, <span class="ruby-value">3</span>, <span class="ruby-value">4</span>, <span class="ruby-value">5</span>]
+<span class="ruby-identifier">a</span>.<span class="ruby-identifier">keep_if</span> { <span class="ruby-operator">|</span><span class="ruby-identifier">val</span><span class="ruby-operator">|</span> <span class="ruby-identifier">val</span> <span class="ruby-operator">&gt;</span> <span class="ruby-value">3</span> } <span class="ruby-comment">#=&gt; [4, 5]</span>
+</pre>
+
+
+
+            <div class="method-source-code" id="keep_if-source">
+              <pre> <!-- method.markup_code 290 -->
+               <span class="ruby-comment"># File mrbgems/mruby-array-ext/mrblib/array.rb, line 645</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">keep_if</span>(<span class="ruby-operator">&amp;</span><span class="ruby-identifier">block</span>)
+  <span class="ruby-keyword">return</span> <span class="ruby-identifier">to_enum</span> <span class="ruby-operator">:</span><span class="ruby-identifier">keep_if</span> <span class="ruby-keyword">unless</span> <span class="ruby-identifier">block_given?</span>
+
+  <span class="ruby-identifier">idx</span> = <span class="ruby-value">0</span>
+  <span class="ruby-identifier">len</span> = <span class="ruby-keyword">self</span>.<span class="ruby-identifier">size</span>
+  <span class="ruby-keyword">while</span> <span class="ruby-identifier">idx</span> <span class="ruby-operator">&lt;</span> <span class="ruby-keyword">self</span>.<span class="ruby-identifier">size</span> <span class="ruby-keyword">do</span>
+    <span class="ruby-keyword">if</span> <span class="ruby-identifier">block</span>.<span class="ruby-identifier">call</span>(<span class="ruby-keyword">self</span>[<span class="ruby-identifier">idx</span>])
+      <span class="ruby-identifier">idx</span> <span class="ruby-operator">+=</span> <span class="ruby-value">1</span>
+    <span class="ruby-keyword">else</span>
+      <span class="ruby-keyword">self</span>.<span class="ruby-identifier">delete_at</span>(<span class="ruby-identifier">idx</span>)
+    <span class="ruby-keyword">end</span>
+  <span class="ruby-keyword">end</span>
+  <span class="ruby-keyword">self</span>
+<span class="ruby-keyword">end</span>
+            </pre>
+            </div><!-- keep_if-source -->
+
+          </div>
+
+
+
+
+        </div><!-- keep_if-method -->
+
+        <div id="map-21-method" class="method-detail method-alias">
+          <a name="method-i-map-21"></a>
+
+
+          <div class="method-heading">
+            <span class="method-name">map!</span><span
+              class="method-args">(&block)</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+
+          <div>
+
+
+            <p>Alias for collect!</p>
+
+<p>ISO 15.2.12.5.20</p>
+
+
+
+          </div>
+
+
+
+
+          <div class="aliases">
+            Alias for: <a href="Array.html#method-i-collect-21">collect!</a>
+          </div>
+
+        </div><!-- map-21-method -->
+
+        <div id="reject-21-method" class="method-detail ">
+          <a name="method-i-reject-21"></a>
+
+
+
+          <div class="method-heading">
+            <span class="method-callseq">reject! { |item| block }  &rarr; ary or nil</span>
+
+            <span class="method-click-advice">click to toggle source</span>
+
+          </div>
+
+          <div class="method-heading">
+            <span class="method-callseq">reject!                   &rarr; Enumerator</span>
+
+          </div>
+
+
+          <div>
+
+
+            <p>Equivalent to <a href="Array.html#method-i-delete_if">#delete_if</a>,
+deleting elements from <code>self</code> for which the block evaluates to
+<code>true</code>, but returns <code>nil</code> if no changes were made.</p>
+
+<p>The array is changed instantly every time the block is called, not after
+the iteration is over.</p>
+
+<p>See also <a href="Enumerable.html#method-i-reject">Enumerable#reject</a>
+and <a href="Array.html#method-i-delete_if">#delete_if</a>.</p>
+
+<p>If no block is given, an <a href="Enumerator.html">Enumerator</a> is
+returned instead.</p>
+
+
+
+            <div class="method-source-code" id="reject-21-source">
+              <pre> <!-- method.markup_code 290 -->
+               <span class="ruby-comment"># File mrbgems/mruby-array-ext/mrblib/array.rb, line 479</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">reject!</span>(<span class="ruby-operator">&amp;</span><span class="ruby-identifier">block</span>)
+  <span class="ruby-keyword">return</span> <span class="ruby-identifier">to_enum</span> <span class="ruby-operator">:</span><span class="ruby-identifier">reject!</span> <span class="ruby-keyword">unless</span> <span class="ruby-identifier">block_given?</span>
+
+  <span class="ruby-identifier">len</span> = <span class="ruby-keyword">self</span>.<span class="ruby-identifier">size</span>
+  <span class="ruby-identifier">idx</span> = <span class="ruby-value">0</span>
+  <span class="ruby-keyword">while</span> <span class="ruby-identifier">idx</span> <span class="ruby-operator">&lt;</span> <span class="ruby-keyword">self</span>.<span class="ruby-identifier">size</span> <span class="ruby-keyword">do</span>
+    <span class="ruby-keyword">if</span> <span class="ruby-identifier">block</span>.<span class="ruby-identifier">call</span>(<span class="ruby-keyword">self</span>[<span class="ruby-identifier">idx</span>])
+      <span class="ruby-keyword">self</span>.<span class="ruby-identifier">delete_at</span>(<span class="ruby-identifier">idx</span>)
+    <span class="ruby-keyword">else</span>
+      <span class="ruby-identifier">idx</span> <span class="ruby-operator">+=</span> <span class="ruby-value">1</span>
+    <span class="ruby-keyword">end</span>
+  <span class="ruby-keyword">end</span>
+  <span class="ruby-keyword">if</span> <span class="ruby-keyword">self</span>.<span class="ruby-identifier">size</span> <span class="ruby-operator">==</span> <span class="ruby-identifier">len</span>
+    <span class="ruby-keyword">nil</span>
+  <span class="ruby-keyword">else</span>
+    <span class="ruby-keyword">self</span>
+  <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span>
+            </pre>
+            </div><!-- reject-21-source -->
+
+          </div>
+
+
+
+
+        </div><!-- reject-21-method -->
+
+        <div id="reverse_each-method" class="method-detail ">
+          <a name="method-i-reverse_each"></a>
+
+
+          <div class="method-heading">
+            <span class="method-name">reverse_each</span><span
+              class="method-args">(&block)</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+
+          <div>
+
+
+            <p>for efficiency</p>
+
+
+
+            <div class="method-source-code" id="reverse_each-source">
+              <pre> <!-- method.markup_code 290 -->
+               <span class="ruby-comment"># File mrbgems/mruby-array-ext/mrblib/array.rb, line 229</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">reverse_each</span>(<span class="ruby-operator">&amp;</span><span class="ruby-identifier">block</span>)
+  <span class="ruby-keyword">return</span> <span class="ruby-identifier">to_enum</span> <span class="ruby-operator">:</span><span class="ruby-identifier">reverse_each</span> <span class="ruby-keyword">unless</span> <span class="ruby-identifier">block_given?</span>
+
+  <span class="ruby-identifier">i</span> = <span class="ruby-keyword">self</span>.<span class="ruby-identifier">size</span> <span class="ruby-operator">-</span> <span class="ruby-value">1</span>
+  <span class="ruby-keyword">while</span> <span class="ruby-identifier">i</span><span class="ruby-operator">&gt;=</span><span class="ruby-value">0</span>
+    <span class="ruby-identifier">block</span>.<span class="ruby-identifier">call</span>(<span class="ruby-keyword">self</span>[<span class="ruby-identifier">i</span>])
+    <span class="ruby-identifier">i</span> <span class="ruby-operator">-=</span> <span class="ruby-value">1</span>
+  <span class="ruby-keyword">end</span>
+  <span class="ruby-keyword">self</span>
+<span class="ruby-keyword">end</span>
+            </pre>
+            </div><!-- reverse_each-source -->
+
+          </div>
+
+
+
+
+        </div><!-- reverse_each-method -->
+
+        <div id="rotate-method" class="method-detail ">
+          <a name="method-i-rotate"></a>
+
+
+
+          <div class="method-heading">
+            <span class="method-callseq">rotate(count=1)    &rarr; new_ary</span>
+
+            <span class="method-click-advice">click to toggle source</span>
+
+          </div>
+
+
+          <div>
+
+
+            <p>Returns a new array by rotating <code>self</code> so that the element at
+<code>count</code> is the first element of the new array.</p>
+
+<p>If <code>count</code> is negative then it rotates in the opposite
+direction, starting from the end of <code>self</code> where <code>-1</code>
+is the last element.</p>
+
+<pre class="ruby"><span class="ruby-identifier">a</span> = [ <span class="ruby-string">&quot;a&quot;</span>, <span class="ruby-string">&quot;b&quot;</span>, <span class="ruby-string">&quot;c&quot;</span>, <span class="ruby-string">&quot;d&quot;</span> ]
+<span class="ruby-identifier">a</span>.<span class="ruby-identifier">rotate</span>         <span class="ruby-comment">#=&gt; [&quot;b&quot;, &quot;c&quot;, &quot;d&quot;, &quot;a&quot;]</span>
+<span class="ruby-identifier">a</span>                <span class="ruby-comment">#=&gt; [&quot;a&quot;, &quot;b&quot;, &quot;c&quot;, &quot;d&quot;]</span>
+<span class="ruby-identifier">a</span>.<span class="ruby-identifier">rotate</span>(<span class="ruby-value">2</span>)      <span class="ruby-comment">#=&gt; [&quot;c&quot;, &quot;d&quot;, &quot;a&quot;, &quot;b&quot;]</span>
+<span class="ruby-identifier">a</span>.<span class="ruby-identifier">rotate</span>(<span class="ruby-value">-3</span>)     <span class="ruby-comment">#=&gt; [&quot;b&quot;, &quot;c&quot;, &quot;d&quot;, &quot;a&quot;]</span>
+</pre>
+
+
+
+            <div class="method-source-code" id="rotate-source">
+              <pre> <!-- method.markup_code 290 -->
+               <span class="ruby-comment"># File mrbgems/mruby-array-ext/mrblib/array.rb, line 398</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">rotate</span>(<span class="ruby-identifier">count</span>=<span class="ruby-value">1</span>)
+  <span class="ruby-identifier">ary</span> = []
+  <span class="ruby-identifier">len</span> = <span class="ruby-keyword">self</span>.<span class="ruby-identifier">length</span>
+
+  <span class="ruby-keyword">if</span> <span class="ruby-identifier">len</span> <span class="ruby-operator">&gt;</span> <span class="ruby-value">0</span>
+    <span class="ruby-identifier">idx</span> = (<span class="ruby-identifier">count</span> <span class="ruby-operator">&lt;</span> <span class="ruby-value">0</span>) <span class="ruby-operator">?</span> (<span class="ruby-identifier">len</span> <span class="ruby-operator">-</span> (<span class="ruby-operator">~</span><span class="ruby-identifier">count</span> <span class="ruby-operator">%</span> <span class="ruby-identifier">len</span>) <span class="ruby-operator">-</span> <span class="ruby-value">1</span>) <span class="ruby-operator">:</span> (<span class="ruby-identifier">count</span> <span class="ruby-operator">%</span> <span class="ruby-identifier">len</span>) <span class="ruby-comment"># rotate count</span>
+    <span class="ruby-identifier">len</span>.<span class="ruby-identifier">times</span> <span class="ruby-keyword">do</span>
+      <span class="ruby-identifier">ary</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-keyword">self</span>[<span class="ruby-identifier">idx</span>]
+      <span class="ruby-identifier">idx</span> <span class="ruby-operator">+=</span> <span class="ruby-value">1</span>
+      <span class="ruby-identifier">idx</span> = <span class="ruby-value">0</span> <span class="ruby-keyword">if</span> <span class="ruby-identifier">idx</span> <span class="ruby-operator">&gt;</span> <span class="ruby-identifier">len</span><span class="ruby-operator">-</span><span class="ruby-value">1</span>
+    <span class="ruby-keyword">end</span>
+  <span class="ruby-keyword">end</span>
+  <span class="ruby-identifier">ary</span>
+<span class="ruby-keyword">end</span>
+            </pre>
+            </div><!-- rotate-source -->
+
+          </div>
+
+
+
+
+        </div><!-- rotate-method -->
+
+        <div id="rotate-21-method" class="method-detail ">
+          <a name="method-i-rotate-21"></a>
+
+
+
+          <div class="method-heading">
+            <span class="method-callseq">rotate!(count=1)   &rarr; ary</span>
+
+            <span class="method-click-advice">click to toggle source</span>
+
+          </div>
+
+
+          <div>
+
+
+            <p>Rotates <code>self</code> in place so that the element at
+<code>count</code> comes first, and returns <code>self</code>.</p>
+
+<p>If <code>count</code> is negative then it rotates in the opposite
+direction, starting from the end of the array where <code>-1</code> is the
+last element.</p>
+
+<pre class="ruby"><span class="ruby-identifier">a</span> = [ <span class="ruby-string">&quot;a&quot;</span>, <span class="ruby-string">&quot;b&quot;</span>, <span class="ruby-string">&quot;c&quot;</span>, <span class="ruby-string">&quot;d&quot;</span> ]
+<span class="ruby-identifier">a</span>.<span class="ruby-identifier">rotate!</span>        <span class="ruby-comment">#=&gt; [&quot;b&quot;, &quot;c&quot;, &quot;d&quot;, &quot;a&quot;]</span>
+<span class="ruby-identifier">a</span>                <span class="ruby-comment">#=&gt; [&quot;b&quot;, &quot;c&quot;, &quot;d&quot;, &quot;a&quot;]</span>
+<span class="ruby-identifier">a</span>.<span class="ruby-identifier">rotate!</span>(<span class="ruby-value">2</span>)     <span class="ruby-comment">#=&gt; [&quot;d&quot;, &quot;a&quot;, &quot;b&quot;, &quot;c&quot;]</span>
+<span class="ruby-identifier">a</span>.<span class="ruby-identifier">rotate!</span>(<span class="ruby-value">-3</span>)    <span class="ruby-comment">#=&gt; [&quot;a&quot;, &quot;b&quot;, &quot;c&quot;, &quot;d&quot;]</span>
+</pre>
+
+
+
+            <div class="method-source-code" id="rotate-21-source">
+              <pre> <!-- method.markup_code 290 -->
+               <span class="ruby-comment"># File mrbgems/mruby-array-ext/mrblib/array.rb, line 429</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">rotate!</span>(<span class="ruby-identifier">count</span>=<span class="ruby-value">1</span>)
+  <span class="ruby-keyword">self</span>.<span class="ruby-identifier">replace</span>(<span class="ruby-keyword">self</span>.<span class="ruby-identifier">rotate</span>(<span class="ruby-identifier">count</span>))
+<span class="ruby-keyword">end</span>
+            </pre>
+            </div><!-- rotate-21-source -->
+
+          </div>
+
+
+
+
+        </div><!-- rotate-21-method -->
+
+        <div id="select-21-method" class="method-detail ">
+          <a name="method-i-select-21"></a>
+
+
+
+          <div class="method-heading">
+            <span class="method-callseq">select!  {|item| block } &rarr; ary or nil</span>
+
+            <span class="method-click-advice">click to toggle source</span>
+
+          </div>
+
+          <div class="method-heading">
+            <span class="method-callseq">select!                  &rarr; Enumerator</span>
+
+          </div>
+
+
+          <div>
+
+
+            <p>Invokes the given block passing in successive elements from
+<code>self</code>, deleting elements for which the block returns a
+<code>false</code> value.</p>
+
+<p>If changes were made, it will return <code>self</code>, otherwise it
+returns <code>nil</code>.</p>
+
+<p>See also <a href="Array.html#method-i-keep_if">#keep_if</a></p>
+
+<p>If no block is given, an <a href="Enumerator.html">Enumerator</a> is
+returned instead.</p>
+
+
+
+            <div class="method-source-code" id="select-21-source">
+              <pre> <!-- method.markup_code 290 -->
+               <span class="ruby-comment"># File mrbgems/mruby-array-ext/mrblib/array.rb, line 674</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">select!</span>(<span class="ruby-operator">&amp;</span><span class="ruby-identifier">block</span>)
+  <span class="ruby-keyword">return</span> <span class="ruby-identifier">to_enum</span> <span class="ruby-operator">:</span><span class="ruby-identifier">select!</span> <span class="ruby-keyword">unless</span> <span class="ruby-identifier">block_given?</span>
+
+  <span class="ruby-identifier">result</span> = []
+  <span class="ruby-keyword">self</span>.<span class="ruby-identifier">each</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">x</span><span class="ruby-operator">|</span>
+    <span class="ruby-identifier">result</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-identifier">x</span> <span class="ruby-keyword">if</span> <span class="ruby-identifier">block</span>.<span class="ruby-identifier">call</span>(<span class="ruby-identifier">x</span>)
+  <span class="ruby-keyword">end</span>
+  <span class="ruby-keyword">return</span> <span class="ruby-keyword">nil</span> <span class="ruby-keyword">if</span> <span class="ruby-keyword">self</span>.<span class="ruby-identifier">size</span> <span class="ruby-operator">==</span> <span class="ruby-identifier">result</span>.<span class="ruby-identifier">size</span>
+  <span class="ruby-keyword">self</span>.<span class="ruby-identifier">replace</span>(<span class="ruby-identifier">result</span>)
+<span class="ruby-keyword">end</span>
+            </pre>
+            </div><!-- select-21-source -->
+
+          </div>
+
+
+
+
+        </div><!-- select-21-method -->
+
+        <div id="sort-21-method" class="method-detail ">
+          <a name="method-i-sort-21"></a>
+
+
+          <div class="method-heading">
+            <span class="method-name">sort!</span><span
+              class="method-args">(&block)</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+
+          <div>
+
+
+            <p>Sort all elements and replace <code>self</code> with these elements.</p>
+
+
+
+            <div class="method-source-code" id="sort-21-source">
+              <pre> <!-- method.markup_code 290 -->
+               <span class="ruby-comment"># File mrblib/array.rb, line 214</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">sort!</span>(<span class="ruby-operator">&amp;</span><span class="ruby-identifier">block</span>)
+  <span class="ruby-keyword">self</span>.<span class="ruby-identifier">replace</span>(<span class="ruby-keyword">self</span>.<span class="ruby-identifier">sort</span>(<span class="ruby-operator">&amp;</span><span class="ruby-identifier">block</span>))
+<span class="ruby-keyword">end</span>
+            </pre>
+            </div><!-- sort-21-source -->
+
+          </div>
+
+
+
+
+        </div><!-- sort-21-method -->
+
+        <div id="to_s-method" class="method-detail method-alias">
+          <a name="method-i-to_s"></a>
+
+
+          <div class="method-heading">
+            <span class="method-name">to_s</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+
+          <div>
+
+
+            <p>ISO 15.2.12.5.32 (x)</p>
+
+
+
+          </div>
+
+
+
+
+          <div class="aliases">
+            Alias for: <a href="Array.html#method-i-inspect">inspect</a>
+          </div>
+
+        </div><!-- to_s-method -->
+
+        <div id="uniq-method" class="method-detail ">
+          <a name="method-i-uniq"></a>
+
+
+
+          <div class="method-heading">
+            <span class="method-callseq">uniq                &rarr; new_ary</span>
+
+            <span class="method-click-advice">click to toggle source</span>
+
+          </div>
+
+          <div class="method-heading">
+            <span class="method-callseq">uniq { |item| ... } &rarr; new_ary</span>
+
+          </div>
+
+
+          <div>
+
+
+            <p>Returns a new array by removing duplicate values in <code>self</code>.</p>
+
+<pre class="ruby"><span class="ruby-identifier">a</span> = [ <span class="ruby-string">&quot;a&quot;</span>, <span class="ruby-string">&quot;a&quot;</span>, <span class="ruby-string">&quot;b&quot;</span>, <span class="ruby-string">&quot;b&quot;</span>, <span class="ruby-string">&quot;c&quot;</span> ]
+<span class="ruby-identifier">a</span>.<span class="ruby-identifier">uniq</span>   <span class="ruby-comment">#=&gt; [&quot;a&quot;, &quot;b&quot;, &quot;c&quot;]</span>
+
+<span class="ruby-identifier">b</span> = [[<span class="ruby-string">&quot;student&quot;</span>,<span class="ruby-string">&quot;sam&quot;</span>], [<span class="ruby-string">&quot;student&quot;</span>,<span class="ruby-string">&quot;george&quot;</span>], [<span class="ruby-string">&quot;teacher&quot;</span>,<span class="ruby-string">&quot;matz&quot;</span>]]
+<span class="ruby-identifier">b</span>.<span class="ruby-identifier">uniq</span> { <span class="ruby-operator">|</span><span class="ruby-identifier">s</span><span class="ruby-operator">|</span> <span class="ruby-identifier">s</span>.<span class="ruby-identifier">first</span> } <span class="ruby-comment"># =&gt; [[&quot;student&quot;, &quot;sam&quot;], [&quot;teacher&quot;, &quot;matz&quot;]]</span>
+</pre>
+
+
+
+            <div class="method-source-code" id="uniq-source">
+              <pre> <!-- method.markup_code 290 -->
+               <span class="ruby-comment"># File mrbgems/mruby-array-ext/mrblib/array.rb, line 57</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">uniq</span>(<span class="ruby-operator">&amp;</span><span class="ruby-identifier">block</span>)
+  <span class="ruby-identifier">ary</span> = <span class="ruby-keyword">self</span>.<span class="ruby-identifier">dup</span>
+  <span class="ruby-keyword">if</span> <span class="ruby-identifier">block</span>
+    <span class="ruby-identifier">ary</span>.<span class="ruby-identifier">uniq!</span>(<span class="ruby-operator">&amp;</span><span class="ruby-identifier">block</span>)
+  <span class="ruby-keyword">else</span>
+    <span class="ruby-identifier">ary</span>.<span class="ruby-identifier">uniq!</span>
+  <span class="ruby-keyword">end</span>
+  <span class="ruby-identifier">ary</span>
+<span class="ruby-keyword">end</span>
+            </pre>
+            </div><!-- uniq-source -->
+
+          </div>
+
+
+
+
+        </div><!-- uniq-method -->
+
+        <div id="uniq-21-method" class="method-detail ">
+          <a name="method-i-uniq-21"></a>
+
+
+
+          <div class="method-heading">
+            <span class="method-callseq">uniq!                &rarr; ary or nil</span>
+
+            <span class="method-click-advice">click to toggle source</span>
+
+          </div>
+
+          <div class="method-heading">
+            <span class="method-callseq">uniq! { |item| ... } &rarr; ary or nil</span>
+
+          </div>
+
+
+          <div>
+
+
+            <p>Removes duplicate elements from <code>self</code>. Returns <code>nil</code>
+if no changes are made (that is, no duplicates are found).</p>
+
+<pre class="ruby"><span class="ruby-identifier">a</span> = [ <span class="ruby-string">&quot;a&quot;</span>, <span class="ruby-string">&quot;a&quot;</span>, <span class="ruby-string">&quot;b&quot;</span>, <span class="ruby-string">&quot;b&quot;</span>, <span class="ruby-string">&quot;c&quot;</span> ]
+<span class="ruby-identifier">a</span>.<span class="ruby-identifier">uniq!</span>   <span class="ruby-comment">#=&gt; [&quot;a&quot;, &quot;b&quot;, &quot;c&quot;]</span>
+<span class="ruby-identifier">b</span> = [ <span class="ruby-string">&quot;a&quot;</span>, <span class="ruby-string">&quot;b&quot;</span>, <span class="ruby-string">&quot;c&quot;</span> ]
+<span class="ruby-identifier">b</span>.<span class="ruby-identifier">uniq!</span>   <span class="ruby-comment">#=&gt; nil</span>
+<span class="ruby-identifier">c</span> = [[<span class="ruby-string">&quot;student&quot;</span>,<span class="ruby-string">&quot;sam&quot;</span>], [<span class="ruby-string">&quot;student&quot;</span>,<span class="ruby-string">&quot;george&quot;</span>], [<span class="ruby-string">&quot;teacher&quot;</span>,<span class="ruby-string">&quot;matz&quot;</span>]]
+<span class="ruby-identifier">c</span>.<span class="ruby-identifier">uniq!</span> { <span class="ruby-operator">|</span><span class="ruby-identifier">s</span><span class="ruby-operator">|</span> <span class="ruby-identifier">s</span>.<span class="ruby-identifier">first</span> } <span class="ruby-comment"># =&gt; [[&quot;student&quot;, &quot;sam&quot;], [&quot;teacher&quot;, &quot;matz&quot;]]</span>
+</pre>
+
+
+
+            <div class="method-source-code" id="uniq-21-source">
+              <pre> <!-- method.markup_code 290 -->
+               <span class="ruby-comment"># File mrbgems/mruby-array-ext/mrblib/array.rb, line 18</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">uniq!</span>(<span class="ruby-operator">&amp;</span><span class="ruby-identifier">block</span>)
+  <span class="ruby-identifier">ary</span> = <span class="ruby-keyword">self</span>.<span class="ruby-identifier">dup</span>
+  <span class="ruby-identifier">result</span> = []
+  <span class="ruby-keyword">if</span> <span class="ruby-identifier">block</span>
+    <span class="ruby-identifier">hash</span> = {}
+    <span class="ruby-keyword">while</span> <span class="ruby-identifier">ary</span>.<span class="ruby-identifier">size</span> <span class="ruby-operator">&gt;</span> <span class="ruby-value">0</span>
+      <span class="ruby-identifier">val</span> = <span class="ruby-identifier">ary</span>.<span class="ruby-identifier">shift</span>
+      <span class="ruby-identifier">key</span> = <span class="ruby-identifier">block</span>.<span class="ruby-identifier">call</span>(<span class="ruby-identifier">val</span>)
+      <span class="ruby-identifier">hash</span>[<span class="ruby-identifier">key</span>] = <span class="ruby-identifier">val</span> <span class="ruby-keyword">unless</span> <span class="ruby-identifier">hash</span>.<span class="ruby-identifier">has_key?</span>(<span class="ruby-identifier">key</span>)
+    <span class="ruby-keyword">end</span>
+    <span class="ruby-identifier">hash</span>.<span class="ruby-identifier">each_value</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">value</span><span class="ruby-operator">|</span>
+      <span class="ruby-identifier">result</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-identifier">value</span>
+    <span class="ruby-keyword">end</span>
+  <span class="ruby-keyword">else</span>
+    <span class="ruby-keyword">while</span> <span class="ruby-identifier">ary</span>.<span class="ruby-identifier">size</span> <span class="ruby-operator">&gt;</span> <span class="ruby-value">0</span>
+      <span class="ruby-identifier">result</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-identifier">ary</span>.<span class="ruby-identifier">shift</span>
+      <span class="ruby-identifier">ary</span>.<span class="ruby-identifier">delete</span>(<span class="ruby-identifier">result</span>.<span class="ruby-identifier">last</span>)
+    <span class="ruby-keyword">end</span>
+  <span class="ruby-keyword">end</span>
+  <span class="ruby-keyword">if</span> <span class="ruby-identifier">result</span>.<span class="ruby-identifier">size</span> <span class="ruby-operator">==</span> <span class="ruby-keyword">self</span>.<span class="ruby-identifier">size</span>
+    <span class="ruby-keyword">nil</span>
+  <span class="ruby-keyword">else</span>
+    <span class="ruby-keyword">self</span>.<span class="ruby-identifier">replace</span>(<span class="ruby-identifier">result</span>)
+  <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span>
+            </pre>
+            </div><!-- uniq-21-source -->
+
+          </div>
+
+
+
+
+        </div><!-- uniq-21-method -->
+
+        <div id="7C-method" class="method-detail ">
+          <a name="method-i-7C"></a>
+
+
+
+          <div class="method-heading">
+            <span class="method-callseq">ary | other_ary     &rarr; new_ary</span>
+
+            <span class="method-click-advice">click to toggle source</span>
+
+          </div>
+
+
+          <div>
+
+
+            <p>Set Union—Returns a new array by joining this array with
+<em>other_ary</em>, removing duplicates.</p>
+
+<pre class="ruby">[ <span class="ruby-string">&quot;a&quot;</span>, <span class="ruby-string">&quot;b&quot;</span>, <span class="ruby-string">&quot;c&quot;</span> ] <span class="ruby-operator">|</span> [ <span class="ruby-string">&quot;c&quot;</span>, <span class="ruby-string">&quot;d&quot;</span>, <span class="ruby-string">&quot;a&quot;</span> ]
+       <span class="ruby-comment">#=&gt; [ &quot;a&quot;, &quot;b&quot;, &quot;c&quot;, &quot;d&quot; ]</span>
+</pre>
+
+
+
+            <div class="method-source-code" id="7C-source">
+              <pre> <!-- method.markup_code 290 -->
+               <span class="ruby-comment"># File mrbgems/mruby-array-ext/mrblib/array.rb, line 98</span>
+<span class="ruby-keyword">def</span> <span class="ruby-operator">|</span>(<span class="ruby-identifier">elem</span>)
+  <span class="ruby-identifier">raise</span> <span class="ruby-constant">TypeError</span>, <span class="ruby-node">&quot;can't convert #{elem.class} into Array&quot;</span> <span class="ruby-keyword">unless</span> <span class="ruby-identifier">elem</span>.<span class="ruby-identifier">class</span> <span class="ruby-operator">==</span> <span class="ruby-constant">Array</span>
+
+  <span class="ruby-identifier">ary</span> = <span class="ruby-keyword">self</span> <span class="ruby-operator">+</span> <span class="ruby-identifier">elem</span>
+  <span class="ruby-identifier">ary</span>.<span class="ruby-identifier">uniq!</span> <span class="ruby-keyword">or</span> <span class="ruby-identifier">ary</span>
+<span class="ruby-keyword">end</span>
+            </pre>
+            </div><!-- 7C-source -->
+
+          </div>
+
+
+
+
+        </div><!-- 7C-method -->
+
+      </div><!-- public-instance-method-details -->
+
+    </div><!-- 5Buntitled-5D -->
+
+  <div id='tx_Array_versioned' class='associated_wrapper'></div><script type='text/javascript'>$("#tx_Array_versioned").load("/associated/mruby/Array.html");</script> <div id='tx_Array' class='associated_wrapper'></div><script type='text/javascript'>$("#tx_Array").load("/associated/Array.html");</script>
+
+  <!-- disqus ? -->
+   <div class='info'>
+  <p>Commenting is here to help enhance the documentation.  For example, code samples, or clarification of the documentation.</p>
+  <p>If you have questions about Ruby or the documentation, please post to one of the <a href='http://www.ruby-lang.org/en/community/mailing-lists/'>Ruby mailing lists</a>.  You will get better, faster, help that way.</p>
+  <p>If you wish to post a correction of the docs, please do so, but also <a href='http://bugs.ruby-lang.org' >file bug report</a> so that it can be corrected for the next release. Thank you.</p>
+  <p>If you want to help improve the Ruby documentation, please visit <a href='http://documenting-ruby.org/'>Documenting-ruby.org</a>.</p>
+    </div>
+
+
+
+  </div><!-- documentation -->
+  <div id='dynamic'>
+  </div>
+
+        <div id="disqus_thread"></div>
+  <script type="text/javascript">
+     function setDisqusUrl(){
+      var _loc = window.location.href;
+      disqus_url = _loc.split("?")[0];
+    }
+
+     var disqus_url;
+
+
+     setDisqusUrl();
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    // var disqus_shortname = 'rubydocbeta'; // required
+    var disqus_shortname = 'ruby-doc'; // required
+
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+<div class='grids wrapper' id="footer">
+  <p><small>This page was generated for Ruby mruby</small></p>
+
+   <p><a href="../index.html">Ruby-doc.org</a> is a service of <a href="../../jamesbritt.com/index.html">James Britt</a> and <a href="../../neurogami.com/index.html">Neurogami</a>, a <a href="../../neurogami.com/index.html">software development company in Scottsdale, AZ</a>.</p>
+
+    <p><small>Generated with Ruby-doc Rdoc Generator 0.33.0</small>.</p>
+  </div>
+</div>
+
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-335317-2', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+
+ <script type='text/javascript'>
+$(document).ready(function() {
+      $.ajaxSetup({ cache: false });
+      $("#vulns-alert").load("/associated/vulns.html");
+    });
+
+    </script>
+
+
+
+		<script type='text/javascript'>
+
+	function loadPlus(plusdocs){
+		var img_h = $("img.carbonad-image").css('height');
+		//if(img_h != undefined) { //---
+			$(plusdocs).find("div[class='associated_wrapper']").each (function() {
+					$("#" + this.id).append($(plusdocs).find("#" + this.id ));
+					});
+		//} // ---
+	} // end loadPlusdocs
+
+
+$(document).ready(function() {
+		$.ajaxSetup({ cache: false });
+			$.get('/associated/mruby/plus_Array.html',
+			function(plusdocs) {
+			setTimeout(function() {
+				loadPlus(plusdocs);
+				}, 2000);
+			}
+			);
+		});
+</script>
+
+</body>
+</html>
+
+

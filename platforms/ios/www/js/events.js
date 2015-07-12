@@ -27,9 +27,14 @@
       mode: "text/x-ruby",
       lineNumbers: true,
       styleActiveLine: true,
-      indentUnit: 2,
+      indentUnit: 1,
+      tabSize: 2,
+      smartIndent: true,
+      autofocus: true,
       theme: "solarized light"
     });
+
+    $('#output').height($('.footer').position().top - $('#output').position().top)
 
     webruby = new WEBRUBY({print_level: getQueryLevel()});
 

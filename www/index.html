@@ -1,26 +1,37 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <link rel="stylesheet" href="css/irb.css">
-  <link rel="stylesheet" href="css/codemirror/codemirror.css">
-  <link rel="stylesheet" href="css/codemirror/solarized.css">
+  <head>
+    <link rel="stylesheet" href="css/mruby.css">
+    <link rel="stylesheet" href="css/codemirror/codemirror.css">
+    <link rel="stylesheet" href="css/codemirror/solarized.css">
 
-  <script src="js/jquery.min.js"></script>
-  <script src="js/events.js"></script>
-  <script src="js/webruby.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/events.js"></script>
+    <script src="js/footer.js"></script>
+    <script src="js/webruby.js"></script>
 
-  <script src="js/codemirror/codemirror.js"></script>
-  <script src="js/codemirror/ruby.js"></script>
-  <script src="js/codemirror/active-line.js"></script>
-</head>
-<body>
-    <form><textarea id="code" name="code">5.times { puts "Ruby is awesome!" }</textarea></form>
+    <script src="js/codemirror/codemirror.js"></script>
+    <script src="js/codemirror/ruby.js"></script>
+    <script src="js/codemirror/active-line.js"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <form><textarea id="code" name="code">5.times { puts "Ruby is awesome!" }</textarea></form>
 
-    <button type="button" id="submit-button" class="button">Run</button>
-    <button type="button" id="clear-input" class="button">Clear editor</button>
-    <button type="button" id="clear-history" class="button">Clear history</button>
-  </div>
-  <hr>
-  <div id="output" style="font-family: Courier New,Courier,monospace;"></div>
-</body>
+      <div class="button-bar bar-assertive">
+        <button class="button button-small" id="submit-button">Run</button>
+        <button class="button button-small" id="clear-input">Clear Editor</button>
+        <button class="button button-small" id="clear-history">Clear History</button>
+      </div>
+      <hr>
+      <div id="output"></div>
+    </div>
+    <div class="footer">
+      <div class="button-bar bar-calm">
+        <button class="button button-small" id="code_link">Code</button>
+        <button class="button button-small" id="doc_link">Documentation</button>
+        <button class="button button-small" id="about_link">About</button>
+      </div>
+    </div>
+  </body>
 </html>

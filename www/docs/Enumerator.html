@@ -1,0 +1,1802 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <!-- classpage -- >
+    <!-- RD version: 0.33.0  -->
+  <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+  <meta name='description' content='  Class : Enumerator  -   Ruby mruby ' />
+  <meta content="2015-03-04 18:13:06 -0700" http-equiv="change-date" />
+  <!-- rel_prefix  = ''  ENV['RDOC_FOR_WEBSITE']   = true-->
+    
+    
+    
+  <!-- rel_prefix = '.'   asset_rel_prefix = ''  --> 
+  <title>Class: Enumerator (Ruby mruby) </title>
+  <!-- link rel="stylesheet" href=".css/obf.css"  -->
+  <link rel="stylesheet" href="../css/inuit.css" >
+  <link rel="stylesheet" href="../css/grid.inuit.css" >
+  <link rel="stylesheet" href="../css/2011.css" type="text/css" >
+  <link rel="stylesheet" href="../css/rdoc.css" type="text/css" >
+
+  <script src="../js/jquery.js" type="text/javascript" charset="utf-8"></script>
+  <script src="../js/thickbox-compressed.js" type="text/javascript" charset="utf-8"></script>
+  <script src="../js/quicksearch.js" type="text/javascript" charset="utf-8"></script>
+  <script src="../js/rubydoc.js" type="text/javascript" charset="utf-8"></script> 
+
+ 
+<script src="../js/highlight.min.js"></script>
+<script> 
+  hljs.tabReplace = '  ';
+  hljs.initHighlightingOnLoad();
+  </script> 
+
+  <style type='text/css'>
+
+    #vulns-alert #vulns{
+      background-color: #c33 ! important;
+      width: 100%;
+      text-align: center;
+   }
+   
+   #vulns-alert #vulns a {
+    color: #F99 ! important;
+   }
+ </style>
+
+</head>
+
+<body id="top" class="class rdocstar">
+<div id='actionbar' >
+<div class='wrapper'>
+  <ul class='grids g0'>
+	<li class='grid-2' ><a href='../index.html' target='_top' >Home</a></li>
+	<li class='grid-2' ><a href='../core' target='_top' >Core </a></li>
+	<li class='grid-2' ><a href='../stdlib' target='_top' >Std-lib </a></li>
+
+	 <!-- li class='grid-2' ><a href='/zems' target='_top' >Zems</a></li -->
+   <li class='grid-2' ><a href='../downloads' target='_top' >Downloads</a></li>
+	 <li class='grid-5 right' id='rd-action-search'><form id="searchbox_011815814100681837392:wnccv6st5qk" action="http://ruby-doc.com/search.html"><input type="hidden" name="cx" value="011815814100681837392:wnccv6st5qk" ><input  id='rd-search-input' name="q" type="text" size="20" >&#160;&#160;<input type="submit" name="sa" value="Search" ><input type="hidden" name="cof" value="FORID:9" ></form></li>
+	</ul>
+</div>
+<span id='vulns-alert'></span>
+<!-- VERSION HEADER for mruby NOT FOUND --></div> <!-- end action bar -->
+ <div class='wrapper'>
+  <div id="metadata">
+    <div id="home-metadata">
+      <div id="home-section" class="section">
+        <h3 class="section-header">
+          <a href="http://ruby-doc.org/core-mruby/index.html">Home</a>
+          <a href="http://ruby-doc.org/core-mruby/index.html#classes">Classes</a>
+          <a href="http://ruby-doc.org/core-mruby/index.html#methods">Methods</a>
+          
+        </h3>
+      </div>
+    </div>
+
+    <div id="file-metadata">
+      <div id="file-list-section" class="section">
+        <h3 class="section-header">In Files</h3>
+        <div class="section-body">
+          <ul id='file-metadata'>
+
+          
+          
+          
+          <li class='in-file'>mrbgems/mruby-enumerator/mrblib/enumerator.rb</li>      
+            
+          
+          <li class='in-file'>mrbgems/mruby-enumerator/test/enumerator.rb</li>      
+            
+          </ul>
+        </div>
+      </div>
+
+      
+    </div>
+
+    <div id="class-metadata">
+      
+      <!-- Parent Class -->
+      <div id="parent-class-section" class="section">
+        <h3 class="section-header">Parent</h3>
+        
+        <p class="link"><a href="Object.html">Object</a></p>
+        
+      </div>
+      
+
+      
+
+      
+      <!-- Namespace Contents -->
+      <div id="namespace-list-section" class="section">
+        <h3 class="section-header">Namespace</h3>
+        <ul class="link-list">
+          
+          <li><span class="type">CLASS</span> <a href="Enumerator/Generator.html">Enumerator::Generator</a></li>
+          
+          <li><span class="type">CLASS</span> <a href="Enumerator/Yielder.html">Enumerator::Yielder</a></li>
+          
+        </ul>
+      </div>
+      
+
+      
+      <!-- Method Quickref -->
+      <div id="method-list-section" class="section">
+        <h3 class="section-header">Methods</h3>
+        <ul class="link-list">
+          
+          <li><a href="Enumerator.html#method-c-new">::new</a></li>
+          
+          <li><a href="Enumerator.html#method-i-each">#each</a></li>
+          
+          <li><a href="Enumerator.html#method-i-each_with_index">#each_with_index</a></li>
+          
+          <li><a href="Enumerator.html#method-i-enumerator_block_call">#enumerator_block_call</a></li>
+          
+          <li><a href="Enumerator.html#method-i-feed">#feed</a></li>
+          
+          <li><a href="Enumerator.html#method-i-initialize_copy">#initialize_copy</a></li>
+          
+          <li><a href="Enumerator.html#method-i-inspect">#inspect</a></li>
+          
+          <li><a href="Enumerator.html#method-i-next">#next</a></li>
+          
+          <li><a href="Enumerator.html#method-i-next_values">#next_values</a></li>
+          
+          <li><a href="Enumerator.html#method-i-peek">#peek</a></li>
+          
+          <li><a href="Enumerator.html#method-i-peek_values">#peek_values</a></li>
+          
+          <li><a href="Enumerator.html#method-i-rewind">#rewind</a></li>
+          
+          <li><a href="Enumerator.html#method-i-with_index">#with_index</a></li>
+          
+          <li><a href="Enumerator.html#method-i-with_object">#with_object</a></li>
+          
+        </ul>
+      </div>
+      
+
+      
+      <!-- Included Modules -->
+      <div id="includes-section" class="section">
+        <h3 class="section-header">Included Modules</h3>
+        <ul class="link-list">
+        
+        
+          <li><a class="include" href="Enumerable.html">Enumerable</a></li>
+        
+        
+        </ul>
+      </div>
+      
+    </div>
+
+    <div id="project-metadata">
+      
+      
+      <div id="fileindex-section" class="section project-section">
+        <h3 class="section-header">Files</h3>
+        <ul id='files'>
+        
+          
+          <li class="file"><a href="AUTHORS.html">AUTHORS</a></li>
+        
+          
+          <li class="file"><a href="INSTALL.html">INSTALL</a></li>
+        
+          
+          <li class="file"><a href="LEGAL.html">LEGAL</a></li>
+        
+          
+          <li class="file"><a href="MITL.html">MITL</a></li>
+        
+          
+          <li class="file"><a href="Makefile.html">Makefile</a></li>
+        
+          
+          <li class="file"><a href="NEWS.html">NEWS</a></li>
+        
+          
+          <li class="file"><a href="Rakefile.html">Rakefile</a></li>
+        
+          
+          <li class="file"><a href="TODO.html">TODO</a></li>
+        
+          
+          <li class="file"><a href="examples/mrbgems/c_and_ruby_extension_example/mrbgem_rake.html">mrbgem.rake</a></li>
+        
+          
+          <li class="file"><a href="examples/mrbgems/c_extension_example/mrbgem_rake.html">mrbgem.rake</a></li>
+        
+          
+          <li class="file"><a href="examples/mrbgems/ruby_extension_example/mrbgem_rake.html">mrbgem.rake</a></li>
+        
+          
+          <li class="file"><a href="mrbgems/default_gembox.html">default.gembox</a></li>
+        
+          
+          <li class="file"><a href="mrbgems/full-core_gembox.html">full-core.gembox</a></li>
+        
+          
+          <li class="file"><a href="mrbgems/mruby-array-ext/mrbgem_rake.html">mrbgem.rake</a></li>
+        
+          
+          <li class="file"><a href="mrbgems/mruby-bin-debugger/mrbgem_rake.html">mrbgem.rake</a></li>
+        
+          
+          <li class="file"><a href="mrbgems/mruby-bin-mirb/mrbgem_rake.html">mrbgem.rake</a></li>
+        
+          
+          <li class="file"><a href="mrbgems/mruby-bin-mruby-config/mrbgem_rake.html">mrbgem.rake</a></li>
+        
+          
+          <li class="file"><a href="mrbgems/mruby-bin-mruby-config/mruby-config.html">mruby-config</a></li>
+        
+          
+          <li class="file"><a href="mrbgems/mruby-bin-mruby-config/mruby-config_bat.html">mruby-config.bat</a></li>
+        
+          
+          <li class="file"><a href="mrbgems/mruby-bin-mruby/mrbgem_rake.html">mrbgem.rake</a></li>
+        
+          
+          <li class="file"><a href="mrbgems/mruby-bin-strip/mrbgem_rake.html">mrbgem.rake</a></li>
+        
+          
+          <li class="file"><a href="mrbgems/mruby-enum-ext/mrbgem_rake.html">mrbgem.rake</a></li>
+        
+          
+          <li class="file"><a href="mrbgems/mruby-enum-lazy/mrbgem_rake.html">mrbgem.rake</a></li>
+        
+          
+          <li class="file"><a href="mrbgems/mruby-enumerator/mrbgem_rake.html">mrbgem.rake</a></li>
+        
+          
+          <li class="file"><a href="mrbgems/mruby-eval/mrbgem_rake.html">mrbgem.rake</a></li>
+        
+          
+          <li class="file"><a href="mrbgems/mruby-exit/mrbgem_rake.html">mrbgem.rake</a></li>
+        
+          
+          <li class="file"><a href="mrbgems/mruby-fiber/mrbgem_rake.html">mrbgem.rake</a></li>
+        
+          
+          <li class="file"><a href="mrbgems/mruby-hash-ext/mrbgem_rake.html">mrbgem.rake</a></li>
+        
+          
+          <li class="file"><a href="mrbgems/mruby-kernel-ext/mrbgem_rake.html">mrbgem.rake</a></li>
+        
+          
+          <li class="file"><a href="mrbgems/mruby-math/mrbgem_rake.html">mrbgem.rake</a></li>
+        
+          
+          <li class="file"><a href="mrbgems/mruby-numeric-ext/mrbgem_rake.html">mrbgem.rake</a></li>
+        
+          
+          <li class="file"><a href="mrbgems/mruby-object-ext/mrbgem_rake.html">mrbgem.rake</a></li>
+        
+          
+          <li class="file"><a href="mrbgems/mruby-objectspace/mrbgem_rake.html">mrbgem.rake</a></li>
+        
+          
+          <li class="file"><a href="mrbgems/mruby-print/mrbgem_rake.html">mrbgem.rake</a></li>
+        
+          
+          <li class="file"><a href="mrbgems/mruby-proc-ext/mrbgem_rake.html">mrbgem.rake</a></li>
+        
+          
+          <li class="file"><a href="mrbgems/mruby-random/mrbgem_rake.html">mrbgem.rake</a></li>
+        
+          
+          <li class="file"><a href="mrbgems/mruby-range-ext/mrbgem_rake.html">mrbgem.rake</a></li>
+        
+          
+          <li class="file"><a href="mrbgems/mruby-sprintf/mrbgem_rake.html">mrbgem.rake</a></li>
+        
+          
+          <li class="file"><a href="mrbgems/mruby-string-ext/mrbgem_rake.html">mrbgem.rake</a></li>
+        
+          
+          <li class="file"><a href="mrbgems/mruby-string-utf8/mrbgem_rake.html">mrbgem.rake</a></li>
+        
+          
+          <li class="file"><a href="mrbgems/mruby-struct/mrbgem_rake.html">mrbgem.rake</a></li>
+        
+          
+          <li class="file"><a href="mrbgems/mruby-symbol-ext/mrbgem_rake.html">mrbgem.rake</a></li>
+        
+          
+          <li class="file"><a href="mrbgems/mruby-time/mrbgem_rake.html">mrbgem.rake</a></li>
+        
+          
+          <li class="file"><a href="mrbgems/mruby-toplevel-ext/mrbgem_rake.html">mrbgem.rake</a></li>
+        
+          
+          <li class="file"><a href="mrblib/mrblib_rake.html">mrblib.rake</a></li>
+        
+          
+          <li class="file"><a href="src/keywords.html">keywords</a></li>
+        
+          
+          <li class="file"><a href="src/lex_def.html">lex.def</a></li>
+        
+          
+          <li class="file"><a href="src/mruby_core_rake.html">mruby_core.rake</a></li>
+        
+          
+          <li class="file"><a href="tasks/libmruby_rake.html">libmruby.rake</a></li>
+        
+          
+          <li class="file"><a href="tasks/mrbgem_spec_rake.html">mrbgem_spec.rake</a></li>
+        
+          
+          <li class="file"><a href="tasks/mrbgems_rake.html">mrbgems.rake</a></li>
+        
+          
+          <li class="file"><a href="tasks/mrbgems_test_rake.html">mrbgems_test.rake</a></li>
+        
+          
+          <li class="file"><a href="tasks/mruby_build_rake.html">mruby_build.rake</a></li>
+        
+          
+          <li class="file"><a href="tasks/mruby_build_commands_rake.html">mruby_build_commands.rake</a></li>
+        
+          
+          <li class="file"><a href="tasks/mruby_build_gem_rake.html">mruby_build_gem.rake</a></li>
+        
+          
+          <li class="file"><a href="tasks/ruby_ext_rake.html">ruby_ext.rake</a></li>
+        
+          
+          <li class="file"><a href="tasks/toolchains/androideabi_rake.html">androideabi.rake</a></li>
+        
+          
+          <li class="file"><a href="tasks/toolchains/clang_rake.html">clang.rake</a></li>
+        
+          
+          <li class="file"><a href="tasks/toolchains/gcc_rake.html">gcc.rake</a></li>
+        
+          
+          <li class="file"><a href="tasks/toolchains/visualcpp_rake.html">visualcpp.rake</a></li>
+        
+          
+          <li class="file"><a href="tools/mrbc/mrbc_rake.html">mrbc.rake</a></li>
+        
+        </ul>
+      </div>
+      
+
+      <div id="classindex-section" class="section project-section">
+        <h3 class="section-header">Class/Module Index
+          <span class="search-toggle"><img src="images/find.png"
+            height="16" width="16" alt="[+]"
+            title="show/hide quicksearch" /></span></h3>
+        <form action="Enumerator.html#" method="get" accept-charset="utf-8" class="initially-hidden">
+        <fieldset>
+          <legend>Quicksearch</legend>
+          <input type="text" name="quicksearch" value=""
+            class="quicksearch-field" />
+        </fieldset>
+        </form>
+
+        <ul class="link-list">
+          
+          
+          
+          <li><a href="ArgumentError.html">ArgumentError</a></li>
+        
+          
+          
+          <li><a href="Array.html">Array</a></li>
+        
+          
+          
+          <li><a href="BinTest_MrubyBinDebugger.html">BinTest_MrubyBinDebugger</a></li>
+        
+          
+          
+          <li><a href="CRubyExtension.html">CRubyExtension</a></li>
+        
+          
+          
+          <li><a href="Comparable.html">Comparable</a></li>
+        
+          
+          
+          <li><a href="Enumerable.html">Enumerable</a></li>
+        
+          
+          
+          <li><a href="Enumerable/Lazy.html">Enumerable::Lazy</a></li>
+        
+          
+          
+          <li><a href="Enumerator.html">Enumerator</a></li>
+        
+          
+          
+          <li><a href="Enumerator/Generator.html">Enumerator::Generator</a></li>
+        
+          
+          
+          <li><a href="Enumerator/Yielder.html">Enumerator::Yielder</a></li>
+        
+          
+          
+          <li><a href="Exception.html">Exception</a></li>
+        
+          
+          
+          <li><a href="Float.html">Float</a></li>
+        
+          
+          
+          <li><a href="FloatDomainError.html">FloatDomainError</a></li>
+        
+          
+          
+          <li><a href="Hash.html">Hash</a></li>
+        
+          
+          
+          <li><a href="IndexError.html">IndexError</a></li>
+        
+          
+          
+          <li><a href="Integer.html">Integer</a></li>
+        
+          
+          
+          <li><a href="Integral.html">Integral</a></li>
+        
+          
+          
+          <li><a href="Isect.html">Isect</a></li>
+        
+          
+          
+          <li><a href="Kernel.html">Kernel</a></li>
+        
+          
+          
+          <li><a href="KeyError.html">KeyError</a></li>
+        
+          
+          
+          <li><a href="KlassWithSecret.html">KlassWithSecret</a></li>
+        
+          
+          
+          <li><a href="LocalJumpError.html">LocalJumpError</a></li>
+        
+          
+          
+          <li><a href="MRBDoc.html">MRBDoc</a></li>
+        
+          
+          
+          <li><a href="MRBFile.html">MRBFile</a></li>
+        
+          
+          
+          <li><a href="MRuby.html">MRuby</a></li>
+        
+          
+          
+          <li><a href="Math.html">Math</a></li>
+        
+          
+          
+          <li><a href="MiniRake.html">MiniRake</a></li>
+        
+          
+          
+          <li><a href="MiniRake/DSL.html">MiniRake::DSL</a></li>
+        
+          
+          
+          <li><a href="MiniRake/FileTask.html">MiniRake::FileTask</a></li>
+        
+          
+          
+          <li><a href="MiniRake/Task.html">MiniRake::Task</a></li>
+        
+          
+          
+          <li><a href="Module.html">Module</a></li>
+        
+          
+          
+          <li><a href="NameError.html">NameError</a></li>
+        
+          
+          
+          <li><a href="NilClass.html">NilClass</a></li>
+        
+          
+          
+          <li><a href="NoMethodError.html">NoMethodError</a></li>
+        
+          
+          
+          <li><a href="NotImplementedError.html">NotImplementedError</a></li>
+        
+          
+          
+          <li><a href="Numeric.html">Numeric</a></li>
+        
+          
+          
+          <li><a href="Object.html">Object</a></li>
+        
+          
+          
+          <li><a href="Plane.html">Plane</a></li>
+        
+          
+          
+          <li><a href="Proc.html">Proc</a></li>
+        
+          
+          
+          <li><a href="Rake.html">Rake</a></li>
+        
+          
+          
+          <li><a href="RakeApp.html">RakeApp</a></li>
+        
+          
+          
+          <li><a href="Rand.html">Rand</a></li>
+        
+          
+          
+          <li><a href="Range.html">Range</a></li>
+        
+          
+          
+          <li><a href="RangeError.html">RangeError</a></li>
+        
+          
+          
+          <li><a href="Ray.html">Ray</a></li>
+        
+          
+          
+          <li><a href="RegexpError.html">RegexpError</a></li>
+        
+          
+          
+          <li><a href="RubyExtension.html">RubyExtension</a></li>
+        
+          
+          
+          <li><a href="Scene.html">Scene</a></li>
+        
+          
+          
+          <li><a href="Sphere.html">Sphere</a></li>
+        
+          
+          
+          <li><a href="StopIteration.html">StopIteration</a></li>
+        
+          
+          
+          <li><a href="String.html">String</a></li>
+        
+          
+          
+          <li><a href="Struct.html">Struct</a></li>
+        
+          
+          
+          <li><a href="Symbol.html">Symbol</a></li>
+        
+          
+          
+          <li><a href="TestEvalConstScope.html">TestEvalConstScope</a></li>
+        
+          
+          
+          <li><a href="Time.html">Time</a></li>
+        
+          
+          
+          <li><a href="ToplevelTestModule1.html">ToplevelTestModule1</a></li>
+        
+          
+          
+          <li><a href="ToplevelTestModule2.html">ToplevelTestModule2</a></li>
+        
+          
+          
+          <li><a href="TypeError.html">TypeError</a></li>
+        
+          
+          
+          <li><a href="Vec.html">Vec</a></li>
+        
+        </ul>
+        <div id="no-class-search-results" style="display: none;">No matching classes.</div>
+      </div>
+
+      
+      <div id="debugging-toggle"><img src="images/bug.png"
+        alt="toggle debugging" height="16" width="16" /></div>
+      
+    </div>
+  </div> <!-- metadata -->
+  <div class='adzbox'  id="azk83167">
+    
+   <div id="carbonads-container"><div class="carbonad"><div id="azcarbon"></div><script type="text/javascript">var z = document.createElement("script"); z.type = "text/javascript"; z.async = true; z.src = "http://engine.carbonads.com/z/19647/azcarbon_2_1_0_VERT"; var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(z, s);</script></div></div>
+
+   
+  </div> 
+  <div id="documentation">
+    <h1 class="class">Enumerator</h1>
+
+    <div id="description" class="description">
+      
+<p>A class which allows both internal and external iteration.</p>
+
+<p>An <a href="Enumerator.html">Enumerator</a> can be created by the following
+methods.</p>
+<ul><li>
+<p><a href="Kernel.html#method-i-to_enum">Kernel#to_enum</a></p>
+</li><li>
+<p><a href="Kernel.html#method-i-enum_for">Kernel#enum_for</a></p>
+</li><li>
+<p><a href="Enumerator.html#method-c-new">::new</a></p>
+</li></ul>
+
+<p>Most methods have two forms: a block form where the contents are evaluated
+for each item in the enumeration, and a non-block form which returns a new
+<a href="Enumerator.html">Enumerator</a> wrapping the iteration.</p>
+
+<pre class="ruby"><span class="ruby-identifier">enumerator</span> = <span class="ruby-node">%w(one two three)</span>.<span class="ruby-identifier">each</span>
+<span class="ruby-identifier">puts</span> <span class="ruby-identifier">enumerator</span>.<span class="ruby-identifier">class</span> <span class="ruby-comment"># =&gt; Enumerator</span>
+
+<span class="ruby-identifier">enumerator</span>.<span class="ruby-identifier">each_with_object</span>(<span class="ruby-string">&quot;foo&quot;</span>) <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">item</span>, <span class="ruby-identifier">obj</span><span class="ruby-operator">|</span>
+  <span class="ruby-identifier">puts</span> <span class="ruby-node">&quot;#{obj}: #{item}&quot;</span>
+<span class="ruby-keyword">end</span>
+
+<span class="ruby-comment"># foo: one</span>
+<span class="ruby-comment"># foo: two</span>
+<span class="ruby-comment"># foo: three</span>
+
+<span class="ruby-identifier">enum_with_obj</span> = <span class="ruby-identifier">enumerator</span>.<span class="ruby-identifier">each_with_object</span>(<span class="ruby-string">&quot;foo&quot;</span>)
+<span class="ruby-identifier">puts</span> <span class="ruby-identifier">enum_with_obj</span>.<span class="ruby-identifier">class</span> <span class="ruby-comment"># =&gt; Enumerator</span>
+
+<span class="ruby-identifier">enum_with_obj</span>.<span class="ruby-identifier">each</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">item</span>, <span class="ruby-identifier">obj</span><span class="ruby-operator">|</span>
+  <span class="ruby-identifier">puts</span> <span class="ruby-node">&quot;#{obj}: #{item}&quot;</span>
+<span class="ruby-keyword">end</span>
+
+<span class="ruby-comment"># foo: one</span>
+<span class="ruby-comment"># foo: two</span>
+<span class="ruby-comment"># foo: three</span>
+</pre>
+
+<p>This allows you to chain Enumerators together.  For example, you can map a
+list’s elements to strings containing the index and the element as a string
+via:</p>
+
+<pre class="ruby"><span class="ruby-identifier">puts</span> <span class="ruby-node">%w[foo bar baz]</span>.<span class="ruby-identifier">map</span>.<span class="ruby-identifier">with_index</span> { <span class="ruby-operator">|</span><span class="ruby-identifier">w</span>, <span class="ruby-identifier">i</span><span class="ruby-operator">|</span> <span class="ruby-node">&quot;#{i}:#{w}&quot;</span> }
+<span class="ruby-comment"># =&gt; [&quot;0:foo&quot;, &quot;1:bar&quot;, &quot;2:baz&quot;]</span>
+</pre>
+
+<p>An <a href="Enumerator.html">Enumerator</a> can also be used as an external
+iterator. For example, <a href="Enumerator.html#method-i-next">#next</a>
+returns the next value of the iterator or raises <a
+href="StopIteration.html">StopIteration</a> if the <a
+href="Enumerator.html">Enumerator</a> is at the end.</p>
+
+<pre class="ruby"><span class="ruby-identifier">e</span> = [<span class="ruby-value">1</span>,<span class="ruby-value">2</span>,<span class="ruby-value">3</span>].<span class="ruby-identifier">each</span>   <span class="ruby-comment"># returns an enumerator object.</span>
+<span class="ruby-identifier">puts</span> <span class="ruby-identifier">e</span>.<span class="ruby-identifier">next</span>   <span class="ruby-comment"># =&gt; 1</span>
+<span class="ruby-identifier">puts</span> <span class="ruby-identifier">e</span>.<span class="ruby-identifier">next</span>   <span class="ruby-comment"># =&gt; 2</span>
+<span class="ruby-identifier">puts</span> <span class="ruby-identifier">e</span>.<span class="ruby-identifier">next</span>   <span class="ruby-comment"># =&gt; 3</span>
+<span class="ruby-identifier">puts</span> <span class="ruby-identifier">e</span>.<span class="ruby-identifier">next</span>   <span class="ruby-comment"># raises StopIteration</span>
+</pre>
+
+<p>You can use this to implement an internal iterator as follows:</p>
+
+<pre class="ruby"><span class="ruby-keyword">def</span> <span class="ruby-identifier">ext_each</span>(<span class="ruby-identifier">e</span>)
+  <span class="ruby-keyword">while</span> <span class="ruby-keyword">true</span>
+    <span class="ruby-keyword">begin</span>
+      <span class="ruby-identifier">vs</span> = <span class="ruby-identifier">e</span>.<span class="ruby-identifier">next_values</span>
+    <span class="ruby-keyword">rescue</span> <span class="ruby-constant">StopIteration</span>
+      <span class="ruby-keyword">return</span> <span class="ruby-identifier">$!</span>.<span class="ruby-identifier">result</span>
+    <span class="ruby-keyword">end</span>
+    <span class="ruby-identifier">y</span> = <span class="ruby-keyword">yield</span>(<span class="ruby-operator">*</span><span class="ruby-identifier">vs</span>)
+    <span class="ruby-identifier">e</span>.<span class="ruby-identifier">feed</span> <span class="ruby-identifier">y</span>
+  <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span>
+
+<span class="ruby-identifier">o</span> = <span class="ruby-constant">Object</span>.<span class="ruby-identifier">new</span>
+
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">o</span>.<span class="ruby-identifier">each</span>
+  <span class="ruby-identifier">puts</span> <span class="ruby-keyword">yield</span>
+  <span class="ruby-identifier">puts</span> <span class="ruby-keyword">yield</span>(<span class="ruby-value">1</span>)
+  <span class="ruby-identifier">puts</span> <span class="ruby-keyword">yield</span>(<span class="ruby-value">1</span>, <span class="ruby-value">2</span>)
+  <span class="ruby-value">3</span>
+<span class="ruby-keyword">end</span>
+
+<span class="ruby-comment"># use o.each as an internal iterator directly.</span>
+<span class="ruby-identifier">puts</span> <span class="ruby-identifier">o</span>.<span class="ruby-identifier">each</span> {<span class="ruby-operator">|</span><span class="ruby-operator">*</span><span class="ruby-identifier">x</span><span class="ruby-operator">|</span> <span class="ruby-identifier">puts</span> <span class="ruby-identifier">x</span>; [:<span class="ruby-identifier">b</span>, <span class="ruby-operator">*</span><span class="ruby-identifier">x</span>] }
+<span class="ruby-comment"># =&gt; [], [:b], [1], [:b, 1], [1, 2], [:b, 1, 2], 3</span>
+
+<span class="ruby-comment"># convert o.each to an external iterator for</span>
+<span class="ruby-comment"># implementing an internal iterator.</span>
+<span class="ruby-identifier">puts</span> <span class="ruby-identifier">ext_each</span>(<span class="ruby-identifier">o</span>.<span class="ruby-identifier">to_enum</span>) {<span class="ruby-operator">|</span><span class="ruby-operator">*</span><span class="ruby-identifier">x</span><span class="ruby-operator">|</span> <span class="ruby-identifier">puts</span> <span class="ruby-identifier">x</span>; [:<span class="ruby-identifier">b</span>, <span class="ruby-operator">*</span><span class="ruby-identifier">x</span>] }
+<span class="ruby-comment"># =&gt; [], [:b], [1], [:b, 1], [1, 2], [:b, 1, 2], 3</span>
+</pre>
+
+    </div><!-- description -->
+
+    
+    
+    
+    <div id="5Buntitled-5D" class="documentation-section">
+      
+
+      
+
+      
+
+      
+      <!-- Attributes -->
+      <div id="attribute-method-details" class="method-section section">
+        <h3 class="section-header">Attributes</h3>
+
+        
+        <div id="args-attribute-method" class="method-detail">
+          <a name="args"></a>
+          
+          <a name="args="></a>
+          
+          <div class="method-heading attribute-method-heading">
+            <span class="method-name">args</span><span
+              class="attribute-access-type">[RW]</span>
+          </div>
+
+          <div class="method-description 245">
+          
+          
+          
+          </div>
+        </div>
+        
+        <div id="fib-attribute-method" class="method-detail">
+          <a name="fib"></a>
+          
+          <a name="fib="></a>
+          
+          <div class="method-heading attribute-method-heading">
+            <span class="method-name">fib</span><span
+              class="attribute-access-type">[RW]</span>
+          </div>
+
+          <div class="method-description 245">
+          
+          
+          
+          </div>
+        </div>
+        
+        <div id="meth-attribute-method" class="method-detail">
+          <a name="meth"></a>
+          
+          <a name="meth="></a>
+          
+          <div class="method-heading attribute-method-heading">
+            <span class="method-name">meth</span><span
+              class="attribute-access-type">[RW]</span>
+          </div>
+
+          <div class="method-description 245">
+          
+          
+          
+          </div>
+        </div>
+        
+        <div id="obj-attribute-method" class="method-detail">
+          <a name="obj"></a>
+          
+          <a name="obj="></a>
+          
+          <div class="method-heading attribute-method-heading">
+            <span class="method-name">obj</span><span
+              class="attribute-access-type">[RW]</span>
+          </div>
+
+          <div class="method-description 245">
+          
+          
+          
+          </div>
+        </div>
+        
+      </div><!-- attribute-method-details -->
+      
+
+      <!-- Methods -->
+      
+      <div id="public-class-method-details" class="method-section section">
+        <h3 class="section-header">Public Class Methods</h3>
+
+      
+        <div id="new-method" class="method-detail ">
+          <a name="method-c-new"></a>
+
+          
+          
+          <div class="method-heading">
+            <span class="method-callseq">new(size = nil) { |yielder| ... }</span>
+            
+            <span class="method-click-advice">click to toggle source</span>
+            
+          </div>
+          
+          <div class="method-heading">
+            <span class="method-callseq">new(obj, method = :each, *args)</span>
+            
+          </div>
+          
+          
+          <div>
+  
+            
+            <p>Creates a new <a href="Enumerator.html">Enumerator</a> object, which can be
+used as an <a href="Enumerable.html">Enumerable</a>.</p>
+
+<p>In the first form, iteration is defined by the given block, in which a
+“yielder” object, given as block parameter, can be used to yield a value by
+calling the <code>yield</code> method (aliased as +&lt;&lt;+):</p>
+
+<pre class="ruby"><span class="ruby-identifier">fib</span> = <span class="ruby-constant">Enumerator</span>.<span class="ruby-identifier">new</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">y</span><span class="ruby-operator">|</span>
+  <span class="ruby-identifier">a</span> = <span class="ruby-identifier">b</span> = <span class="ruby-value">1</span>
+  <span class="ruby-identifier">loop</span> <span class="ruby-keyword">do</span>
+    <span class="ruby-identifier">y</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-identifier">a</span>
+    <span class="ruby-identifier">a</span>, <span class="ruby-identifier">b</span> = <span class="ruby-identifier">b</span>, <span class="ruby-identifier">a</span> <span class="ruby-operator">+</span> <span class="ruby-identifier">b</span>
+  <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span>
+
+<span class="ruby-identifier">p</span> <span class="ruby-identifier">fib</span>.<span class="ruby-identifier">take</span>(<span class="ruby-value">10</span>) <span class="ruby-comment"># =&gt; [1, 1, 2, 3, 5, 8, 13, 21, 34, 55]</span>
+</pre>
+            
+
+            
+            <div class="method-source-code" id="new-source">
+              <pre> <!-- method.markup_code 290 -->
+               <span class="ruby-comment"># File mrbgems/mruby-enumerator/mrblib/enumerator.rb, line 113</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">initialize</span>(<span class="ruby-identifier">obj</span>=<span class="ruby-keyword">nil</span>, <span class="ruby-identifier">meth</span>=<span class="ruby-value">:each</span>, <span class="ruby-operator">*</span><span class="ruby-identifier">args</span>, <span class="ruby-operator">&amp;</span><span class="ruby-identifier">block</span>)
+  <span class="ruby-keyword">if</span> <span class="ruby-identifier">block_given?</span>
+    <span class="ruby-identifier">obj</span> = <span class="ruby-constant">Generator</span>.<span class="ruby-identifier">new</span>(<span class="ruby-operator">&amp;</span><span class="ruby-identifier">block</span>)
+  <span class="ruby-keyword">else</span>
+    <span class="ruby-identifier">raise</span> <span class="ruby-constant">ArgumentError</span> <span class="ruby-keyword">unless</span> <span class="ruby-identifier">obj</span>
+  <span class="ruby-keyword">end</span>
+
+  <span class="ruby-ivar">@obj</span> = <span class="ruby-identifier">obj</span>
+  <span class="ruby-ivar">@meth</span> = <span class="ruby-identifier">meth</span>
+  <span class="ruby-ivar">@args</span> = <span class="ruby-identifier">args</span>.<span class="ruby-identifier">dup</span>
+  <span class="ruby-ivar">@fib</span> = <span class="ruby-keyword">nil</span>
+  <span class="ruby-ivar">@dst</span> = <span class="ruby-keyword">nil</span>
+  <span class="ruby-ivar">@lookahead</span> = <span class="ruby-keyword">nil</span>
+  <span class="ruby-ivar">@feedvalue</span> = <span class="ruby-keyword">nil</span>
+  <span class="ruby-ivar">@stop_exc</span> = <span class="ruby-keyword">false</span>
+<span class="ruby-keyword">end</span>
+            </pre> 
+            </div><!-- new-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- new-method -->
+      
+      </div><!-- public-class-method-details -->
+    
+      <div id="public-instance-method-details" class="method-section section">
+        <h3 class="section-header">Public Instance Methods</h3>
+
+      
+        <div id="each-method" class="method-detail ">
+          <a name="method-i-each"></a>
+
+          
+          
+          <div class="method-heading">
+            <span class="method-callseq">each { |elm| block }                    &rarr; obj</span>
+            
+            <span class="method-click-advice">click to toggle source</span>
+            
+          </div>
+          
+          <div class="method-heading">
+            <span class="method-callseq">each                                    &rarr; enum</span>
+            
+          </div>
+          
+          <div class="method-heading">
+            <span class="method-callseq">each(*appending_args) { |elm| block }   &rarr; obj</span>
+            
+          </div>
+          
+          <div class="method-heading">
+            <span class="method-callseq">each(*appending_args)                   &rarr; an_enumerator</span>
+            
+          </div>
+          
+          
+          <div>
+  
+            
+            <p>Iterates over the block according to how this <a
+href="Enumerator.html">Enumerator</a> was constructed. If no block and no
+arguments are given, returns self.</p>
+
+<h3 id="method-i-each-label-Examples">Examples<span><a href="Enumerator.html#method-i-each-label-Examples">&para;</a> <a href="Enumerator.html#top">&uarr;</a></span></h3>
+
+<pre class="ruby"><span class="ruby-string">&quot;Hello, world!&quot;</span>.<span class="ruby-identifier">scan</span>(<span class="ruby-regexp">/\w+/</span>)                     <span class="ruby-comment">#=&gt; [&quot;Hello&quot;, &quot;world&quot;]</span>
+<span class="ruby-string">&quot;Hello, world!&quot;</span>.<span class="ruby-identifier">to_enum</span>(:<span class="ruby-identifier">scan</span>, <span class="ruby-regexp">/\w+/</span>).<span class="ruby-identifier">to_a</span>      <span class="ruby-comment">#=&gt; [&quot;Hello&quot;, &quot;world&quot;]</span>
+<span class="ruby-string">&quot;Hello, world!&quot;</span>.<span class="ruby-identifier">to_enum</span>(:<span class="ruby-identifier">scan</span>).<span class="ruby-identifier">each</span>(<span class="ruby-regexp">/\w+/</span>).<span class="ruby-identifier">to_a</span> <span class="ruby-comment">#=&gt; [&quot;Hello&quot;, &quot;world&quot;]</span>
+
+<span class="ruby-identifier">obj</span> = <span class="ruby-constant">Object</span>.<span class="ruby-identifier">new</span>
+
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">obj</span>.<span class="ruby-identifier">each_arg</span>(<span class="ruby-identifier">a</span>, <span class="ruby-identifier">b</span>=:<span class="ruby-identifier">b</span>, <span class="ruby-operator">*</span><span class="ruby-identifier">rest</span>)
+  <span class="ruby-keyword">yield</span> <span class="ruby-identifier">a</span>
+  <span class="ruby-keyword">yield</span> <span class="ruby-identifier">b</span>
+  <span class="ruby-keyword">yield</span> <span class="ruby-identifier">rest</span>
+  :<span class="ruby-identifier">method_returned</span>
+<span class="ruby-keyword">end</span>
+
+<span class="ruby-identifier">enum</span> = <span class="ruby-identifier">obj</span>.<span class="ruby-identifier">to_enum</span> :<span class="ruby-identifier">each_arg</span>, :<span class="ruby-identifier">a</span>, :<span class="ruby-identifier">x</span>
+
+<span class="ruby-identifier">enum</span>.<span class="ruby-identifier">each</span>.<span class="ruby-identifier">to_a</span>                  <span class="ruby-comment">#=&gt; [:a, :x, []]</span>
+<span class="ruby-identifier">enum</span>.<span class="ruby-identifier">each</span>.<span class="ruby-identifier">equal?</span>(<span class="ruby-identifier">enum</span>)          <span class="ruby-comment">#=&gt; true</span>
+<span class="ruby-identifier">enum</span>.<span class="ruby-identifier">each</span> { <span class="ruby-operator">|</span><span class="ruby-identifier">elm</span><span class="ruby-operator">|</span> <span class="ruby-identifier">elm</span> }         <span class="ruby-comment">#=&gt; :method_returned</span>
+
+<span class="ruby-identifier">enum</span>.<span class="ruby-identifier">each</span>(:<span class="ruby-identifier">y</span>, :<span class="ruby-identifier">z</span>).<span class="ruby-identifier">to_a</span>          <span class="ruby-comment">#=&gt; [:a, :x, [:y, :z]]</span>
+<span class="ruby-identifier">enum</span>.<span class="ruby-identifier">each</span>(:<span class="ruby-identifier">y</span>, :<span class="ruby-identifier">z</span>).<span class="ruby-identifier">equal?</span>(<span class="ruby-identifier">enum</span>)  <span class="ruby-comment">#=&gt; false</span>
+<span class="ruby-identifier">enum</span>.<span class="ruby-identifier">each</span>(:<span class="ruby-identifier">y</span>, :<span class="ruby-identifier">z</span>) { <span class="ruby-operator">|</span><span class="ruby-identifier">elm</span><span class="ruby-operator">|</span> <span class="ruby-identifier">elm</span> } <span class="ruby-comment">#=&gt; :method_returned</span>
+</pre>
+            
+
+            
+            <div class="method-source-code" id="each-source">
+              <pre> <!-- method.markup_code 290 -->
+               <span class="ruby-comment"># File mrbgems/mruby-enumerator/mrblib/enumerator.rb, line 263</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">each</span>(<span class="ruby-operator">*</span><span class="ruby-identifier">argv</span>, <span class="ruby-operator">&amp;</span><span class="ruby-identifier">block</span>)
+  <span class="ruby-identifier">obj</span> = <span class="ruby-keyword">self</span>
+  <span class="ruby-keyword">if</span> <span class="ruby-value">0</span> <span class="ruby-operator">&lt;</span> <span class="ruby-identifier">argv</span>.<span class="ruby-identifier">length</span>
+    <span class="ruby-identifier">obj</span> = <span class="ruby-keyword">self</span>.<span class="ruby-identifier">dup</span>
+    <span class="ruby-identifier">args</span> = <span class="ruby-identifier">obj</span>.<span class="ruby-identifier">args</span>
+    <span class="ruby-keyword">if</span> <span class="ruby-operator">!</span><span class="ruby-identifier">args</span>.<span class="ruby-identifier">empty?</span>
+      <span class="ruby-identifier">args</span> = <span class="ruby-identifier">args</span>.<span class="ruby-identifier">dup</span>
+      <span class="ruby-identifier">args</span>.<span class="ruby-identifier">concat</span> <span class="ruby-identifier">argv</span>
+    <span class="ruby-keyword">else</span>
+      <span class="ruby-identifier">args</span> = <span class="ruby-identifier">argv</span>.<span class="ruby-identifier">dup</span>
+    <span class="ruby-keyword">end</span>
+    <span class="ruby-identifier">obj</span>.<span class="ruby-identifier">args</span> = <span class="ruby-identifier">args</span>
+  <span class="ruby-keyword">end</span>
+  <span class="ruby-keyword">return</span> <span class="ruby-identifier">obj</span> <span class="ruby-keyword">unless</span> <span class="ruby-identifier">block_given?</span>
+  <span class="ruby-identifier">enumerator_block_call</span>(<span class="ruby-operator">&amp;</span><span class="ruby-identifier">block</span>)
+<span class="ruby-keyword">end</span>
+            </pre> 
+            </div><!-- each-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- each-method -->
+      
+        <div id="each_with_index-method" class="method-detail ">
+          <a name="method-i-each_with_index"></a>
+
+          
+          
+          <div class="method-heading">
+            <span class="method-callseq">each_with_index {|(*args), idx| ... }</span>
+            
+            <span class="method-click-advice">click to toggle source</span>
+            
+          </div>
+          
+          <div class="method-heading">
+            <span class="method-callseq">each_with_index</span>
+            
+          </div>
+          
+          
+          <div>
+  
+            
+            <p>Same as <a href="Enumerator.html#method-i-with_index">#with_index</a>, i.e.
+there is no starting offset.</p>
+
+<p>If no block is given, a new <a href="Enumerator.html">Enumerator</a> is
+returned that includes the index.</p>
+            
+
+            
+            <div class="method-source-code" id="each_with_index-source">
+              <pre> <!-- method.markup_code 290 -->
+               <span class="ruby-comment"># File mrbgems/mruby-enumerator/mrblib/enumerator.rb, line 175</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">each_with_index</span>
+  <span class="ruby-identifier">with_index</span>
+<span class="ruby-keyword">end</span>
+            </pre> 
+            </div><!-- each_with_index-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- each_with_index-method -->
+      
+        <div id="feed-method" class="method-detail ">
+          <a name="method-i-feed"></a>
+
+          
+          
+          <div class="method-heading">
+            <span class="method-callseq">feed obj   &rarr; nil</span>
+            
+            <span class="method-click-advice">click to toggle source</span>
+            
+          </div>
+          
+          
+          <div>
+  
+            
+            <p>Sets the value to be returned by the next yield inside <code>e</code>.</p>
+
+<p>If the value is not set, the yield returns nil.</p>
+
+<p>This value is cleared after being yielded.</p>
+
+<pre class="ruby"><span class="ruby-comment"># Array#map passes the array's elements to &quot;yield&quot; and collects the</span>
+<span class="ruby-comment"># results of &quot;yield&quot; as an array.</span>
+<span class="ruby-comment"># Following example shows that &quot;next&quot; returns the passed elements and</span>
+<span class="ruby-comment"># values passed to &quot;feed&quot; are collected as an array which can be</span>
+<span class="ruby-comment"># obtained by StopIteration#result.</span>
+<span class="ruby-identifier">e</span> = [<span class="ruby-value">1</span>,<span class="ruby-value">2</span>,<span class="ruby-value">3</span>].<span class="ruby-identifier">map</span>
+<span class="ruby-identifier">p</span> <span class="ruby-identifier">e</span>.<span class="ruby-identifier">next</span>           <span class="ruby-comment">#=&gt; 1</span>
+<span class="ruby-identifier">e</span>.<span class="ruby-identifier">feed</span> <span class="ruby-string">&quot;a&quot;</span>
+<span class="ruby-identifier">p</span> <span class="ruby-identifier">e</span>.<span class="ruby-identifier">next</span>           <span class="ruby-comment">#=&gt; 2</span>
+<span class="ruby-identifier">e</span>.<span class="ruby-identifier">feed</span> <span class="ruby-string">&quot;b&quot;</span>
+<span class="ruby-identifier">p</span> <span class="ruby-identifier">e</span>.<span class="ruby-identifier">next</span>           <span class="ruby-comment">#=&gt; 3</span>
+<span class="ruby-identifier">e</span>.<span class="ruby-identifier">feed</span> <span class="ruby-string">&quot;c&quot;</span>
+<span class="ruby-keyword">begin</span>
+  <span class="ruby-identifier">e</span>.<span class="ruby-identifier">next</span>
+<span class="ruby-keyword">rescue</span> <span class="ruby-constant">StopIteration</span>
+  <span class="ruby-identifier">p</span> <span class="ruby-identifier">$!</span>.<span class="ruby-identifier">result</span>      <span class="ruby-comment">#=&gt; [&quot;a&quot;, &quot;b&quot;, &quot;c&quot;]</span>
+<span class="ruby-keyword">end</span>
+
+<span class="ruby-identifier">o</span> = <span class="ruby-constant">Object</span>.<span class="ruby-identifier">new</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">o</span>.<span class="ruby-identifier">each</span>
+  <span class="ruby-identifier">x</span> = <span class="ruby-keyword">yield</span>         <span class="ruby-comment"># (2) blocks</span>
+  <span class="ruby-identifier">p</span> <span class="ruby-identifier">x</span>               <span class="ruby-comment"># (5) =&gt; &quot;foo&quot;</span>
+  <span class="ruby-identifier">x</span> = <span class="ruby-keyword">yield</span>         <span class="ruby-comment"># (6) blocks</span>
+  <span class="ruby-identifier">p</span> <span class="ruby-identifier">x</span>               <span class="ruby-comment"># (8) =&gt; nil</span>
+  <span class="ruby-identifier">x</span> = <span class="ruby-keyword">yield</span>         <span class="ruby-comment"># (9) blocks</span>
+  <span class="ruby-identifier">p</span> <span class="ruby-identifier">x</span>               <span class="ruby-comment"># not reached w/o another e.next</span>
+<span class="ruby-keyword">end</span>
+
+<span class="ruby-identifier">e</span> = <span class="ruby-identifier">o</span>.<span class="ruby-identifier">to_enum</span>
+<span class="ruby-identifier">e</span>.<span class="ruby-identifier">next</span>              <span class="ruby-comment"># (1)</span>
+<span class="ruby-identifier">e</span>.<span class="ruby-identifier">feed</span> <span class="ruby-string">&quot;foo&quot;</span>        <span class="ruby-comment"># (3)</span>
+<span class="ruby-identifier">e</span>.<span class="ruby-identifier">next</span>              <span class="ruby-comment"># (4)</span>
+<span class="ruby-identifier">e</span>.<span class="ruby-identifier">next</span>              <span class="ruby-comment"># (7)</span>
+                    <span class="ruby-comment"># (10)</span>
+</pre>
+            
+
+            
+            <div class="method-source-code" id="feed-source">
+              <pre> <!-- method.markup_code 290 -->
+               <span class="ruby-comment"># File mrbgems/mruby-enumerator/mrblib/enumerator.rb, line 513</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">feed</span>(<span class="ruby-identifier">value</span>)
+  <span class="ruby-identifier">raise</span> <span class="ruby-constant">TypeError</span>, <span class="ruby-string">&quot;feed value already set&quot;</span> <span class="ruby-keyword">if</span> <span class="ruby-ivar">@feedvalue</span>
+  <span class="ruby-ivar">@feedvalue</span> = <span class="ruby-identifier">value</span>
+  <span class="ruby-keyword">nil</span>
+<span class="ruby-keyword">end</span>
+            </pre> 
+            </div><!-- feed-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- feed-method -->
+      
+        <div id="initialize_copy-method" class="method-detail ">
+          <a name="method-i-initialize_copy"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">initialize_copy</span><span
+              class="method-args">(obj)</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+          <div>
+  
+            
+            
+            
+
+            
+            <div class="method-source-code" id="initialize_copy-source">
+              <pre> <!-- method.markup_code 290 -->
+               <span class="ruby-comment"># File mrbgems/mruby-enumerator/mrblib/enumerator.rb, line 132</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">initialize_copy</span>(<span class="ruby-identifier">obj</span>)
+  <span class="ruby-identifier">raise</span> <span class="ruby-constant">TypeError</span>, <span class="ruby-node">&quot;can't copy type #{obj.class}&quot;</span> <span class="ruby-keyword">unless</span> <span class="ruby-identifier">obj</span>.<span class="ruby-identifier">kind_of?</span> <span class="ruby-constant">Enumerator</span>
+  <span class="ruby-identifier">raise</span> <span class="ruby-constant">TypeError</span>, <span class="ruby-string">&quot;can't copy execution context&quot;</span> <span class="ruby-keyword">if</span> <span class="ruby-identifier">obj</span>.<span class="ruby-identifier">fib</span>
+  <span class="ruby-ivar">@obj</span> = <span class="ruby-identifier">obj</span>.<span class="ruby-identifier">obj</span>
+  <span class="ruby-ivar">@meth</span> = <span class="ruby-identifier">obj</span>.<span class="ruby-identifier">meth</span>
+  <span class="ruby-ivar">@args</span> = <span class="ruby-identifier">obj</span>.<span class="ruby-identifier">args</span>
+  <span class="ruby-ivar">@fib</span> = <span class="ruby-keyword">nil</span>
+  <span class="ruby-ivar">@lookahead</span> = <span class="ruby-keyword">nil</span>
+  <span class="ruby-ivar">@feedvalue</span> = <span class="ruby-keyword">nil</span>
+  <span class="ruby-keyword">self</span>
+<span class="ruby-keyword">end</span>
+            </pre> 
+            </div><!-- initialize_copy-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- initialize_copy-method -->
+      
+        <div id="inspect-method" class="method-detail ">
+          <a name="method-i-inspect"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">inspect</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+          <div>
+  
+            
+            
+            
+
+            
+            <div class="method-source-code" id="inspect-source">
+              <pre> <!-- method.markup_code 290 -->
+               <span class="ruby-comment"># File mrbgems/mruby-enumerator/mrblib/enumerator.rb, line 217</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">inspect</span>
+  <span class="ruby-keyword">return</span> <span class="ruby-node">&quot;#&lt;#{self.class}: uninitialized&gt;&quot;</span> <span class="ruby-keyword">unless</span> <span class="ruby-ivar">@obj</span>
+
+  <span class="ruby-keyword">if</span> <span class="ruby-ivar">@args</span> <span class="ruby-operator">&amp;&amp;</span> <span class="ruby-ivar">@args</span>.<span class="ruby-identifier">size</span> <span class="ruby-operator">&gt;</span> <span class="ruby-value">0</span>
+    <span class="ruby-identifier">args</span> = <span class="ruby-ivar">@args</span>.<span class="ruby-identifier">join</span>(<span class="ruby-string">&quot;, &quot;</span>)
+    <span class="ruby-node">&quot;#&lt;#{self.class}: #{@obj}:#{@meth}(#{args})&gt;&quot;</span>
+  <span class="ruby-keyword">else</span>
+    <span class="ruby-node">&quot;#&lt;#{self.class}: #{@obj}:#{@meth}&gt;&quot;</span>
+  <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span>
+            </pre> 
+            </div><!-- inspect-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- inspect-method -->
+      
+        <div id="next-method" class="method-detail ">
+          <a name="method-i-next"></a>
+
+          
+          
+          <div class="method-heading">
+            <span class="method-callseq">next   &rarr; object</span>
+            
+            <span class="method-click-advice">click to toggle source</span>
+            
+          </div>
+          
+          
+          <div>
+  
+            
+            <p>Returns the next object in the enumerator, and move the internal position
+forward.  When the position reached at the end, <a
+href="StopIteration.html">StopIteration</a> is raised.</p>
+
+<h3 id="method-i-next-label-Example">Example<span><a href="Enumerator.html#method-i-next-label-Example">&para;</a> <a href="Enumerator.html#top">&uarr;</a></span></h3>
+
+<pre class="ruby"><span class="ruby-identifier">a</span> = [<span class="ruby-value">1</span>,<span class="ruby-value">2</span>,<span class="ruby-value">3</span>]
+<span class="ruby-identifier">e</span> = <span class="ruby-identifier">a</span>.<span class="ruby-identifier">to_enum</span>
+<span class="ruby-identifier">p</span> <span class="ruby-identifier">e</span>.<span class="ruby-identifier">next</span>   <span class="ruby-comment">#=&gt; 1</span>
+<span class="ruby-identifier">p</span> <span class="ruby-identifier">e</span>.<span class="ruby-identifier">next</span>   <span class="ruby-comment">#=&gt; 2</span>
+<span class="ruby-identifier">p</span> <span class="ruby-identifier">e</span>.<span class="ruby-identifier">next</span>   <span class="ruby-comment">#=&gt; 3</span>
+<span class="ruby-identifier">p</span> <span class="ruby-identifier">e</span>.<span class="ruby-identifier">next</span>   <span class="ruby-comment">#raises StopIteration</span>
+</pre>
+
+<p>Note that enumeration sequence by <code>next</code> does not affect other
+non-external enumeration methods, unless the underlying iteration methods
+itself has side-effect</p>
+            
+
+            
+            <div class="method-source-code" id="next-source">
+              <pre> <!-- method.markup_code 290 -->
+               <span class="ruby-comment"># File mrbgems/mruby-enumerator/mrblib/enumerator.rb, line 305</span>
+<span class="ruby-keyword">def</span> <span class="ruby-keyword">next</span>
+  <span class="ruby-identifier">next_values</span>.<span class="ruby-identifier">__svalue</span>
+<span class="ruby-keyword">end</span>
+            </pre> 
+            </div><!-- next-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- next-method -->
+      
+        <div id="next_values-method" class="method-detail ">
+          <a name="method-i-next_values"></a>
+
+          
+          
+          <div class="method-heading">
+            <span class="method-callseq">next_values   &rarr; array</span>
+            
+            <span class="method-click-advice">click to toggle source</span>
+            
+          </div>
+          
+          
+          <div>
+  
+            
+            <p>Returns the next object as an array in the enumerator, and move the
+internal position forward.  When the position reached at the end, <a
+href="StopIteration.html">StopIteration</a> is raised.</p>
+
+<p>This method can be used to distinguish <code>yield</code> and <code>yield
+nil</code>.</p>
+
+<h3 id="method-i-next_values-label-Example">Example<span><a href="Enumerator.html#method-i-next_values-label-Example">&para;</a> <a href="Enumerator.html#top">&uarr;</a></span></h3>
+
+<pre class="ruby"><span class="ruby-identifier">o</span> = <span class="ruby-constant">Object</span>.<span class="ruby-identifier">new</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">o</span>.<span class="ruby-identifier">each</span>
+  <span class="ruby-keyword">yield</span>
+  <span class="ruby-keyword">yield</span> <span class="ruby-value">1</span>
+  <span class="ruby-keyword">yield</span> <span class="ruby-value">1</span>, <span class="ruby-value">2</span>
+  <span class="ruby-keyword">yield</span> <span class="ruby-keyword">nil</span>
+  <span class="ruby-keyword">yield</span> [<span class="ruby-value">1</span>, <span class="ruby-value">2</span>]
+<span class="ruby-keyword">end</span>
+<span class="ruby-identifier">e</span> = <span class="ruby-identifier">o</span>.<span class="ruby-identifier">to_enum</span>
+<span class="ruby-identifier">p</span> <span class="ruby-identifier">e</span>.<span class="ruby-identifier">next_values</span>
+<span class="ruby-identifier">p</span> <span class="ruby-identifier">e</span>.<span class="ruby-identifier">next_values</span>
+<span class="ruby-identifier">p</span> <span class="ruby-identifier">e</span>.<span class="ruby-identifier">next_values</span>
+<span class="ruby-identifier">p</span> <span class="ruby-identifier">e</span>.<span class="ruby-identifier">next_values</span>
+<span class="ruby-identifier">p</span> <span class="ruby-identifier">e</span>.<span class="ruby-identifier">next_values</span>
+<span class="ruby-identifier">e</span> = <span class="ruby-identifier">o</span>.<span class="ruby-identifier">to_enum</span>
+<span class="ruby-identifier">p</span> <span class="ruby-identifier">e</span>.<span class="ruby-identifier">next</span>
+<span class="ruby-identifier">p</span> <span class="ruby-identifier">e</span>.<span class="ruby-identifier">next</span>
+<span class="ruby-identifier">p</span> <span class="ruby-identifier">e</span>.<span class="ruby-identifier">next</span>
+<span class="ruby-identifier">p</span> <span class="ruby-identifier">e</span>.<span class="ruby-identifier">next</span>
+<span class="ruby-identifier">p</span> <span class="ruby-identifier">e</span>.<span class="ruby-identifier">next</span>
+
+<span class="ruby-comment">## yield args       next_values      next</span>
+<span class="ruby-comment">#  yield            []               nil</span>
+<span class="ruby-comment">#  yield 1          [1]              1</span>
+<span class="ruby-comment">#  yield 1, 2       [1, 2]           [1, 2]</span>
+<span class="ruby-comment">#  yield nil        [nil]            nil</span>
+<span class="ruby-comment">#  yield [1, 2]     [[1, 2]]         [1, 2]</span>
+</pre>
+
+<p>Note that <code>next_values</code> does not affect other non-external
+enumeration methods unless underlying iteration method itself has
+side-effect</p>
+            
+
+            
+            <div class="method-source-code" id="next_values-source">
+              <pre> <!-- method.markup_code 290 -->
+               <span class="ruby-comment"># File mrbgems/mruby-enumerator/mrblib/enumerator.rb, line 353</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">next_values</span>
+  <span class="ruby-keyword">if</span> <span class="ruby-ivar">@lookahead</span>
+    <span class="ruby-identifier">vs</span> = <span class="ruby-ivar">@lookahead</span>
+    <span class="ruby-ivar">@lookahead</span> = <span class="ruby-keyword">nil</span>
+    <span class="ruby-keyword">return</span> <span class="ruby-identifier">vs</span>
+  <span class="ruby-keyword">end</span>
+  <span class="ruby-identifier">raise</span> <span class="ruby-ivar">@stop_exc</span> <span class="ruby-keyword">if</span> <span class="ruby-ivar">@stop_exc</span>
+
+  <span class="ruby-identifier">curr</span> = <span class="ruby-constant">Fiber</span>.<span class="ruby-identifier">current</span>
+
+  <span class="ruby-keyword">if</span> <span class="ruby-operator">!</span><span class="ruby-ivar">@fib</span> <span class="ruby-operator">||</span> <span class="ruby-operator">!</span><span class="ruby-ivar">@fib</span>.<span class="ruby-identifier">alive?</span>
+    <span class="ruby-ivar">@dst</span> = <span class="ruby-identifier">curr</span>
+    <span class="ruby-ivar">@fib</span> = <span class="ruby-constant">Fiber</span>.<span class="ruby-identifier">new</span> <span class="ruby-keyword">do</span>
+      <span class="ruby-identifier">result</span> = <span class="ruby-identifier">each</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-operator">*</span><span class="ruby-identifier">args</span><span class="ruby-operator">|</span>
+        <span class="ruby-identifier">feedvalue</span> = <span class="ruby-keyword">nil</span>
+        <span class="ruby-constant">Fiber</span>.<span class="ruby-identifier">yield</span> <span class="ruby-identifier">args</span>
+        <span class="ruby-keyword">if</span> <span class="ruby-ivar">@feedvalue</span>
+          <span class="ruby-identifier">feedvalue</span> = <span class="ruby-ivar">@feedvalue</span>
+          <span class="ruby-ivar">@feedvalue</span> = <span class="ruby-keyword">nil</span>
+        <span class="ruby-keyword">end</span>
+        <span class="ruby-identifier">feedvalue</span>
+      <span class="ruby-keyword">end</span>
+      <span class="ruby-ivar">@stop_exc</span> = <span class="ruby-constant">StopIteration</span>.<span class="ruby-identifier">new</span> <span class="ruby-string">&quot;iteration reached an end&quot;</span>
+      <span class="ruby-ivar">@stop_exc</span>.<span class="ruby-identifier">result</span> = <span class="ruby-identifier">result</span>
+      <span class="ruby-constant">Fiber</span>.<span class="ruby-identifier">yield</span> <span class="ruby-keyword">nil</span>
+    <span class="ruby-keyword">end</span>
+    <span class="ruby-ivar">@lookahead</span> = <span class="ruby-keyword">nil</span>
+  <span class="ruby-keyword">end</span>
+
+  <span class="ruby-identifier">vs</span> = <span class="ruby-ivar">@fib</span>.<span class="ruby-identifier">resume</span> <span class="ruby-identifier">curr</span>
+  <span class="ruby-keyword">if</span> <span class="ruby-ivar">@stop_exc</span>
+    <span class="ruby-ivar">@fib</span> = <span class="ruby-keyword">nil</span>
+    <span class="ruby-ivar">@dst</span> = <span class="ruby-keyword">nil</span>
+    <span class="ruby-ivar">@lookahead</span> = <span class="ruby-keyword">nil</span>
+    <span class="ruby-ivar">@feedvalue</span> = <span class="ruby-keyword">nil</span>
+    <span class="ruby-identifier">raise</span> <span class="ruby-ivar">@stop_exc</span>
+  <span class="ruby-keyword">end</span>
+  <span class="ruby-identifier">vs</span>
+<span class="ruby-keyword">end</span>
+            </pre> 
+            </div><!-- next_values-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- next_values-method -->
+      
+        <div id="peek-method" class="method-detail ">
+          <a name="method-i-peek"></a>
+
+          
+          
+          <div class="method-heading">
+            <span class="method-callseq">peek   &rarr; object</span>
+            
+            <span class="method-click-advice">click to toggle source</span>
+            
+          </div>
+          
+          
+          <div>
+  
+            
+            <p>Returns the next object in the enumerator, but doesn’t move the internal
+position forward.  If the position is already at the end, <a
+href="StopIteration.html">StopIteration</a> is raised.</p>
+
+<h3 id="method-i-peek-label-Example">Example<span><a href="Enumerator.html#method-i-peek-label-Example">&para;</a> <a href="Enumerator.html#top">&uarr;</a></span></h3>
+
+<pre class="ruby"><span class="ruby-identifier">a</span> = [<span class="ruby-value">1</span>,<span class="ruby-value">2</span>,<span class="ruby-value">3</span>]
+<span class="ruby-identifier">e</span> = <span class="ruby-identifier">a</span>.<span class="ruby-identifier">to_enum</span>
+<span class="ruby-identifier">p</span> <span class="ruby-identifier">e</span>.<span class="ruby-identifier">next</span>   <span class="ruby-comment">#=&gt; 1</span>
+<span class="ruby-identifier">p</span> <span class="ruby-identifier">e</span>.<span class="ruby-identifier">peek</span>   <span class="ruby-comment">#=&gt; 2</span>
+<span class="ruby-identifier">p</span> <span class="ruby-identifier">e</span>.<span class="ruby-identifier">peek</span>   <span class="ruby-comment">#=&gt; 2</span>
+<span class="ruby-identifier">p</span> <span class="ruby-identifier">e</span>.<span class="ruby-identifier">peek</span>   <span class="ruby-comment">#=&gt; 2</span>
+<span class="ruby-identifier">p</span> <span class="ruby-identifier">e</span>.<span class="ruby-identifier">next</span>   <span class="ruby-comment">#=&gt; 2</span>
+<span class="ruby-identifier">p</span> <span class="ruby-identifier">e</span>.<span class="ruby-identifier">next</span>   <span class="ruby-comment">#=&gt; 3</span>
+<span class="ruby-identifier">p</span> <span class="ruby-identifier">e</span>.<span class="ruby-identifier">next</span>   <span class="ruby-comment">#raises StopIteration</span>
+</pre>
+            
+
+            
+            <div class="method-source-code" id="peek-source">
+              <pre> <!-- method.markup_code 290 -->
+               <span class="ruby-comment"># File mrbgems/mruby-enumerator/mrblib/enumerator.rb, line 413</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">peek</span>
+  <span class="ruby-identifier">peek_values</span>.<span class="ruby-identifier">__svalue</span>
+<span class="ruby-keyword">end</span>
+            </pre> 
+            </div><!-- peek-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- peek-method -->
+      
+        <div id="peek_values-method" class="method-detail ">
+          <a name="method-i-peek_values"></a>
+
+          
+          
+          <div class="method-heading">
+            <span class="method-callseq">peek_values   &rarr; array</span>
+            
+            <span class="method-click-advice">click to toggle source</span>
+            
+          </div>
+          
+          
+          <div>
+  
+            
+            <p>Returns the next object as an array, similar to <a
+href="Enumerator.html#method-i-next_values">#next_values</a>, but doesn’t
+move the internal position forward.  If the position is already at the end,
+<a href="StopIteration.html">StopIteration</a> is raised.</p>
+
+<h3 id="method-i-peek_values-label-Example">Example<span><a href="Enumerator.html#method-i-peek_values-label-Example">&para;</a> <a href="Enumerator.html#top">&uarr;</a></span></h3>
+
+<pre class="ruby"><span class="ruby-identifier">o</span> = <span class="ruby-constant">Object</span>.<span class="ruby-identifier">new</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">o</span>.<span class="ruby-identifier">each</span>
+  <span class="ruby-keyword">yield</span>
+  <span class="ruby-keyword">yield</span> <span class="ruby-value">1</span>
+  <span class="ruby-keyword">yield</span> <span class="ruby-value">1</span>, <span class="ruby-value">2</span>
+<span class="ruby-keyword">end</span>
+<span class="ruby-identifier">e</span> = <span class="ruby-identifier">o</span>.<span class="ruby-identifier">to_enum</span>
+<span class="ruby-identifier">p</span> <span class="ruby-identifier">e</span>.<span class="ruby-identifier">peek_values</span>    <span class="ruby-comment">#=&gt; []</span>
+<span class="ruby-identifier">e</span>.<span class="ruby-identifier">next</span>
+<span class="ruby-identifier">p</span> <span class="ruby-identifier">e</span>.<span class="ruby-identifier">peek_values</span>    <span class="ruby-comment">#=&gt; [1]</span>
+<span class="ruby-identifier">p</span> <span class="ruby-identifier">e</span>.<span class="ruby-identifier">peek_values</span>    <span class="ruby-comment">#=&gt; [1]</span>
+<span class="ruby-identifier">e</span>.<span class="ruby-identifier">next</span>
+<span class="ruby-identifier">p</span> <span class="ruby-identifier">e</span>.<span class="ruby-identifier">peek_values</span>    <span class="ruby-comment">#=&gt; [1, 2]</span>
+<span class="ruby-identifier">e</span>.<span class="ruby-identifier">next</span>
+<span class="ruby-identifier">p</span> <span class="ruby-identifier">e</span>.<span class="ruby-identifier">peek_values</span>    <span class="ruby-comment"># raises StopIteration</span>
+</pre>
+            
+
+            
+            <div class="method-source-code" id="peek_values-source">
+              <pre> <!-- method.markup_code 290 -->
+               <span class="ruby-comment"># File mrbgems/mruby-enumerator/mrblib/enumerator.rb, line 443</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">peek_values</span>
+  <span class="ruby-keyword">if</span> <span class="ruby-ivar">@lookahead</span>.<span class="ruby-identifier">nil?</span>
+    <span class="ruby-ivar">@lookahead</span> = <span class="ruby-identifier">next_values</span>
+  <span class="ruby-keyword">end</span>
+  <span class="ruby-ivar">@lookahead</span>.<span class="ruby-identifier">dup</span>
+<span class="ruby-keyword">end</span>
+            </pre> 
+            </div><!-- peek_values-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- peek_values-method -->
+      
+        <div id="rewind-method" class="method-detail ">
+          <a name="method-i-rewind"></a>
+
+          
+          
+          <div class="method-heading">
+            <span class="method-callseq">rewind   &rarr; e</span>
+            
+            <span class="method-click-advice">click to toggle source</span>
+            
+          </div>
+          
+          
+          <div>
+  
+            
+            <p>Rewinds the enumeration sequence to the beginning.</p>
+
+<p>If the enclosed object responds to a “rewind” method, it is called.</p>
+            
+
+            
+            <div class="method-source-code" id="rewind-source">
+              <pre> <!-- method.markup_code 290 -->
+               <span class="ruby-comment"># File mrbgems/mruby-enumerator/mrblib/enumerator.rb, line 458</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">rewind</span>
+  <span class="ruby-ivar">@obj</span>.<span class="ruby-identifier">rewind</span> <span class="ruby-keyword">if</span> <span class="ruby-ivar">@obj</span>.<span class="ruby-identifier">respond_to?</span> <span class="ruby-value">:rewind</span>
+  <span class="ruby-ivar">@fib</span> = <span class="ruby-keyword">nil</span>
+  <span class="ruby-ivar">@dst</span> = <span class="ruby-keyword">nil</span>
+  <span class="ruby-ivar">@lookahead</span> = <span class="ruby-keyword">nil</span>
+  <span class="ruby-ivar">@feedvalue</span> = <span class="ruby-keyword">nil</span>
+  <span class="ruby-ivar">@stop_exc</span> = <span class="ruby-keyword">false</span>
+  <span class="ruby-keyword">self</span>
+<span class="ruby-keyword">end</span>
+            </pre> 
+            </div><!-- rewind-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- rewind-method -->
+      
+        <div id="with_index-method" class="method-detail ">
+          <a name="method-i-with_index"></a>
+
+          
+          
+          <div class="method-heading">
+            <span class="method-callseq">with_index(offset = 0) {|(*args), idx| ... }</span>
+            
+            <span class="method-click-advice">click to toggle source</span>
+            
+          </div>
+          
+          <div class="method-heading">
+            <span class="method-callseq">with_index(offset = 0)</span>
+            
+          </div>
+          
+          
+          <div>
+  
+            
+            <p>Iterates the given block for each element with an index, which starts from
+<code>offset</code>.  If no block is given, returns a new <a
+href="Enumerator.html">Enumerator</a> that includes the index, starting
+from <code>offset</code></p>
+<dl class="rdoc-list note-list"><dt><code>offset</code>
+<dd>
+<p>the starting index to use</p>
+</dd></dl>
+            
+
+            
+            <div class="method-source-code" id="with_index-source">
+              <pre> <!-- method.markup_code 290 -->
+               <span class="ruby-comment"># File mrbgems/mruby-enumerator/mrblib/enumerator.rb, line 155</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">with_index</span>(<span class="ruby-identifier">offset</span>=<span class="ruby-value">0</span>)
+  <span class="ruby-keyword">return</span> <span class="ruby-identifier">to_enum</span> <span class="ruby-operator">:</span><span class="ruby-identifier">with_index</span>, <span class="ruby-identifier">offset</span> <span class="ruby-keyword">unless</span> <span class="ruby-identifier">block_given?</span>
+  <span class="ruby-identifier">raise</span> <span class="ruby-constant">TypeError</span>, <span class="ruby-node">&quot;no implicit conversion of #{offset.class} into Integer&quot;</span> <span class="ruby-keyword">unless</span> <span class="ruby-identifier">offset</span>.<span class="ruby-identifier">respond_to?</span>(<span class="ruby-value">:to_int</span>)
+
+  <span class="ruby-identifier">n</span> = <span class="ruby-identifier">offset</span>.<span class="ruby-identifier">to_int</span> <span class="ruby-operator">-</span> <span class="ruby-value">1</span>
+  <span class="ruby-identifier">enumerator_block_call</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">i</span><span class="ruby-operator">|</span>
+    <span class="ruby-identifier">n</span> <span class="ruby-operator">+=</span> <span class="ruby-value">1</span>
+    <span class="ruby-keyword">yield</span> [<span class="ruby-identifier">i</span>,<span class="ruby-identifier">n</span>]
+  <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span>
+            </pre> 
+            </div><!-- with_index-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- with_index-method -->
+      
+        <div id="with_object-method" class="method-detail ">
+          <a name="method-i-with_object"></a>
+
+          
+          
+          <div class="method-heading">
+            <span class="method-callseq">each_with_object(obj) {|(*args), obj| ... }</span>
+            
+            <span class="method-click-advice">click to toggle source</span>
+            
+          </div>
+          
+          <div class="method-heading">
+            <span class="method-callseq">each_with_object(obj)</span>
+            
+          </div>
+          
+          <div class="method-heading">
+            <span class="method-callseq">with_object(obj) {|(*args), obj| ... }</span>
+            
+          </div>
+          
+          <div class="method-heading">
+            <span class="method-callseq">with_object(obj)</span>
+            
+          </div>
+          
+          
+          <div>
+  
+            
+            <p>Iterates the given block for each element with an arbitrary object,
+<code>obj</code>, and returns <code>obj</code></p>
+
+<p>If no block is given, returns a new <a
+href="Enumerator.html">Enumerator</a>.</p>
+
+<h3 id="method-i-with_object-label-Example">Example<span><a href="Enumerator.html#method-i-with_object-label-Example">&para;</a> <a href="Enumerator.html#top">&uarr;</a></span></h3>
+
+<pre class="ruby"><span class="ruby-identifier">to_three</span> = <span class="ruby-constant">Enumerator</span>.<span class="ruby-identifier">new</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">y</span><span class="ruby-operator">|</span>
+  <span class="ruby-value">3</span>.<span class="ruby-identifier">times</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">x</span><span class="ruby-operator">|</span>
+    <span class="ruby-identifier">y</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-identifier">x</span>
+  <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span>
+
+<span class="ruby-identifier">to_three_with_string</span> = <span class="ruby-identifier">to_three</span>.<span class="ruby-identifier">with_object</span>(<span class="ruby-string">&quot;foo&quot;</span>)
+<span class="ruby-identifier">to_three_with_string</span>.<span class="ruby-identifier">each</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">x</span>,<span class="ruby-identifier">string</span><span class="ruby-operator">|</span>
+  <span class="ruby-identifier">puts</span> <span class="ruby-node">&quot;#{string}: #{x}&quot;</span>
+<span class="ruby-keyword">end</span>
+
+<span class="ruby-comment"># =&gt; foo:0</span>
+<span class="ruby-comment"># =&gt; foo:1</span>
+<span class="ruby-comment"># =&gt; foo:2</span>
+</pre>
+            
+
+            
+            <div class="method-source-code" id="with_object-source">
+              <pre> <!-- method.markup_code 290 -->
+               <span class="ruby-comment"># File mrbgems/mruby-enumerator/mrblib/enumerator.rb, line 208</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">with_object</span>(<span class="ruby-identifier">object</span>)
+  <span class="ruby-keyword">return</span> <span class="ruby-identifier">to_enum</span>(<span class="ruby-value">:with_object</span>, <span class="ruby-identifier">object</span>) <span class="ruby-keyword">unless</span> <span class="ruby-identifier">block_given?</span>
+
+  <span class="ruby-identifier">enumerator_block_call</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">i</span><span class="ruby-operator">|</span>
+    <span class="ruby-keyword">yield</span> [<span class="ruby-identifier">i</span>,<span class="ruby-identifier">object</span>]
+  <span class="ruby-keyword">end</span>
+  <span class="ruby-identifier">object</span>
+<span class="ruby-keyword">end</span>
+            </pre> 
+            </div><!-- with_object-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- with_object-method -->
+      
+      </div><!-- public-instance-method-details -->
+    
+      <div id="private-instance-method-details" class="method-section section">
+        <h3 class="section-header">Private Instance Methods</h3>
+
+      
+        <div id="enumerator_block_call-method" class="method-detail ">
+          <a name="method-i-enumerator_block_call"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">enumerator_block_call</span><span
+              class="method-args">(&block)</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+          <div>
+  
+            
+            
+            
+
+            
+            <div class="method-source-code" id="enumerator_block_call-source">
+              <pre> <!-- method.markup_code 290 -->
+               <span class="ruby-comment"># File mrbgems/mruby-enumerator/mrblib/enumerator.rb, line 280</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">enumerator_block_call</span>(<span class="ruby-operator">&amp;</span><span class="ruby-identifier">block</span>)
+  <span class="ruby-ivar">@obj</span>.<span class="ruby-identifier">__send__</span> <span class="ruby-ivar">@meth</span>, <span class="ruby-operator">*</span><span class="ruby-ivar">@args</span>, <span class="ruby-operator">&amp;</span><span class="ruby-identifier">block</span>
+<span class="ruby-keyword">end</span>
+            </pre> 
+            </div><!-- enumerator_block_call-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- enumerator_block_call-method -->
+      
+      </div><!-- private-instance-method-details -->
+    
+    </div><!-- 5Buntitled-5D -->
+  
+  <div id='tx_Enumerator_versioned' class='associated_wrapper'></div><script type='text/javascript'>$("#tx_Enumerator_versioned").load("/associated/mruby/Enumerator.html");</script> <div id='tx_Enumerator' class='associated_wrapper'></div><script type='text/javascript'>$("#tx_Enumerator").load("/associated/Enumerator.html");</script> 
+      
+  <!-- disqus ? -->
+   <div class='info'>
+  <p>Commenting is here to help enhance the documentation.  For example, code samples, or clarification of the documentation.</p>
+  <p>If you have questions about Ruby or the documentation, please post to one of the <a href='http://www.ruby-lang.org/en/community/mailing-lists/'>Ruby mailing lists</a>.  You will get better, faster, help that way.</p>
+  <p>If you wish to post a correction of the docs, please do so, but also <a href='http://bugs.ruby-lang.org' >file bug report</a> so that it can be corrected for the next release. Thank you.</p>
+  <p>If you want to help improve the Ruby documentation, please visit <a href='http://documenting-ruby.org/'>Documenting-ruby.org</a>.</p> 
+    </div>
+
+
+  
+  </div><!-- documentation -->
+  <div id='dynamic'>
+  </div>
+      
+        <div id="disqus_thread"></div>
+  <script type="text/javascript">
+     function setDisqusUrl(){
+      var _loc = window.location.href;
+      disqus_url = _loc.split("?")[0];
+    }
+
+     var disqus_url;
+     
+    
+     setDisqusUrl();
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    // var disqus_shortname = 'rubydocbeta'; // required 
+    var disqus_shortname = 'ruby-doc'; // required 
+
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+
+      
+<div class='grids wrapper' id="footer">
+  <p><small>This page was generated for Ruby mruby</small></p> 
+  
+   <p><a href="../index.html">Ruby-doc.org</a> is a service of <a href="../../jamesbritt.com/index.html">James Britt</a> and <a href="../../neurogami.com/index.html">Neurogami</a>, a <a href="../../neurogami.com/index.html">software development company in Scottsdale, AZ</a>.</p>
+ 
+    <p><small>Generated with Ruby-doc Rdoc Generator 0.33.0</small>.</p>
+  </div>
+</div>
+  
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-335317-2', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+    
+ <script type='text/javascript'>
+$(document).ready(function() {
+      $.ajaxSetup({ cache: false });
+      $("#vulns-alert").load("/associated/vulns.html");
+    });
+
+    </script>
+
+
+ 
+		<script type='text/javascript'>
+
+	function loadPlus(plusdocs){
+		var img_h = $("img.carbonad-image").css('height');
+		//if(img_h != undefined) { //---
+			$(plusdocs).find("div[class='associated_wrapper']").each (function() {
+					$("#" + this.id).append($(plusdocs).find("#" + this.id ));
+					});
+		//} // ---
+	} // end loadPlusdocs
+
+
+$(document).ready(function() {
+		$.ajaxSetup({ cache: false });
+			$.get('/associated/mruby/plus_Enumerator.html', 
+			function(plusdocs) {
+			setTimeout(function() {
+				loadPlus(plusdocs);
+				}, 2000);
+			}
+			);
+		});
+</script>
+		
+</body>
+</html>
+
+
