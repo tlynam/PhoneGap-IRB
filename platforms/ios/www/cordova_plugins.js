@@ -13,6 +13,14 @@ module.exports = [
         "clobbers": [
             "plugin.statusbarOverlay"
         ]
+    },
+    {
+        "file": "plugins/cordova-plugin-inappbrowser/www/inappbrowser.js",
+        "id": "cordova-plugin-inappbrowser.inappbrowser",
+        "clobbers": [
+            "cordova.InAppBrowser.open",
+            "window.open"
+        ]
     }
 ];
 module.exports.metadata = 
@@ -20,7 +28,8 @@ module.exports.metadata =
 {
     "cordova-plugin-splashscreen": "2.0.0",
     "cordova-plugin-whitelist": "1.0.0",
-    "de.appplant.cordova.plugin.hidden-statusbar-overlay": "1.2.0"
+    "de.appplant.cordova.plugin.hidden-statusbar-overlay": "1.2.0",
+    "cordova-plugin-inappbrowser": "1.0.1"
 }
 // BOTTOM OF METADATA
 });

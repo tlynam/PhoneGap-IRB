@@ -26,7 +26,7 @@ pre {
   .nav-bar.nav-bar-inline {
     display: block;
     width: auto;
-    *zoom: 1; }
+    zoom: 1; }
     .nav-bar.nav-bar-inline:before, .nav-bar.nav-bar-inline:after {
       display: table;
       content: "";

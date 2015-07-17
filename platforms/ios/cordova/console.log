@@ -2462,3 +2462,855 @@ To disable web storage backup to iCloud, set the BackupWebStorage preference to 
 2015-07-17 06:43:19.541 TryMRuby[4821:184480] Resetting plugins due to page load.
 2015-07-17 06:43:20.669 TryMRuby[4821:184480] Finished load of: https://github.com/tlynam/TryMRuby
 2015-07-17 06:43:27.925 TryMRuby[4821:184533] Terminating since there is no system app.
+2015-07-17 07:21:01.181 TryMRuby[5489:247325] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-17 07:21:01.182 TryMRuby[5489:247325] Multi-tasking -> Device: YES, App: YES
+2015-07-17 07:21:01.184 TryMRuby[5489:247325] Unlimited access to network resources
+2015-07-17 07:21:01.187 TryMRuby[5489:247325] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-17 07:21:01.287 TryMRuby[5489:247325] [CDVTimer][splashscreen] 16.240001ms
+2015-07-17 07:21:01.287 TryMRuby[5489:247325] [CDVTimer][TotalPluginStartup] 16.395986ms
+2015-07-17 07:21:01.355 TryMRuby[5489:247325] Resetting plugins due to page load.
+2015-07-17 07:21:01.838 TryMRuby[5489:247325] Finished load of: file:///Users/todd/Library/Developer/CoreSimulator/Devices/CDC1F8E9-24B1-449A-9BCE-805B990B9F1B/data/Containers/Bundle/Application/A455DEF1-755E-4D93-8DA7-CACEB52A8905/TryMRuby.app/www/index.html
+2015-07-17 07:21:03.984 TryMRuby[5489:247325] Resetting plugins due to page load.
+2015-07-17 07:21:04.000 TryMRuby[5489:247325] Finished load of: file:///Users/todd/Library/Developer/CoreSimulator/Devices/CDC1F8E9-24B1-449A-9BCE-805B990B9F1B/data/Containers/Bundle/Application/A455DEF1-755E-4D93-8DA7-CACEB52A8905/TryMRuby.app/www/about.html
+2015-07-17 07:21:05.845 TryMRuby[5489:247325] Resetting plugins due to page load.
+2015-07-17 07:21:05.851 TryMRuby[5489:247325] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2015-07-17 07:21:08.370 TryMRuby[5489:247325] Resetting plugins due to page load.
+2015-07-17 07:21:08.372 TryMRuby[5489:247325] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2015-07-17 07:24:26.321 TryMRuby[5489:247325] Resetting plugins due to page load.
+2015-07-17 07:24:26.323 TryMRuby[5489:247325] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2015-07-17 07:24:30.032 TryMRuby[5489:253202] Terminating since there is no system app.
+2015-07-17 07:30:47.598 TryMRuby[5862:278527] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-17 07:30:47.602 TryMRuby[5862:278527] Multi-tasking -> Device: YES, App: YES
+2015-07-17 07:30:47.615 TryMRuby[5862:278527] Unlimited access to network resources
+2015-07-17 07:30:47.623 TryMRuby[5862:278527] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-17 07:30:47.992 TryMRuby[5862:278527] [CDVTimer][splashscreen] 133.749962ms
+2015-07-17 07:30:47.993 TryMRuby[5862:278527] [CDVTimer][TotalPluginStartup] 133.895040ms
+2015-07-17 07:30:48.125 TryMRuby[5862:278527] Resetting plugins due to page load.
+2015-07-17 07:30:48.643 TryMRuby[5862:278527] Finished load of: file:///Users/todd/Library/Developer/CoreSimulator/Devices/CDC1F8E9-24B1-449A-9BCE-805B990B9F1B/data/Containers/Bundle/Application/F3E0FD59-BD2B-4C4A-B131-AE8696E949EC/TryMRuby.app/www/index.html
+2015-07-17 07:30:50.611 TryMRuby[5862:278527] Resetting plugins due to page load.
+2015-07-17 07:30:50.639 TryMRuby[5862:278527] Finished load of: file:///Users/todd/Library/Developer/CoreSimulator/Devices/CDC1F8E9-24B1-449A-9BCE-805B990B9F1B/data/Containers/Bundle/Application/F3E0FD59-BD2B-4C4A-B131-AE8696E949EC/TryMRuby.app/www/about.html
+2015-07-17 07:30:52.328 TryMRuby[5862:278527] Resetting plugins due to page load.
+2015-07-17 07:30:52.884 TryMRuby[5862:278527] Finished load of: https://github.com/tlynam/TryMRuby
+2015-07-17 07:30:57.321 TryMRuby[5862:278907] Terminating since there is no system app.
+2015-07-17 07:31:56.948 TryMRuby[6084:285285] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-17 07:31:56.949 TryMRuby[6084:285285] Multi-tasking -> Device: YES, App: YES
+2015-07-17 07:31:56.950 TryMRuby[6084:285285] Unlimited access to network resources
+2015-07-17 07:31:56.952 TryMRuby[6084:285285] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-17 07:31:57.039 TryMRuby[6084:285285] [CDVTimer][splashscreen] 24.997950ms
+2015-07-17 07:31:57.040 TryMRuby[6084:285285] [CDVTimer][TotalPluginStartup] 25.135040ms
+2015-07-17 07:31:57.104 TryMRuby[6084:285285] Resetting plugins due to page load.
+2015-07-17 07:31:57.530 TryMRuby[6084:285285] Finished load of: file:///Users/todd/Library/Developer/CoreSimulator/Devices/CDC1F8E9-24B1-449A-9BCE-805B990B9F1B/data/Containers/Bundle/Application/EE33DD66-176C-444B-99D7-B8AE15CB1319/TryMRuby.app/www/index.html
+2015-07-17 07:31:59.935 TryMRuby[6084:285285] Resetting plugins due to page load.
+2015-07-17 07:31:59.951 TryMRuby[6084:285285] Finished load of: file:///Users/todd/Library/Developer/CoreSimulator/Devices/CDC1F8E9-24B1-449A-9BCE-805B990B9F1B/data/Containers/Bundle/Application/EE33DD66-176C-444B-99D7-B8AE15CB1319/TryMRuby.app/www/about.html
+2015-07-17 07:32:01.734 TryMRuby[6084:285285] Resetting plugins due to page load.
+2015-07-17 07:32:01.747 TryMRuby[6084:285285] Finished load of: file:///Users/todd/Library/Developer/CoreSimulator/Devices/CDC1F8E9-24B1-449A-9BCE-805B990B9F1B/data/Containers/Bundle/Application/EE33DD66-176C-444B-99D7-B8AE15CB1319/TryMRuby.app/www/about.html
+2015-07-17 07:32:03.149 TryMRuby[6084:285285] Resetting plugins due to page load.
+2015-07-17 07:32:03.623 TryMRuby[6084:285285] Finished load of: https://github.com/tlynam/TryMRuby
+2015-07-17 07:33:25.496 TryMRuby[6304:292555] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-17 07:33:25.498 TryMRuby[6304:292555] Multi-tasking -> Device: YES, App: YES
+2015-07-17 07:33:25.500 TryMRuby[6304:292555] Unlimited access to network resources
+2015-07-17 07:33:25.502 TryMRuby[6304:292555] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-17 07:33:25.590 TryMRuby[6304:292555] [CDVTimer][splashscreen] 23.822963ms
+2015-07-17 07:33:25.590 TryMRuby[6304:292555] [CDVTimer][TotalPluginStartup] 23.970008ms
+2015-07-17 07:33:25.666 TryMRuby[6304:292555] Resetting plugins due to page load.
+2015-07-17 07:33:26.108 TryMRuby[6304:292555] Finished load of: file:///Users/todd/Library/Developer/CoreSimulator/Devices/CDC1F8E9-24B1-449A-9BCE-805B990B9F1B/data/Containers/Bundle/Application/21C5B9F9-7CB0-45BE-AAB9-DBD7312681B5/TryMRuby.app/www/index.html
+2015-07-17 07:33:28.263 TryMRuby[6304:292555] Resetting plugins due to page load.
+2015-07-17 07:33:28.279 TryMRuby[6304:292555] Finished load of: file:///Users/todd/Library/Developer/CoreSimulator/Devices/CDC1F8E9-24B1-449A-9BCE-805B990B9F1B/data/Containers/Bundle/Application/21C5B9F9-7CB0-45BE-AAB9-DBD7312681B5/TryMRuby.app/www/about.html
+2015-07-17 07:33:29.872 TryMRuby[6304:292555] Resetting plugins due to page load.
+2015-07-17 07:33:30.368 TryMRuby[6304:292555] Finished load of: https://github.com/tlynam/TryMRuby
+2015-07-17 07:34:54.522 TryMRuby[6538:299520] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-17 07:34:54.523 TryMRuby[6538:299520] Multi-tasking -> Device: YES, App: YES
+2015-07-17 07:34:54.524 TryMRuby[6538:299520] Unlimited access to network resources
+2015-07-17 07:34:54.526 TryMRuby[6538:299520] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-17 07:34:54.613 TryMRuby[6538:299520] [CDVTimer][splashscreen] 21.323025ms
+2015-07-17 07:34:54.613 TryMRuby[6538:299520] [CDVTimer][TotalPluginStartup] 21.458983ms
+2015-07-17 07:34:54.668 TryMRuby[6538:299520] Resetting plugins due to page load.
+2015-07-17 07:34:55.081 TryMRuby[6538:299520] Finished load of: file:///Users/todd/Library/Developer/CoreSimulator/Devices/CDC1F8E9-24B1-449A-9BCE-805B990B9F1B/data/Containers/Bundle/Application/DDA58D29-ACC9-4943-8A0C-8735886B073F/TryMRuby.app/www/index.html
+2015-07-17 07:34:57.234 TryMRuby[6538:299520] Resetting plugins due to page load.
+2015-07-17 07:34:57.249 TryMRuby[6538:299520] Finished load of: file:///Users/todd/Library/Developer/CoreSimulator/Devices/CDC1F8E9-24B1-449A-9BCE-805B990B9F1B/data/Containers/Bundle/Application/DDA58D29-ACC9-4943-8A0C-8735886B073F/TryMRuby.app/www/about.html
+2015-07-17 07:34:59.215 TryMRuby[6538:299520] Resetting plugins due to page load.
+2015-07-17 07:34:59.734 TryMRuby[6538:299520] Finished load of: https://github.com/tlynam/TryMRuby
+2015-07-17 07:38:47.149 TryMRuby[6805:309926] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-17 07:38:47.149 TryMRuby[6805:309926] Multi-tasking -> Device: YES, App: YES
+2015-07-17 07:38:47.151 TryMRuby[6805:309926] Unlimited access to network resources
+2015-07-17 07:38:47.153 TryMRuby[6805:309926] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-17 07:38:47.237 TryMRuby[6805:309926] [CDVTimer][splashscreen] 19.154012ms
+2015-07-17 07:38:47.238 TryMRuby[6805:309926] [CDVTimer][TotalPluginStartup] 19.285977ms
+2015-07-17 07:38:47.292 TryMRuby[6805:309926] Resetting plugins due to page load.
+2015-07-17 07:38:47.691 TryMRuby[6805:309926] Finished load of: file:///Users/todd/Library/Developer/CoreSimulator/Devices/CDC1F8E9-24B1-449A-9BCE-805B990B9F1B/data/Containers/Bundle/Application/5EEE985E-6767-4E9F-81EF-550A59B4C1D2/TryMRuby.app/www/index.html
+2015-07-17 07:38:49.967 TryMRuby[6805:309926] Resetting plugins due to page load.
+2015-07-17 07:38:49.982 TryMRuby[6805:309926] Finished load of: file:///Users/todd/Library/Developer/CoreSimulator/Devices/CDC1F8E9-24B1-449A-9BCE-805B990B9F1B/data/Containers/Bundle/Application/5EEE985E-6767-4E9F-81EF-550A59B4C1D2/TryMRuby.app/www/about.html
+2015-07-17 07:38:51.685 TryMRuby[6805:309926] Resetting plugins due to page load.
+2015-07-17 07:38:52.584 TryMRuby[6805:309926] Finished load of: https://github.com/tlynam/TryMRuby
+2015-07-17 07:39:09.893 TryMRuby[7009:311882] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-17 07:39:09.894 TryMRuby[7009:311882] Multi-tasking -> Device: YES, App: YES
+2015-07-17 07:39:09.895 TryMRuby[7009:311882] Unlimited access to network resources
+2015-07-17 07:39:09.897 TryMRuby[7009:311882] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-17 07:39:09.982 TryMRuby[7009:311882] [CDVTimer][splashscreen] 18.368006ms
+2015-07-17 07:39:09.982 TryMRuby[7009:311882] [CDVTimer][TotalPluginStartup] 18.504024ms
+2015-07-17 07:39:10.036 TryMRuby[7009:311882] Resetting plugins due to page load.
+2015-07-17 07:39:10.426 TryMRuby[7009:311882] Finished load of: file:///Users/todd/Library/Developer/CoreSimulator/Devices/CDC1F8E9-24B1-449A-9BCE-805B990B9F1B/data/Containers/Bundle/Application/28CA0ABC-F731-44AD-A352-C61D8D334DDB/TryMRuby.app/www/index.html
+2015-07-17 07:39:13.570 TryMRuby[7009:311882] Resetting plugins due to page load.
+2015-07-17 07:39:13.585 TryMRuby[7009:311882] Finished load of: file:///Users/todd/Library/Developer/CoreSimulator/Devices/CDC1F8E9-24B1-449A-9BCE-805B990B9F1B/data/Containers/Bundle/Application/28CA0ABC-F731-44AD-A352-C61D8D334DDB/TryMRuby.app/www/about.html
+2015-07-17 07:39:15.275 TryMRuby[7009:311882] Resetting plugins due to page load.
+2015-07-17 07:39:16.149 TryMRuby[7009:311882] Finished load of: https://github.com/tlynam/TryMRuby
+2015-07-17 07:39:38.339 TryMRuby[7221:314801] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-17 07:39:38.340 TryMRuby[7221:314801] Multi-tasking -> Device: YES, App: YES
+2015-07-17 07:39:38.341 TryMRuby[7221:314801] Unlimited access to network resources
+2015-07-17 07:39:38.343 TryMRuby[7221:314801] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-17 07:39:38.426 TryMRuby[7221:314801] [CDVTimer][splashscreen] 18.016994ms
+2015-07-17 07:39:38.426 TryMRuby[7221:314801] [CDVTimer][TotalPluginStartup] 18.154025ms
+2015-07-17 07:39:38.480 TryMRuby[7221:314801] Resetting plugins due to page load.
+2015-07-17 07:39:38.868 TryMRuby[7221:314801] Finished load of: file:///Users/todd/Library/Developer/CoreSimulator/Devices/CDC1F8E9-24B1-449A-9BCE-805B990B9F1B/data/Containers/Bundle/Application/91335CB3-2020-439A-924C-CD5F9D4ED2B5/TryMRuby.app/www/index.html
+2015-07-17 07:39:41.619 TryMRuby[7221:314801] Resetting plugins due to page load.
+2015-07-17 07:39:41.634 TryMRuby[7221:314801] Finished load of: file:///Users/todd/Library/Developer/CoreSimulator/Devices/CDC1F8E9-24B1-449A-9BCE-805B990B9F1B/data/Containers/Bundle/Application/91335CB3-2020-439A-924C-CD5F9D4ED2B5/TryMRuby.app/www/about.html
+2015-07-17 07:39:45.420 TryMRuby[7221:314801] Resetting plugins due to page load.
+2015-07-17 07:39:46.315 TryMRuby[7221:314801] Finished load of: https://github.com/tlynam/TryMRuby
+2015-07-17 08:08:57.406 TryMRuby[7754:337291] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-17 08:08:57.407 TryMRuby[7754:337291] Multi-tasking -> Device: YES, App: YES
+2015-07-17 08:08:57.408 TryMRuby[7754:337291] Unlimited access to network resources
+2015-07-17 08:08:57.410 TryMRuby[7754:337291] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-17 08:08:57.495 TryMRuby[7754:337291] [CDVTimer][splashscreen] 18.811047ms
+2015-07-17 08:08:57.495 TryMRuby[7754:337291] [CDVTimer][TotalPluginStartup] 19.020021ms
+2015-07-17 08:08:57.563 TryMRuby[7754:337291] Resetting plugins due to page load.
+2015-07-17 08:08:57.965 TryMRuby[7754:337291] Finished load of: file:///Users/todd/Library/Developer/CoreSimulator/Devices/CDC1F8E9-24B1-449A-9BCE-805B990B9F1B/data/Containers/Bundle/Application/774EED95-23C4-4222-89AD-DB608EFF5EAD/TryMRuby.app/www/index.html
+2015-07-17 08:10:08.778 TryMRuby[7754:337291] Resetting plugins due to page load.
+2015-07-17 08:10:08.794 TryMRuby[7754:337291] Finished load of: file:///Users/todd/Library/Developer/CoreSimulator/Devices/CDC1F8E9-24B1-449A-9BCE-805B990B9F1B/data/Containers/Bundle/Application/774EED95-23C4-4222-89AD-DB608EFF5EAD/TryMRuby.app/www/about.html
+2015-07-17 08:10:10.210 TryMRuby[7754:337291] Resetting plugins due to page load.
+2015-07-17 08:10:10.712 TryMRuby[7754:337291] Finished load of: https://github.com/tlynam/TryMRuby
+2015-07-17 08:11:00.086 TryMRuby[7996:345474] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-17 08:11:00.086 TryMRuby[7996:345474] Multi-tasking -> Device: YES, App: YES
+2015-07-17 08:11:00.088 TryMRuby[7996:345474] Unlimited access to network resources
+2015-07-17 08:11:00.090 TryMRuby[7996:345474] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-17 08:11:00.169 TryMRuby[7996:345474] [CDVTimer][splashscreen] 17.372012ms
+2015-07-17 08:11:00.169 TryMRuby[7996:345474] [CDVTimer][TotalPluginStartup] 17.511010ms
+2015-07-17 08:11:00.205 TryMRuby[7996:345474] Resetting plugins due to page load.
+2015-07-17 08:11:00.607 TryMRuby[7996:345474] Finished load of: file:///Users/todd/Library/Developer/CoreSimulator/Devices/CDC1F8E9-24B1-449A-9BCE-805B990B9F1B/data/Containers/Bundle/Application/741FB28D-F377-49C0-AB3F-9885155AAF0A/TryMRuby.app/www/index.html
+2015-07-17 08:11:02.804 TryMRuby[7996:345474] Resetting plugins due to page load.
+2015-07-17 08:11:02.819 TryMRuby[7996:345474] Finished load of: file:///Users/todd/Library/Developer/CoreSimulator/Devices/CDC1F8E9-24B1-449A-9BCE-805B990B9F1B/data/Containers/Bundle/Application/741FB28D-F377-49C0-AB3F-9885155AAF0A/TryMRuby.app/www/about.html
+2015-07-17 08:11:09.038 TryMRuby[7996:345474] Resetting plugins due to page load.
+2015-07-17 08:11:09.566 TryMRuby[7996:345474] Finished load of: https://github.com/tlynam/TryMRuby
+2015-07-17 08:13:53.821 TryMRuby[8279:357439] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-17 08:13:53.822 TryMRuby[8279:357439] Multi-tasking -> Device: YES, App: YES
+2015-07-17 08:13:53.823 TryMRuby[8279:357439] Unlimited access to network resources
+2015-07-17 08:13:53.826 TryMRuby[8279:357439] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-17 08:13:53.925 TryMRuby[8279:357439] [CDVTimer][splashscreen] 19.974947ms
+2015-07-17 08:13:53.925 TryMRuby[8279:357439] [CDVTimer][TotalPluginStartup] 20.206034ms
+2015-07-17 08:13:53.980 TryMRuby[8279:357439] Resetting plugins due to page load.
+2015-07-17 08:13:54.398 TryMRuby[8279:357439] Finished load of: file:///Users/todd/Library/Developer/CoreSimulator/Devices/CDC1F8E9-24B1-449A-9BCE-805B990B9F1B/data/Containers/Bundle/Application/FCA925E9-42FA-45B8-B833-1D85AFE08A38/TryMRuby.app/www/index.html
+2015-07-17 08:13:56.893 TryMRuby[8279:357439] Resetting plugins due to page load.
+2015-07-17 08:13:56.909 TryMRuby[8279:357439] Finished load of: file:///Users/todd/Library/Developer/CoreSimulator/Devices/CDC1F8E9-24B1-449A-9BCE-805B990B9F1B/data/Containers/Bundle/Application/FCA925E9-42FA-45B8-B833-1D85AFE08A38/TryMRuby.app/www/about.html
+2015-07-17 08:13:58.608 TryMRuby[8279:357439] Resetting plugins due to page load.
+2015-07-17 08:13:59.066 TryMRuby[8279:357439] Finished load of: https://github.com/tlynam/TryMRuby
+2015-07-17 08:14:03.696 TryMRuby[8279:357439] Resetting plugins due to page load.
+2015-07-17 08:14:03.849 TryMRuby[8279:357439] Finished load of: https://github.com/tlynam/TryMRuby
+2015-07-17 08:53:01.689 TryMRuby[8819:387699] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-17 08:53:01.690 TryMRuby[8819:387699] Multi-tasking -> Device: YES, App: YES
+2015-07-17 08:53:01.692 TryMRuby[8819:387699] Unlimited access to network resources
+2015-07-17 08:53:01.694 TryMRuby[8819:387699] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-17 08:53:01.781 TryMRuby[8819:387699] [CDVTimer][splashscreen] 18.561006ms
+2015-07-17 08:53:01.781 TryMRuby[8819:387699] [CDVTimer][TotalPluginStartup] 18.709004ms
+2015-07-17 08:53:01.897 TryMRuby[8819:387699] Resetting plugins due to page load.
+2015-07-17 08:53:02.275 TryMRuby[8819:387699] Finished load of: file:///Users/todd/Library/Developer/CoreSimulator/Devices/CDC1F8E9-24B1-449A-9BCE-805B990B9F1B/data/Containers/Bundle/Application/1ADEEA22-5B3A-4CF3-B70D-349756E9319B/TryMRuby.app/www/index.html
+2015-07-17 08:53:04.319 TryMRuby[8819:387699] Resetting plugins due to page load.
+2015-07-17 08:53:04.334 TryMRuby[8819:387699] Finished load of: file:///Users/todd/Library/Developer/CoreSimulator/Devices/CDC1F8E9-24B1-449A-9BCE-805B990B9F1B/data/Containers/Bundle/Application/1ADEEA22-5B3A-4CF3-B70D-349756E9319B/TryMRuby.app/www/about.html
+2015-07-17 08:53:06.284 TryMRuby[8819:387699] Resetting plugins due to page load.
+2015-07-17 08:53:06.760 TryMRuby[8819:387699] Finished load of: https://github.com/tlynam/TryMRuby
+2015-07-17 08:53:54.399 TryMRuby[9034:392330] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-17 08:53:54.400 TryMRuby[9034:392330] Multi-tasking -> Device: YES, App: YES
+2015-07-17 08:53:54.401 TryMRuby[9034:392330] Unlimited access to network resources
+2015-07-17 08:53:54.404 TryMRuby[9034:392330] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-17 08:53:54.515 TryMRuby[9034:392330] [CDVTimer][splashscreen] 21.022022ms
+2015-07-17 08:53:54.515 TryMRuby[9034:392330] [CDVTimer][TotalPluginStartup] 21.169007ms
+2015-07-17 08:53:54.588 TryMRuby[9034:392330] Resetting plugins due to page load.
+2015-07-17 08:53:55.037 TryMRuby[9034:392330] Finished load of: file:///Users/todd/Library/Developer/CoreSimulator/Devices/CDC1F8E9-24B1-449A-9BCE-805B990B9F1B/data/Containers/Bundle/Application/1423861D-6687-42F4-AAAE-90DDD38E9CEB/TryMRuby.app/www/index.html
+2015-07-17 08:53:56.862 TryMRuby[9034:392330] Resetting plugins due to page load.
+2015-07-17 08:53:56.878 TryMRuby[9034:392330] Finished load of: file:///Users/todd/Library/Developer/CoreSimulator/Devices/CDC1F8E9-24B1-449A-9BCE-805B990B9F1B/data/Containers/Bundle/Application/1423861D-6687-42F4-AAAE-90DDD38E9CEB/TryMRuby.app/www/about.html
+2015-07-17 08:53:58.337 TryMRuby[9034:392330] Resetting plugins due to page load.
+2015-07-17 08:53:58.826 TryMRuby[9034:392330] Finished load of: https://github.com/tlynam/TryMRuby
+2015-07-17 08:54:01.873 TryMRuby[9034:392397] Terminating since there is no system app.
+2015-07-17 08:55:28.995 TryMRuby[9250:398035] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-17 08:55:28.996 TryMRuby[9250:398035] Multi-tasking -> Device: YES, App: YES
+2015-07-17 08:55:28.998 TryMRuby[9250:398035] Unlimited access to network resources
+2015-07-17 08:55:29.000 TryMRuby[9250:398035] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-17 08:55:29.090 TryMRuby[9250:398035] [CDVTimer][splashscreen] 19.303024ms
+2015-07-17 08:55:29.090 TryMRuby[9250:398035] [CDVTimer][TotalPluginStartup] 19.445002ms
+2015-07-17 08:55:29.219 TryMRuby[9250:398035] Resetting plugins due to page load.
+2015-07-17 08:55:29.650 TryMRuby[9250:398035] Finished load of: file:///Users/todd/Library/Developer/CoreSimulator/Devices/CDC1F8E9-24B1-449A-9BCE-805B990B9F1B/data/Containers/Bundle/Application/8E1DD977-36CE-4AC1-BE12-ADA9D9FDF773/TryMRuby.app/www/index.html
+2015-07-17 08:55:31.230 TryMRuby[9250:398035] Resetting plugins due to page load.
+2015-07-17 08:55:31.245 TryMRuby[9250:398035] Finished load of: file:///Users/todd/Library/Developer/CoreSimulator/Devices/CDC1F8E9-24B1-449A-9BCE-805B990B9F1B/data/Containers/Bundle/Application/8E1DD977-36CE-4AC1-BE12-ADA9D9FDF773/TryMRuby.app/www/about.html
+2015-07-17 08:55:32.797 TryMRuby[9250:398035] Resetting plugins due to page load.
+2015-07-17 08:55:33.265 TryMRuby[9250:398035] Finished load of: https://github.com/tlynam/TryMRuby
+2015-07-17 08:55:45.123 TryMRuby[9439:399637] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-17 08:55:45.124 TryMRuby[9439:399637] Multi-tasking -> Device: YES, App: YES
+2015-07-17 08:55:45.125 TryMRuby[9439:399637] Unlimited access to network resources
+2015-07-17 08:55:45.127 TryMRuby[9439:399637] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-17 08:55:45.212 TryMRuby[9439:399637] [CDVTimer][splashscreen] 17.033994ms
+2015-07-17 08:55:45.212 TryMRuby[9439:399637] [CDVTimer][TotalPluginStartup] 17.174006ms
+2015-07-17 08:55:45.366 TryMRuby[9439:399637] Resetting plugins due to page load.
+2015-07-17 08:55:45.765 TryMRuby[9439:399637] Finished load of: file:///Users/todd/Library/Developer/CoreSimulator/Devices/CDC1F8E9-24B1-449A-9BCE-805B990B9F1B/data/Containers/Bundle/Application/6451E3E7-7115-4477-A95D-9102AB8D269F/TryMRuby.app/www/index.html
+2015-07-17 08:55:48.219 TryMRuby[9439:399637] Resetting plugins due to page load.
+2015-07-17 08:55:48.234 TryMRuby[9439:399637] Finished load of: file:///Users/todd/Library/Developer/CoreSimulator/Devices/CDC1F8E9-24B1-449A-9BCE-805B990B9F1B/data/Containers/Bundle/Application/6451E3E7-7115-4477-A95D-9102AB8D269F/TryMRuby.app/www/about.html
+2015-07-17 08:55:50.410 TryMRuby[9439:399637] Resetting plugins due to page load.
+2015-07-17 08:55:53.426 TryMRuby[9439:399637] Finished load of: https://codemirror.net/
+2015-07-17 08:56:50.375 TryMRuby[9647:403550] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-17 08:56:50.376 TryMRuby[9647:403550] Multi-tasking -> Device: YES, App: YES
+2015-07-17 08:56:50.378 TryMRuby[9647:403550] Unlimited access to network resources
+2015-07-17 08:56:50.381 TryMRuby[9647:403550] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-17 08:56:50.458 TryMRuby[9647:403550] [CDVTimer][splashscreen] 16.047955ms
+2015-07-17 08:56:50.458 TryMRuby[9647:403550] [CDVTimer][TotalPluginStartup] 16.187012ms
+2015-07-17 08:56:50.578 TryMRuby[9647:403550] Resetting plugins due to page load.
+2015-07-17 08:56:51.002 TryMRuby[9647:403550] Finished load of: file:///Users/todd/Library/Developer/CoreSimulator/Devices/CDC1F8E9-24B1-449A-9BCE-805B990B9F1B/data/Containers/Bundle/Application/D9AF395D-AD35-4AFB-9E19-1FAAEDA31DA4/TryMRuby.app/www/index.html
+2015-07-17 08:56:52.559 TryMRuby[9647:403550] Resetting plugins due to page load.
+2015-07-17 08:56:52.575 TryMRuby[9647:403550] Finished load of: file:///Users/todd/Library/Developer/CoreSimulator/Devices/CDC1F8E9-24B1-449A-9BCE-805B990B9F1B/data/Containers/Bundle/Application/D9AF395D-AD35-4AFB-9E19-1FAAEDA31DA4/TryMRuby.app/www/about.html
+2015-07-17 08:56:54.490 TryMRuby[9647:403550] Resetting plugins due to page load.
+2015-07-17 08:56:55.361 TryMRuby[9647:403550] Finished load of: https://codemirror.net/
+2015-07-17 09:02:22.209 TryMRuby[9959:427469] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-17 09:02:22.211 TryMRuby[9959:427469] Multi-tasking -> Device: YES, App: YES
+2015-07-17 09:02:22.220 TryMRuby[9959:427469] Unlimited access to network resources
+2015-07-17 09:02:22.228 TryMRuby[9959:427469] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-17 09:02:22.555 TryMRuby[9959:427469] [CDVTimer][splashscreen] 122.547984ms
+2015-07-17 09:02:22.555 TryMRuby[9959:427469] [CDVTimer][TotalPluginStartup] 122.698009ms
+2015-07-17 09:02:22.661 TryMRuby[9959:427469] Resetting plugins due to page load.
+2015-07-17 09:02:23.152 TryMRuby[9959:427469] Finished load of: file:///Users/todd/Library/Developer/CoreSimulator/Devices/CDC1F8E9-24B1-449A-9BCE-805B990B9F1B/data/Containers/Bundle/Application/5224CABD-41F3-42C1-807B-131C5304F754/TryMRuby.app/www/index.html
+2015-07-17 09:03:05.577 TryMRuby[9959:427469] Resetting plugins due to page load.
+2015-07-17 09:03:05.614 TryMRuby[9959:427469] Finished load of: file:///Users/todd/Library/Developer/CoreSimulator/Devices/CDC1F8E9-24B1-449A-9BCE-805B990B9F1B/data/Containers/Bundle/Application/5224CABD-41F3-42C1-807B-131C5304F754/TryMRuby.app/www/about.html
+2015-07-17 09:03:07.612 TryMRuby[9959:427469] Resetting plugins due to page load.
+2015-07-17 09:03:08.171 TryMRuby[9959:427469] Finished load of: https://github.com/tlynam/TryMRuby
+2015-07-17 09:03:58.674 TryMRuby[10182:435053] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-17 09:03:58.674 TryMRuby[10182:435053] Multi-tasking -> Device: YES, App: YES
+2015-07-17 09:03:58.676 TryMRuby[10182:435053] Unlimited access to network resources
+2015-07-17 09:03:58.678 TryMRuby[10182:435053] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-17 09:03:58.768 TryMRuby[10182:435053] [CDVTimer][splashscreen] 22.422016ms
+2015-07-17 09:03:58.768 TryMRuby[10182:435053] [CDVTimer][TotalPluginStartup] 22.565007ms
+2015-07-17 09:03:58.826 TryMRuby[10182:435053] Resetting plugins due to page load.
+2015-07-17 09:03:59.238 TryMRuby[10182:435053] Finished load of: file:///Users/todd/Library/Developer/CoreSimulator/Devices/CDC1F8E9-24B1-449A-9BCE-805B990B9F1B/data/Containers/Bundle/Application/5FB71D21-8357-4C7B-AFCA-4F55801CF5E4/TryMRuby.app/www/index.html
+2015-07-17 09:04:01.758 TryMRuby[10182:435053] Resetting plugins due to page load.
+2015-07-17 09:04:01.773 TryMRuby[10182:435053] Finished load of: file:///Users/todd/Library/Developer/CoreSimulator/Devices/CDC1F8E9-24B1-449A-9BCE-805B990B9F1B/data/Containers/Bundle/Application/5FB71D21-8357-4C7B-AFCA-4F55801CF5E4/TryMRuby.app/www/about.html
+2015-07-17 09:04:03.887 TryMRuby[10182:435053] Resetting plugins due to page load.
+2015-07-17 09:04:05.146 TryMRuby[10182:435053] Finished load of: http://www.nhl.com/ice/m_home.htm
+2015-07-17 09:04:10.626 TryMRuby[10182:435214] Terminating since there is no system app.
+2015-07-17 09:04:45.503 TryMRuby[10410:439478] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-17 09:04:45.504 TryMRuby[10410:439478] Multi-tasking -> Device: YES, App: YES
+2015-07-17 09:04:45.505 TryMRuby[10410:439478] Unlimited access to network resources
+2015-07-17 09:04:45.507 TryMRuby[10410:439478] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-17 09:04:45.590 TryMRuby[10410:439478] [CDVTimer][splashscreen] 21.661997ms
+2015-07-17 09:04:45.590 TryMRuby[10410:439478] [CDVTimer][TotalPluginStartup] 21.796048ms
+2015-07-17 09:04:45.647 TryMRuby[10410:439478] Resetting plugins due to page load.
+2015-07-17 09:04:46.045 TryMRuby[10410:439478] Finished load of: file:///Users/todd/Library/Developer/CoreSimulator/Devices/CDC1F8E9-24B1-449A-9BCE-805B990B9F1B/data/Containers/Bundle/Application/F2324EF8-19BF-4D79-822D-8F8052FF9B89/TryMRuby.app/www/index.html
+2015-07-17 09:06:17.334 TryMRuby[10772:443113] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-17 09:06:17.335 TryMRuby[10772:443113] Multi-tasking -> Device: YES, App: YES
+2015-07-17 09:06:17.336 TryMRuby[10772:443113] Unlimited access to network resources
+2015-07-17 09:06:17.338 TryMRuby[10772:443113] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-17 09:06:17.425 TryMRuby[10772:443113] [CDVTimer][splashscreen] 20.574987ms
+2015-07-17 09:06:17.425 TryMRuby[10772:443113] [CDVTimer][TotalPluginStartup] 20.710051ms
+2015-07-17 09:06:17.481 TryMRuby[10772:443113] Resetting plugins due to page load.
+2015-07-17 09:06:17.885 TryMRuby[10772:443113] Finished load of: file:///Users/todd/Library/Developer/CoreSimulator/Devices/CDC1F8E9-24B1-449A-9BCE-805B990B9F1B/data/Containers/Bundle/Application/7072A1F9-9D4B-4BA3-8F19-2870E0A204C0/TryMRuby.app/www/index.html
+2015-07-17 09:06:20.542 TryMRuby[10772:443113] Resetting plugins due to page load.
+2015-07-17 09:06:20.557 TryMRuby[10772:443113] Finished load of: file:///Users/todd/Library/Developer/CoreSimulator/Devices/CDC1F8E9-24B1-449A-9BCE-805B990B9F1B/data/Containers/Bundle/Application/7072A1F9-9D4B-4BA3-8F19-2870E0A204C0/TryMRuby.app/www/about.html
+2015-07-17 09:06:22.745 TryMRuby[10772:443113] Resetting plugins due to page load.
+2015-07-17 09:06:23.839 TryMRuby[10772:443113] Finished load of: http://www.nhl.com/ice/m_home.htm
+2015-07-17 09:06:30.640 TryMRuby[10772:443113] Resetting plugins due to page load.
+2015-07-17 09:06:34.345 TryMRuby[10772:443113] Finished load of: https://www.hefflercases.com/cases/nhl/
+2015-07-17 09:09:01.248 TryMRuby[11005:452434] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-17 09:09:01.249 TryMRuby[11005:452434] Multi-tasking -> Device: YES, App: YES
+2015-07-17 09:09:01.250 TryMRuby[11005:452434] Unlimited access to network resources
+2015-07-17 09:09:01.252 TryMRuby[11005:452434] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-17 09:09:01.332 TryMRuby[11005:452434] [CDVTimer][splashscreen] 18.992960ms
+2015-07-17 09:09:01.333 TryMRuby[11005:452434] [CDVTimer][TotalPluginStartup] 19.127965ms
+2015-07-17 09:09:01.388 TryMRuby[11005:452434] Resetting plugins due to page load.
+2015-07-17 09:09:01.813 TryMRuby[11005:452434] Finished load of: file:///Users/todd/Library/Developer/CoreSimulator/Devices/CDC1F8E9-24B1-449A-9BCE-805B990B9F1B/data/Containers/Bundle/Application/F6642055-F447-4C9C-AB6D-2D0A3F42B3AB/TryMRuby.app/www/index.html
+2015-07-17 09:09:05.118 TryMRuby[11005:452434] Resetting plugins due to page load.
+2015-07-17 09:09:05.145 TryMRuby[11005:452434] Finished load of: file:///Users/todd/Library/Developer/CoreSimulator/Devices/CDC1F8E9-24B1-449A-9BCE-805B990B9F1B/data/Containers/Bundle/Application/F6642055-F447-4C9C-AB6D-2D0A3F42B3AB/TryMRuby.app/www/about.html
+2015-07-17 09:09:06.815 TryMRuby[11005:452434] Resetting plugins due to page load.
+2015-07-17 09:09:07.402 TryMRuby[11005:452434] Finished load of: http://www.nhl.com/ice/m_home.htm
+2015-07-17 09:09:12.048 TryMRuby[11005:452485] Communications error: <OS_xpc_error: <error: 0x2d5a5f4> { count = 1, contents =
+	"XPCErrorDescription" => <string: 0x2d5a83c> { length = 22, contents = "Connection interrupted" }
+}>
+2015-07-17 09:09:50.508 TryMRuby[11214:456707] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-17 09:09:50.517 TryMRuby[11214:456707] Multi-tasking -> Device: YES, App: YES
+2015-07-17 09:09:50.527 TryMRuby[11214:456707] Unlimited access to network resources
+2015-07-17 09:09:50.530 TryMRuby[11214:456707] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-17 09:09:50.610 TryMRuby[11214:456707] [CDVTimer][splashscreen] 18.777966ms
+2015-07-17 09:09:50.610 TryMRuby[11214:456707] [CDVTimer][TotalPluginStartup] 18.916965ms
+2015-07-17 09:09:50.663 TryMRuby[11214:456707] Resetting plugins due to page load.
+2015-07-17 09:09:51.054 TryMRuby[11214:456707] Finished load of: file:///Users/todd/Library/Developer/CoreSimulator/Devices/CDC1F8E9-24B1-449A-9BCE-805B990B9F1B/data/Containers/Bundle/Application/796BEC0F-6DA8-43C0-8237-CE6A256A7343/TryMRuby.app/www/index.html
+2015-07-17 09:11:13.850 TryMRuby[11214:456707] Resetting plugins due to page load.
+2015-07-17 09:11:13.866 TryMRuby[11214:456707] Finished load of: file:///Users/todd/Library/Developer/CoreSimulator/Devices/CDC1F8E9-24B1-449A-9BCE-805B990B9F1B/data/Containers/Bundle/Application/796BEC0F-6DA8-43C0-8237-CE6A256A7343/TryMRuby.app/www/about.html
+2015-07-17 09:11:15.432 TryMRuby[11214:456707] Resetting plugins due to page load.
+2015-07-17 09:11:16.271 TryMRuby[11214:456707] Finished load of: http://www.nhl.com/ice/m_home.htm
+2015-07-17 09:11:24.468 TryMRuby[11214:458367] Terminating since there is no system app.
+2015-07-17 09:12:30.708 TryMRuby[11476:464184] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-17 09:12:30.709 TryMRuby[11476:464184] Multi-tasking -> Device: YES, App: YES
+2015-07-17 09:12:30.711 TryMRuby[11476:464184] Unlimited access to network resources
+2015-07-17 09:12:30.713 TryMRuby[11476:464184] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-17 09:12:30.792 TryMRuby[11476:464184] [CDVTimer][splashscreen] 18.570006ms
+2015-07-17 09:12:30.792 TryMRuby[11476:464184] [CDVTimer][TotalPluginStartup] 18.723011ms
+2015-07-17 09:12:30.845 TryMRuby[11476:464184] Resetting plugins due to page load.
+2015-07-17 09:12:31.237 TryMRuby[11476:464184] Finished load of: file:///Users/todd/Library/Developer/CoreSimulator/Devices/CDC1F8E9-24B1-449A-9BCE-805B990B9F1B/data/Containers/Bundle/Application/51157380-CAE6-47AA-8C5B-25F6CCC10442/TryMRuby.app/www/index.html
+2015-07-17 09:12:33.970 TryMRuby[11476:464184] Resetting plugins due to page load.
+2015-07-17 09:12:33.996 TryMRuby[11476:464184] Finished load of: file:///Users/todd/Library/Developer/CoreSimulator/Devices/CDC1F8E9-24B1-449A-9BCE-805B990B9F1B/data/Containers/Bundle/Application/51157380-CAE6-47AA-8C5B-25F6CCC10442/TryMRuby.app/www/about.html
+2015-07-17 09:12:35.547 TryMRuby[11476:464184] Resetting plugins due to page load.
+2015-07-17 09:12:36.105 TryMRuby[11476:464184] Finished load of: http://www.nhl.com/ice/m_home.htm
+2015-07-17 09:12:38.603 TryMRuby[11476:464205] Terminating since there is no system app.
+2015-07-17 09:13:37.343 TryMRuby[11695:469091] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-17 09:13:37.344 TryMRuby[11695:469091] Multi-tasking -> Device: YES, App: YES
+2015-07-17 09:13:37.345 TryMRuby[11695:469091] Unlimited access to network resources
+2015-07-17 09:13:37.347 TryMRuby[11695:469091] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-17 09:13:37.426 TryMRuby[11695:469091] [CDVTimer][splashscreen] 17.708957ms
+2015-07-17 09:13:37.426 TryMRuby[11695:469091] [CDVTimer][TotalPluginStartup] 17.859042ms
+2015-07-17 09:13:37.480 TryMRuby[11695:469091] Resetting plugins due to page load.
+2015-07-17 09:13:37.866 TryMRuby[11695:469091] Finished load of: file:///Users/todd/Library/Developer/CoreSimulator/Devices/CDC1F8E9-24B1-449A-9BCE-805B990B9F1B/data/Containers/Bundle/Application/B6BC56A5-A6B3-4127-B512-D6C390A6393E/TryMRuby.app/www/index.html
+2015-07-17 09:15:17.674 TryMRuby[11903:475828] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-17 09:15:17.675 TryMRuby[11903:475828] Multi-tasking -> Device: YES, App: YES
+2015-07-17 09:15:17.678 TryMRuby[11903:475828] Unlimited access to network resources
+2015-07-17 09:15:17.680 TryMRuby[11903:475828] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-17 09:15:17.764 TryMRuby[11903:475828] [CDVTimer][splashscreen] 21.077991ms
+2015-07-17 09:15:17.764 TryMRuby[11903:475828] [CDVTimer][TotalPluginStartup] 21.264970ms
+2015-07-17 09:15:17.912 TryMRuby[11903:475828] Resetting plugins due to page load.
+2015-07-17 09:15:18.345 TryMRuby[11903:475828] Finished load of: file:///Users/todd/Library/Developer/CoreSimulator/Devices/CDC1F8E9-24B1-449A-9BCE-805B990B9F1B/data/Containers/Bundle/Application/D32F6FEE-33AB-4D1A-9B4B-AEAE79E5FEBD/TryMRuby.app/www/index.html
+2015-07-17 09:15:24.393 TryMRuby[11903:475828] Resetting plugins due to page load.
+2015-07-17 09:15:24.408 TryMRuby[11903:475828] Finished load of: file:///Users/todd/Library/Developer/CoreSimulator/Devices/CDC1F8E9-24B1-449A-9BCE-805B990B9F1B/data/Containers/Bundle/Application/D32F6FEE-33AB-4D1A-9B4B-AEAE79E5FEBD/TryMRuby.app/www/about.html
+2015-07-17 09:15:26.121 TryMRuby[11903:475828] Resetting plugins due to page load.
+2015-07-17 09:15:27.018 TryMRuby[11903:475828] Finished load of: http://www.nhl.com/ice/m_home.htm
+2015-07-17 09:16:24.149 TryMRuby[12140:481744] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-17 09:16:24.150 TryMRuby[12140:481744] Multi-tasking -> Device: YES, App: YES
+2015-07-17 09:16:24.151 TryMRuby[12140:481744] Unlimited access to network resources
+2015-07-17 09:16:24.153 TryMRuby[12140:481744] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-17 09:16:24.232 TryMRuby[12140:481744] [CDVTimer][splashscreen] 17.939985ms
+2015-07-17 09:16:24.232 TryMRuby[12140:481744] [CDVTimer][TotalPluginStartup] 18.076003ms
+2015-07-17 09:16:24.288 TryMRuby[12140:481744] Resetting plugins due to page load.
+2015-07-17 09:16:24.685 TryMRuby[12140:481744] Finished load of: file:///Users/todd/Library/Developer/CoreSimulator/Devices/CDC1F8E9-24B1-449A-9BCE-805B990B9F1B/data/Containers/Bundle/Application/70A5D3C2-5C55-4CCE-BE07-4BC3581B6276/TryMRuby.app/www/index.html
+2015-07-17 09:16:26.103 TryMRuby[12140:481744] Resetting plugins due to page load.
+2015-07-17 09:16:26.130 TryMRuby[12140:481744] Finished load of: file:///Users/todd/Library/Developer/CoreSimulator/Devices/CDC1F8E9-24B1-449A-9BCE-805B990B9F1B/data/Containers/Bundle/Application/70A5D3C2-5C55-4CCE-BE07-4BC3581B6276/TryMRuby.app/www/about.html
+2015-07-17 09:16:54.360 TryMRuby[12354:484144] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-17 09:16:54.361 TryMRuby[12354:484144] Multi-tasking -> Device: YES, App: YES
+2015-07-17 09:16:54.362 TryMRuby[12354:484144] Unlimited access to network resources
+2015-07-17 09:16:54.364 TryMRuby[12354:484144] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-17 09:16:54.441 TryMRuby[12354:484144] [CDVTimer][splashscreen] 16.629994ms
+2015-07-17 09:16:54.441 TryMRuby[12354:484144] [CDVTimer][TotalPluginStartup] 16.771019ms
+2015-07-17 09:16:54.492 TryMRuby[12354:484144] Resetting plugins due to page load.
+2015-07-17 09:16:54.883 TryMRuby[12354:484144] Finished load of: file:///Users/todd/Library/Developer/CoreSimulator/Devices/CDC1F8E9-24B1-449A-9BCE-805B990B9F1B/data/Containers/Bundle/Application/1F1ADF2E-3C75-4B8A-A629-18E29935EE38/TryMRuby.app/www/index.html
+2015-07-17 09:16:56.882 TryMRuby[12354:484144] Resetting plugins due to page load.
+2015-07-17 09:16:56.898 TryMRuby[12354:484144] Finished load of: file:///Users/todd/Library/Developer/CoreSimulator/Devices/CDC1F8E9-24B1-449A-9BCE-805B990B9F1B/data/Containers/Bundle/Application/1F1ADF2E-3C75-4B8A-A629-18E29935EE38/TryMRuby.app/www/about.html
+2015-07-17 09:17:01.635 TryMRuby[12354:484144] CDVWebViewDelegate: Navigation started when state=1
+2015-07-17 09:17:01.636 TryMRuby[12354:484144] Failed to load webpage with error: CDVWebViewDelegate: Navigation started when state=1
+2015-07-17 09:17:02.701 TryMRuby[12354:484144] CDVWebViewDelegate: Navigation started when state=1
+2015-07-17 09:17:02.701 TryMRuby[12354:484144] Failed to load webpage with error: CDVWebViewDelegate: Navigation started when state=1
+2015-07-17 09:17:11.640 TryMRuby[12354:485473] Terminating since there is no system app.
+2015-07-17 09:17:18.466 TryMRuby[12563:486256] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-17 09:17:18.467 TryMRuby[12563:486256] Multi-tasking -> Device: YES, App: YES
+2015-07-17 09:17:18.469 TryMRuby[12563:486256] Unlimited access to network resources
+2015-07-17 09:17:18.471 TryMRuby[12563:486256] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-17 09:17:18.564 TryMRuby[12563:486256] [CDVTimer][splashscreen] 18.412054ms
+2015-07-17 09:17:18.564 TryMRuby[12563:486256] [CDVTimer][TotalPluginStartup] 18.631041ms
+2015-07-17 09:17:18.755 TryMRuby[12563:486256] Resetting plugins due to page load.
+2015-07-17 09:17:19.151 TryMRuby[12563:486256] Finished load of: file:///Users/todd/Library/Developer/CoreSimulator/Devices/CDC1F8E9-24B1-449A-9BCE-805B990B9F1B/data/Containers/Bundle/Application/B4D65673-DA18-4B59-8A71-FE7FD74C5E95/TryMRuby.app/www/index.html
+2015-07-17 09:17:21.127 TryMRuby[12563:486256] Resetting plugins due to page load.
+2015-07-17 09:17:21.143 TryMRuby[12563:486256] Finished load of: file:///Users/todd/Library/Developer/CoreSimulator/Devices/CDC1F8E9-24B1-449A-9BCE-805B990B9F1B/data/Containers/Bundle/Application/B4D65673-DA18-4B59-8A71-FE7FD74C5E95/TryMRuby.app/www/about.html
+2015-07-17 09:17:24.732 TryMRuby[12563:486256] CDVWebViewDelegate: Navigation started when state=1
+2015-07-17 09:17:24.732 TryMRuby[12563:486256] Failed to load webpage with error: CDVWebViewDelegate: Navigation started when state=1
+2015-07-17 09:17:56.055 TryMRuby[12563:486256] CDVWebViewDelegate: Navigation started when state=1
+2015-07-17 09:17:56.056 TryMRuby[12563:486256] Failed to load webpage with error: CDVWebViewDelegate: Navigation started when state=1
+2015-07-17 09:17:56.059 TryMRuby[12563:486256] Resetting plugins due to page load.
+2015-07-17 09:17:56.529 TryMRuby[12563:486256] Finished load of: file:///Users/todd/Library/Developer/CoreSimulator/Devices/CDC1F8E9-24B1-449A-9BCE-805B990B9F1B/data/Containers/Bundle/Application/B4D65673-DA18-4B59-8A71-FE7FD74C5E95/TryMRuby.app/www/index.html
+2015-07-17 09:17:58.654 TryMRuby[12563:486256] Resetting plugins due to page load.
+2015-07-17 09:17:58.687 TryMRuby[12563:486256] Finished load of: file:///Users/todd/Library/Developer/CoreSimulator/Devices/CDC1F8E9-24B1-449A-9BCE-805B990B9F1B/data/Containers/Bundle/Application/B4D65673-DA18-4B59-8A71-FE7FD74C5E95/TryMRuby.app/www/about.html
+2015-07-17 09:18:10.378 TryMRuby[12563:491522] Communications error: <OS_xpc_error: <error: 0x2d855f4> { count = 1, contents =
+	"XPCErrorDescription" => <string: 0x2d8583c> { length = 22, contents = "Connection interrupted" }
+}>
+2015-07-17 09:18:19.298 TryMRuby[12787:492736] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-17 09:18:19.300 TryMRuby[12787:492736] Multi-tasking -> Device: YES, App: YES
+2015-07-17 09:18:19.302 TryMRuby[12787:492736] Unlimited access to network resources
+2015-07-17 09:18:19.304 TryMRuby[12787:492736] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-17 09:18:19.381 TryMRuby[12787:492736] [CDVTimer][splashscreen] 17.325997ms
+2015-07-17 09:18:19.381 TryMRuby[12787:492736] [CDVTimer][TotalPluginStartup] 17.461002ms
+2015-07-17 09:18:19.432 TryMRuby[12787:492736] Resetting plugins due to page load.
+2015-07-17 09:18:19.824 TryMRuby[12787:492736] Finished load of: file:///Users/todd/Library/Developer/CoreSimulator/Devices/CDC1F8E9-24B1-449A-9BCE-805B990B9F1B/data/Containers/Bundle/Application/8EE603DB-26A7-4575-A141-1755AB6C8DB1/TryMRuby.app/www/index.html
+2015-07-17 09:18:30.105 TryMRuby[12787:492736] Resetting plugins due to page load.
+2015-07-17 09:18:30.155 TryMRuby[12787:492736] Finished load of: file:///Users/todd/Library/Developer/CoreSimulator/Devices/CDC1F8E9-24B1-449A-9BCE-805B990B9F1B/data/Containers/Bundle/Application/8EE603DB-26A7-4575-A141-1755AB6C8DB1/TryMRuby.app/www/about.html
+2015-07-17 09:18:30.694 TryMRuby[12787:492736] Resetting plugins due to page load.
+2015-07-17 09:18:30.740 TryMRuby[12787:492736] Finished load of: file:///Users/todd/Library/Developer/CoreSimulator/Devices/CDC1F8E9-24B1-449A-9BCE-805B990B9F1B/data/Containers/Bundle/Application/8EE603DB-26A7-4575-A141-1755AB6C8DB1/TryMRuby.app/www/about.html
+2015-07-17 09:18:32.166 TryMRuby[12787:492736] Resetting plugins due to page load.
+2015-07-17 09:18:32.209 TryMRuby[12787:492736] Finished load of: file:///Users/todd/Library/Developer/CoreSimulator/Devices/CDC1F8E9-24B1-449A-9BCE-805B990B9F1B/data/Containers/Bundle/Application/8EE603DB-26A7-4575-A141-1755AB6C8DB1/TryMRuby.app/www/about.html
+2015-07-17 09:20:20.803 TryMRuby[13051:502608] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-17 09:20:20.804 TryMRuby[13051:502608] Multi-tasking -> Device: YES, App: YES
+2015-07-17 09:20:20.806 TryMRuby[13051:502608] Unlimited access to network resources
+2015-07-17 09:20:20.808 TryMRuby[13051:502608] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-17 09:20:20.892 TryMRuby[13051:502608] [CDVTimer][splashscreen] 18.095016ms
+2015-07-17 09:20:20.893 TryMRuby[13051:502608] [CDVTimer][TotalPluginStartup] 18.244028ms
+2015-07-17 09:20:21.011 TryMRuby[13051:502608] Resetting plugins due to page load.
+2015-07-17 09:20:21.408 TryMRuby[13051:502608] Finished load of: file:///Users/todd/Library/Developer/CoreSimulator/Devices/CDC1F8E9-24B1-449A-9BCE-805B990B9F1B/data/Containers/Bundle/Application/6D062E1D-E911-415F-B328-72C541363A1C/TryMRuby.app/www/index.html
+2015-07-17 09:20:23.640 TryMRuby[13051:502608] Resetting plugins due to page load.
+2015-07-17 09:20:23.652 TryMRuby[13051:502608] Finished load of: file:///Users/todd/Library/Developer/CoreSimulator/Devices/CDC1F8E9-24B1-449A-9BCE-805B990B9F1B/data/Containers/Bundle/Application/6D062E1D-E911-415F-B328-72C541363A1C/TryMRuby.app/www/about.html
+2015-07-17 09:20:34.431 TryMRuby[13051:502608] Resetting plugins due to page load.
+2015-07-17 09:20:34.897 TryMRuby[13051:502608] Finished load of: file:///Users/todd/Library/Developer/CoreSimulator/Devices/CDC1F8E9-24B1-449A-9BCE-805B990B9F1B/data/Containers/Bundle/Application/6D062E1D-E911-415F-B328-72C541363A1C/TryMRuby.app/www/index.html
+2015-07-17 09:20:36.090 TryMRuby[13051:502608] Resetting plugins due to page load.
+2015-07-17 09:20:36.125 TryMRuby[13051:502608] Finished load of: file:///Users/todd/Library/Developer/CoreSimulator/Devices/CDC1F8E9-24B1-449A-9BCE-805B990B9F1B/data/Containers/Bundle/Application/6D062E1D-E911-415F-B328-72C541363A1C/TryMRuby.app/www/about.html
+2015-07-17 09:21:39.545 TryMRuby[13051:510257] Communications error: <OS_xpc_error: <error: 0x2d225f4> { count = 1, contents =
+	"XPCErrorDescription" => <string: 0x2d2283c> { length = 22, contents = "Connection interrupted" }
+}>
+2015-07-17 09:21:46.744 TryMRuby[13295:511121] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-17 09:21:46.745 TryMRuby[13295:511121] Multi-tasking -> Device: YES, App: YES
+2015-07-17 09:21:46.746 TryMRuby[13295:511121] Unlimited access to network resources
+2015-07-17 09:21:46.748 TryMRuby[13295:511121] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-17 09:21:46.826 TryMRuby[13295:511121] [CDVTimer][splashscreen] 17.363966ms
+2015-07-17 09:21:46.826 TryMRuby[13295:511121] [CDVTimer][TotalPluginStartup] 17.511010ms
+2015-07-17 09:21:47.046 TryMRuby[13295:511121] Resetting plugins due to page load.
+2015-07-17 09:21:47.432 TryMRuby[13295:511121] Finished load of: file:///Users/todd/Library/Developer/CoreSimulator/Devices/CDC1F8E9-24B1-449A-9BCE-805B990B9F1B/data/Containers/Bundle/Application/D94A0305-96F2-4B0C-803A-B0B6E6BA3650/TryMRuby.app/www/index.html
+2015-07-17 09:21:50.043 TryMRuby[13295:511121] Resetting plugins due to page load.
+2015-07-17 09:21:50.057 TryMRuby[13295:511121] Finished load of: file:///Users/todd/Library/Developer/CoreSimulator/Devices/CDC1F8E9-24B1-449A-9BCE-805B990B9F1B/data/Containers/Bundle/Application/D94A0305-96F2-4B0C-803A-B0B6E6BA3650/TryMRuby.app/www/about.html
+2015-07-17 09:22:01.828 TryMRuby[13295:511121] Resetting plugins due to page load.
+2015-07-17 09:22:02.294 TryMRuby[13295:511121] Finished load of: file:///Users/todd/Library/Developer/CoreSimulator/Devices/CDC1F8E9-24B1-449A-9BCE-805B990B9F1B/data/Containers/Bundle/Application/D94A0305-96F2-4B0C-803A-B0B6E6BA3650/TryMRuby.app/www/index.html
+2015-07-17 09:22:03.050 TryMRuby[13295:511121] Resetting plugins due to page load.
+2015-07-17 09:22:03.087 TryMRuby[13295:511121] Finished load of: file:///Users/todd/Library/Developer/CoreSimulator/Devices/CDC1F8E9-24B1-449A-9BCE-805B990B9F1B/data/Containers/Bundle/Application/D94A0305-96F2-4B0C-803A-B0B6E6BA3650/TryMRuby.app/www/about.html
+2015-07-17 09:22:23.143 TryMRuby[13295:514120] Terminating since there is no system app.
+2015-07-17 09:22:30.337 TryMRuby[13518:514994] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-17 09:22:30.338 TryMRuby[13518:514994] Multi-tasking -> Device: YES, App: YES
+2015-07-17 09:22:30.339 TryMRuby[13518:514994] Unlimited access to network resources
+2015-07-17 09:22:30.341 TryMRuby[13518:514994] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-17 09:22:30.421 TryMRuby[13518:514994] [CDVTimer][splashscreen] 17.192006ms
+2015-07-17 09:22:30.421 TryMRuby[13518:514994] [CDVTimer][TotalPluginStartup] 17.328978ms
+2015-07-17 09:22:30.471 TryMRuby[13518:514994] Resetting plugins due to page load.
+2015-07-17 09:22:30.862 TryMRuby[13518:514994] Finished load of: file:///Users/todd/Library/Developer/CoreSimulator/Devices/CDC1F8E9-24B1-449A-9BCE-805B990B9F1B/data/Containers/Bundle/Application/20ED6DA0-2216-40F9-943F-9C84DED188CA/TryMRuby.app/www/index.html
+2015-07-17 09:22:35.174 TryMRuby[13518:514994] Resetting plugins due to page load.
+2015-07-17 09:22:35.190 TryMRuby[13518:514994] Finished load of: file:///Users/todd/Library/Developer/CoreSimulator/Devices/CDC1F8E9-24B1-449A-9BCE-805B990B9F1B/data/Containers/Bundle/Application/20ED6DA0-2216-40F9-943F-9C84DED188CA/TryMRuby.app/www/about.html
+2015-07-17 09:22:46.491 TryMRuby[13518:514994] Resetting plugins due to page load.
+2015-07-17 09:22:46.965 TryMRuby[13518:514994] Finished load of: file:///Users/todd/Library/Developer/CoreSimulator/Devices/CDC1F8E9-24B1-449A-9BCE-805B990B9F1B/data/Containers/Bundle/Application/20ED6DA0-2216-40F9-943F-9C84DED188CA/TryMRuby.app/www/index.html
+2015-07-17 09:22:48.194 TryMRuby[13518:514994] Resetting plugins due to page load.
+2015-07-17 09:22:48.228 TryMRuby[13518:514994] Finished load of: file:///Users/todd/Library/Developer/CoreSimulator/Devices/CDC1F8E9-24B1-449A-9BCE-805B990B9F1B/data/Containers/Bundle/Application/20ED6DA0-2216-40F9-943F-9C84DED188CA/TryMRuby.app/www/about.html
+2015-07-17 09:23:11.258 TryMRuby[13726:518879] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-17 09:23:11.258 TryMRuby[13726:518879] Multi-tasking -> Device: YES, App: YES
+2015-07-17 09:23:11.260 TryMRuby[13726:518879] Unlimited access to network resources
+2015-07-17 09:23:11.262 TryMRuby[13726:518879] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-17 09:23:11.345 TryMRuby[13726:518879] [CDVTimer][splashscreen] 17.234027ms
+2015-07-17 09:23:11.345 TryMRuby[13726:518879] [CDVTimer][TotalPluginStartup] 17.378032ms
+2015-07-17 09:23:11.534 TryMRuby[13726:518879] Resetting plugins due to page load.
+2015-07-17 09:23:11.917 TryMRuby[13726:518879] Finished load of: file:///Users/todd/Library/Developer/CoreSimulator/Devices/CDC1F8E9-24B1-449A-9BCE-805B990B9F1B/data/Containers/Bundle/Application/63F58491-CF8B-48EB-A1DD-680B8E010C89/TryMRuby.app/www/index.html
+2015-07-17 09:23:15.002 TryMRuby[13726:518879] Resetting plugins due to page load.
+2015-07-17 09:23:15.018 TryMRuby[13726:518879] Finished load of: file:///Users/todd/Library/Developer/CoreSimulator/Devices/CDC1F8E9-24B1-449A-9BCE-805B990B9F1B/data/Containers/Bundle/Application/63F58491-CF8B-48EB-A1DD-680B8E010C89/TryMRuby.app/www/about.html
+2015-07-17 09:23:24.444 TryMRuby[13726:518879] Resetting plugins due to page load.
+2015-07-17 09:23:24.915 TryMRuby[13726:518879] Finished load of: file:///Users/todd/Library/Developer/CoreSimulator/Devices/CDC1F8E9-24B1-449A-9BCE-805B990B9F1B/data/Containers/Bundle/Application/63F58491-CF8B-48EB-A1DD-680B8E010C89/TryMRuby.app/www/index.html
+2015-07-17 09:23:25.663 TryMRuby[13726:518879] Resetting plugins due to page load.
+2015-07-17 09:23:25.698 TryMRuby[13726:518879] Finished load of: file:///Users/todd/Library/Developer/CoreSimulator/Devices/CDC1F8E9-24B1-449A-9BCE-805B990B9F1B/data/Containers/Bundle/Application/63F58491-CF8B-48EB-A1DD-680B8E010C89/TryMRuby.app/www/about.html
+2015-07-17 09:23:56.426 TryMRuby[13956:522236] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-17 09:23:56.427 TryMRuby[13956:522236] Multi-tasking -> Device: YES, App: YES
+2015-07-17 09:23:56.428 TryMRuby[13956:522236] Unlimited access to network resources
+2015-07-17 09:23:56.430 TryMRuby[13956:522236] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-17 09:23:56.510 TryMRuby[13956:522236] [CDVTimer][splashscreen] 17.123044ms
+2015-07-17 09:23:56.510 TryMRuby[13956:522236] [CDVTimer][TotalPluginStartup] 17.278016ms
+2015-07-17 09:23:56.649 TryMRuby[13956:522236] Resetting plugins due to page load.
+2015-07-17 09:23:57.044 TryMRuby[13956:522236] Finished load of: file:///Users/todd/Library/Developer/CoreSimulator/Devices/CDC1F8E9-24B1-449A-9BCE-805B990B9F1B/data/Containers/Bundle/Application/E390A985-5881-41CB-A52C-CDA3103EDDF1/TryMRuby.app/www/index.html
+2015-07-17 09:23:58.876 TryMRuby[13956:522236] Resetting plugins due to page load.
+2015-07-17 09:23:58.892 TryMRuby[13956:522236] Finished load of: file:///Users/todd/Library/Developer/CoreSimulator/Devices/CDC1F8E9-24B1-449A-9BCE-805B990B9F1B/data/Containers/Bundle/Application/E390A985-5881-41CB-A52C-CDA3103EDDF1/TryMRuby.app/www/about.html
+2015-07-17 09:24:09.479 TryMRuby[13956:522236] Resetting plugins due to page load.
+2015-07-17 09:24:10.052 TryMRuby[13956:522236] Finished load of: file:///Users/todd/Library/Developer/CoreSimulator/Devices/CDC1F8E9-24B1-449A-9BCE-805B990B9F1B/data/Containers/Bundle/Application/E390A985-5881-41CB-A52C-CDA3103EDDF1/TryMRuby.app/www/index.html
+2015-07-17 09:24:10.641 TryMRuby[13956:522236] Resetting plugins due to page load.
+2015-07-17 09:24:10.689 TryMRuby[13956:522236] Finished load of: file:///Users/todd/Library/Developer/CoreSimulator/Devices/CDC1F8E9-24B1-449A-9BCE-805B990B9F1B/data/Containers/Bundle/Application/E390A985-5881-41CB-A52C-CDA3103EDDF1/TryMRuby.app/www/about.html
+2015-07-17 09:24:50.193 TryMRuby[14182:527284] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-17 09:24:50.194 TryMRuby[14182:527284] Multi-tasking -> Device: YES, App: YES
+2015-07-17 09:24:50.196 TryMRuby[14182:527284] Unlimited access to network resources
+2015-07-17 09:24:50.198 TryMRuby[14182:527284] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-17 09:24:50.297 TryMRuby[14182:527284] [CDVTimer][splashscreen] 17.183006ms
+2015-07-17 09:24:50.297 TryMRuby[14182:527284] [CDVTimer][TotalPluginStartup] 17.323971ms
+2015-07-17 09:24:50.447 TryMRuby[14182:527284] Resetting plugins due to page load.
+2015-07-17 09:24:50.837 TryMRuby[14182:527284] Finished load of: file:///Users/todd/Library/Developer/CoreSimulator/Devices/CDC1F8E9-24B1-449A-9BCE-805B990B9F1B/data/Containers/Bundle/Application/72A72DAE-8D27-4FDB-8F07-F0DD1B0E03C4/TryMRuby.app/www/index.html
+2015-07-17 09:25:03.975 TryMRuby[14182:527284] Resetting plugins due to page load.
+2015-07-17 09:25:04.020 TryMRuby[14182:527284] Finished load of: file:///Users/todd/Library/Developer/CoreSimulator/Devices/CDC1F8E9-24B1-449A-9BCE-805B990B9F1B/data/Containers/Bundle/Application/72A72DAE-8D27-4FDB-8F07-F0DD1B0E03C4/TryMRuby.app/www/about.html
+2015-07-17 09:25:09.790 TryMRuby[14182:527298] Terminating since there is no system app.
+2015-07-17 09:25:45.422 TryMRuby[14407:531612] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-17 09:25:45.423 TryMRuby[14407:531612] Multi-tasking -> Device: YES, App: YES
+2015-07-17 09:25:45.424 TryMRuby[14407:531612] Unlimited access to network resources
+2015-07-17 09:25:45.426 TryMRuby[14407:531612] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-17 09:25:45.503 TryMRuby[14407:531612] [CDVTimer][splashscreen] 16.384006ms
+2015-07-17 09:25:45.504 TryMRuby[14407:531612] [CDVTimer][TotalPluginStartup] 16.524017ms
+2015-07-17 09:25:45.647 TryMRuby[14407:531612] Resetting plugins due to page load.
+2015-07-17 09:25:46.034 TryMRuby[14407:531612] Finished load of: file:///Users/todd/Library/Developer/CoreSimulator/Devices/CDC1F8E9-24B1-449A-9BCE-805B990B9F1B/data/Containers/Bundle/Application/A599A1FD-ED6F-44F0-8EB3-F7E8654BB025/TryMRuby.app/www/index.html
+2015-07-17 09:25:53.103 TryMRuby[14407:531612] Resetting plugins due to page load.
+2015-07-17 09:26:45.188 TryMRuby[14407:535846] Terminating since there is no system app.
+2015-07-17 09:27:26.461 TryMRuby[14645:539615] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-17 09:27:26.462 TryMRuby[14645:539615] Multi-tasking -> Device: YES, App: YES
+2015-07-17 09:27:26.463 TryMRuby[14645:539615] Unlimited access to network resources
+2015-07-17 09:27:26.465 TryMRuby[14645:539615] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-17 09:27:26.549 TryMRuby[14645:539615] [CDVTimer][splashscreen] 17.407954ms
+2015-07-17 09:27:26.549 TryMRuby[14645:539615] [CDVTimer][TotalPluginStartup] 17.545998ms
+2015-07-17 09:27:26.599 TryMRuby[14645:539615] Resetting plugins due to page load.
+2015-07-17 09:27:26.986 TryMRuby[14645:539615] Finished load of: file:///Users/todd/Library/Developer/CoreSimulator/Devices/CDC1F8E9-24B1-449A-9BCE-805B990B9F1B/data/Containers/Bundle/Application/0BB7C25C-43FD-4493-9BCB-450DCAEE143A/TryMRuby.app/www/index.html
+2015-07-17 09:27:35.736 TryMRuby[14645:539615] Resetting plugins due to page load.
+2015-07-17 09:27:35.783 TryMRuby[14645:539615] Finished load of: file:///Users/todd/Library/Developer/CoreSimulator/Devices/CDC1F8E9-24B1-449A-9BCE-805B990B9F1B/data/Containers/Bundle/Application/0BB7C25C-43FD-4493-9BCB-450DCAEE143A/TryMRuby.app/www/about.html
+2015-07-17 09:28:23.500 TryMRuby[14875:544794] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-17 09:28:23.501 TryMRuby[14875:544794] Multi-tasking -> Device: YES, App: YES
+2015-07-17 09:28:23.504 TryMRuby[14875:544794] Unlimited access to network resources
+2015-07-17 09:28:23.506 TryMRuby[14875:544794] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-17 09:28:23.639 TryMRuby[14875:544794] [CDVTimer][splashscreen] 24.209023ms
+2015-07-17 09:28:23.640 TryMRuby[14875:544794] [CDVTimer][TotalPluginStartup] 24.432003ms
+2015-07-17 09:28:23.710 TryMRuby[14875:544794] Resetting plugins due to page load.
+2015-07-17 09:28:24.216 TryMRuby[14875:544794] Finished load of: file:///Users/todd/Library/Developer/CoreSimulator/Devices/CDC1F8E9-24B1-449A-9BCE-805B990B9F1B/data/Containers/Bundle/Application/7625BC3E-7C7C-413C-9AF6-33B86F887039/TryMRuby.app/www/index.html
+2015-07-17 09:29:00.750 TryMRuby[14875:544794] Resetting plugins due to page load.
+2015-07-17 09:29:00.795 TryMRuby[14875:544794] Finished load of: file:///Users/todd/Library/Developer/CoreSimulator/Devices/CDC1F8E9-24B1-449A-9BCE-805B990B9F1B/data/Containers/Bundle/Application/7625BC3E-7C7C-413C-9AF6-33B86F887039/TryMRuby.app/www/about.html
+2015-07-17 09:29:19.795 TryMRuby[14875:548641] Terminating since there is no system app.
+2015-07-17 09:29:52.144 TryMRuby[15093:551243] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-17 09:29:52.146 TryMRuby[15093:551243] Multi-tasking -> Device: YES, App: YES
+2015-07-17 09:29:52.147 TryMRuby[15093:551243] Unlimited access to network resources
+2015-07-17 09:29:52.149 TryMRuby[15093:551243] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-17 09:29:52.244 TryMRuby[15093:551243] [CDVTimer][splashscreen] 17.004013ms
+2015-07-17 09:29:52.244 TryMRuby[15093:551243] [CDVTimer][TotalPluginStartup] 17.144024ms
+2015-07-17 09:29:52.390 TryMRuby[15093:551243] Resetting plugins due to page load.
+2015-07-17 09:29:52.779 TryMRuby[15093:551243] Finished load of: file:///Users/todd/Library/Developer/CoreSimulator/Devices/CDC1F8E9-24B1-449A-9BCE-805B990B9F1B/data/Containers/Bundle/Application/9FC3DB5D-3E1A-45A3-B4ED-CA3840A73831/TryMRuby.app/www/index.html
+2015-07-17 09:29:55.213 TryMRuby[15093:551243] Resetting plugins due to page load.
+2015-07-17 09:29:55.235 TryMRuby[15093:551243] Finished load of: file:///Users/todd/Library/Developer/CoreSimulator/Devices/CDC1F8E9-24B1-449A-9BCE-805B990B9F1B/data/Containers/Bundle/Application/9FC3DB5D-3E1A-45A3-B4ED-CA3840A73831/TryMRuby.app/www/about.html
+2015-07-17 09:29:58.293 TryMRuby[15093:551243] THREAD WARNING: ['InAppBrowser'] took '81.802246' ms. Plugin should use a background thread.
+2015-07-17 09:30:11.002 TryMRuby[15093:552789] Communications error: <OS_xpc_error: <error: 0x2d2e5f4> { count = 1, contents =
+	"XPCErrorDescription" => <string: 0x2d2e83c> { length = 22, contents = "Connection interrupted" }
+}>
+2015-07-17 09:30:11.003 TryMRuby[15093:552822] Terminating since there is no system app.
+2015-07-17 09:30:18.762 TryMRuby[15305:553826] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-17 09:30:18.762 TryMRuby[15305:553826] Multi-tasking -> Device: YES, App: YES
+2015-07-17 09:30:18.764 TryMRuby[15305:553826] Unlimited access to network resources
+2015-07-17 09:30:18.765 TryMRuby[15305:553826] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-17 09:30:18.846 TryMRuby[15305:553826] [CDVTimer][splashscreen] 17.567039ms
+2015-07-17 09:30:18.846 TryMRuby[15305:553826] [CDVTimer][TotalPluginStartup] 17.755985ms
+2015-07-17 09:30:18.896 TryMRuby[15305:553826] Resetting plugins due to page load.
+2015-07-17 09:30:19.281 TryMRuby[15305:553826] Finished load of: file:///Users/todd/Library/Developer/CoreSimulator/Devices/CDC1F8E9-24B1-449A-9BCE-805B990B9F1B/data/Containers/Bundle/Application/99BEDB9D-2418-446F-B179-56143C0ADA51/TryMRuby.app/www/index.html
+2015-07-17 09:30:21.277 TryMRuby[15305:553826] Resetting plugins due to page load.
+2015-07-17 09:30:21.296 TryMRuby[15305:553826] Finished load of: file:///Users/todd/Library/Developer/CoreSimulator/Devices/CDC1F8E9-24B1-449A-9BCE-805B990B9F1B/data/Containers/Bundle/Application/99BEDB9D-2418-446F-B179-56143C0ADA51/TryMRuby.app/www/about.html
+2015-07-17 09:30:24.357 TryMRuby[15305:553826] THREAD WARNING: ['InAppBrowser'] took '37.711914' ms. Plugin should use a background thread.
+2015-07-17 09:31:39.537 TryMRuby[15567:562141] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-17 09:31:39.538 TryMRuby[15567:562141] Multi-tasking -> Device: YES, App: YES
+2015-07-17 09:31:39.542 TryMRuby[15567:562141] Unlimited access to network resources
+2015-07-17 09:31:39.545 TryMRuby[15567:562141] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-17 09:31:39.647 TryMRuby[15567:562141] [CDVTimer][splashscreen] 17.940998ms
+2015-07-17 09:31:39.648 TryMRuby[15567:562141] [CDVTimer][TotalPluginStartup] 18.141985ms
+2015-07-17 09:31:39.707 TryMRuby[15567:562141] Resetting plugins due to page load.
+2015-07-17 09:31:40.125 TryMRuby[15567:562141] Finished load of: file:///Users/todd/Library/Developer/CoreSimulator/Devices/CDC1F8E9-24B1-449A-9BCE-805B990B9F1B/data/Containers/Bundle/Application/D4E0A21B-EA4C-4747-B48E-2CA8297504EA/TryMRuby.app/www/index.html
+2015-07-17 09:32:35.591 TryMRuby[15567:562141] Resetting plugins due to page load.
+2015-07-17 09:32:35.623 TryMRuby[15567:562141] Finished load of: file:///Users/todd/Library/Developer/CoreSimulator/Devices/CDC1F8E9-24B1-449A-9BCE-805B990B9F1B/data/Containers/Bundle/Application/D4E0A21B-EA4C-4747-B48E-2CA8297504EA/TryMRuby.app/www/about.html
+2015-07-17 09:32:37.522 TryMRuby[15567:562141] THREAD WARNING: ['InAppBrowser'] took '30.372803' ms. Plugin should use a background thread.
+2015-07-17 09:32:53.679 TryMRuby[15567:564432] Terminating since there is no system app.
+2015-07-17 09:33:20.736 TryMRuby[15795:567032] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-17 09:33:20.736 TryMRuby[15795:567032] Multi-tasking -> Device: YES, App: YES
+2015-07-17 09:33:20.738 TryMRuby[15795:567032] Unlimited access to network resources
+2015-07-17 09:33:20.740 TryMRuby[15795:567032] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-17 09:33:20.818 TryMRuby[15795:567032] [CDVTimer][splashscreen] 16.760051ms
+2015-07-17 09:33:20.819 TryMRuby[15795:567032] [CDVTimer][TotalPluginStartup] 16.901016ms
+2015-07-17 09:33:20.979 TryMRuby[15795:567032] Resetting plugins due to page load.
+2015-07-17 09:33:21.369 TryMRuby[15795:567032] Finished load of: file:///Users/todd/Library/Developer/CoreSimulator/Devices/CDC1F8E9-24B1-449A-9BCE-805B990B9F1B/data/Containers/Bundle/Application/055B2BFE-D27F-4F4B-A375-4DB9011E3ADE/TryMRuby.app/www/index.html
+2015-07-17 09:33:23.920 TryMRuby[15795:567032] Resetting plugins due to page load.
+2015-07-17 09:33:23.941 TryMRuby[15795:567032] Finished load of: file:///Users/todd/Library/Developer/CoreSimulator/Devices/CDC1F8E9-24B1-449A-9BCE-805B990B9F1B/data/Containers/Bundle/Application/055B2BFE-D27F-4F4B-A375-4DB9011E3ADE/TryMRuby.app/www/about.html
+2015-07-17 09:33:24.827 TryMRuby[15795:567032] Resetting plugins due to page load.
+2015-07-17 09:33:24.840 TryMRuby[15795:567032] Finished load of: file:///Users/todd/Library/Developer/CoreSimulator/Devices/CDC1F8E9-24B1-449A-9BCE-805B990B9F1B/data/Containers/Bundle/Application/055B2BFE-D27F-4F4B-A375-4DB9011E3ADE/TryMRuby.app/www/about.html
+2015-07-17 09:33:26.104 TryMRuby[15795:567032] THREAD WARNING: ['InAppBrowser'] took '28.683105' ms. Plugin should use a background thread.
+2015-07-17 09:33:32.781 TryMRuby[15795:568200] Terminating since there is no system app.
+2015-07-17 09:34:58.488 TryMRuby[16065:574184] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-17 09:34:58.489 TryMRuby[16065:574184] Multi-tasking -> Device: YES, App: YES
+2015-07-17 09:34:58.490 TryMRuby[16065:574184] Unlimited access to network resources
+2015-07-17 09:34:58.492 TryMRuby[16065:574184] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-17 09:34:58.569 TryMRuby[16065:574184] [CDVTimer][splashscreen] 16.131997ms
+2015-07-17 09:34:58.569 TryMRuby[16065:574184] [CDVTimer][TotalPluginStartup] 16.273975ms
+2015-07-17 09:34:58.743 TryMRuby[16065:574184] Resetting plugins due to page load.
+2015-07-17 09:34:59.134 TryMRuby[16065:574184] Finished load of: file:///Users/todd/Library/Developer/CoreSimulator/Devices/CDC1F8E9-24B1-449A-9BCE-805B990B9F1B/data/Containers/Bundle/Application/2AB3F3A8-B470-48D2-B4BA-FD2E8C23A726/TryMRuby.app/www/index.html
+2015-07-17 09:35:01.472 TryMRuby[16065:574184] Resetting plugins due to page load.
+2015-07-17 09:35:01.508 TryMRuby[16065:574184] Finished load of: file:///Users/todd/Library/Developer/CoreSimulator/Devices/CDC1F8E9-24B1-449A-9BCE-805B990B9F1B/data/Containers/Bundle/Application/2AB3F3A8-B470-48D2-B4BA-FD2E8C23A726/TryMRuby.app/www/about.html
+2015-07-17 09:35:02.979 TryMRuby[16065:574184] THREAD WARNING: ['InAppBrowser'] took '27.819092' ms. Plugin should use a background thread.
+2015-07-17 09:35:05.850 TryMRuby[16065:574196] Terminating since there is no system app.

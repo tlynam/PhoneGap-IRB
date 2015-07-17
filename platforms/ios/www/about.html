@@ -4,6 +4,8 @@
     <link rel="stylesheet" href="css/mruby.css">
     <link rel="stylesheet" href="css/about.css">
 
+    <script src="js/index.js"></script>
+    <script src="cordova.js"></script>
     <script src="js/jquery.min.js"></script>
     <script src="js/footer.js"></script>
   </head>
@@ -22,6 +24,12 @@ CodeMirror is the javascript editor used.
 
 Here's this app's code
 <a href="https://github.com/tlynam/TryMRuby">github.com/tlynam/TryMRuby</a>
+
+<p>
+ <a href="#"
+  onclick="cordova.InAppBrowser.open('http://www.nhl.com','_system','location=yes');
+   return false;">nhl.com</a>
+</p>
       </pre>
       <img src="img/smiley.jpg" height="240" width="240">
     </div>
