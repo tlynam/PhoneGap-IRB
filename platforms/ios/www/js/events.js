@@ -22,7 +22,7 @@
     printed = true;
   };
 
-  $(document).ready(function() {
+  $(function() {
     var editor = CodeMirror.fromTextArea(document.getElementById("code"), {
       mode: "text/x-ruby",
       lineNumbers: true,
@@ -34,7 +34,19 @@
       theme: "solarized light"
     });
 
-    $('#output').height($('.footer').position().top - $('#output').position().top)
+    $("#code_link").click(function() {
+      window.location.replace("index.html")
+    })
+
+    $("#doc_link").click(function() {
+      window.location.replace("docs.html")
+    })
+
+    $("#about_link").click(function() {
+      window.location.replace("about.html")
+    })
+
+    $('#output').height(window.innerHeight - $('#output').position().top - 45)
 
     webruby = new WEBRUBY({print_level: getQueryLevel()});
 

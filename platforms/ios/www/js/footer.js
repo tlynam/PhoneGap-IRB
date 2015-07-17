@@ -1,13 +1,6 @@
-$(document).ready(function() {
-    $("#code_link").click(function() {
-      window.location.replace("index.html")
-    })
+$(function() {
 
-    $("#doc_link").click(function() {
-      window.location.replace("docs.html")
-    })
+  var newHeight = window.innerHeight - $('.footer').position().top - 37 - 4
+  $('.footer').css('margin-top',newHeight)
 
-    $("#about_link").click(function() {
-      window.location.replace("about.html")
-    })
 });

@@ -1,1208 +1,948 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<head>
-  <!-- classpage -- >
-    <!-- RD version: 0.33.0  -->
-  <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
-  <meta name='description' content='  Module : Kernel  -   Ruby mruby ' />
-  <meta content="2015-03-04 18:13:07 -0700" http-equiv="change-date" />
-  <!-- rel_prefix  = ''  ENV['RDOC_FOR_WEBSITE']   = true-->
-    
-    
-    
-  <!-- rel_prefix = '.'   asset_rel_prefix = ''  --> 
-  <title>Module: Kernel (Ruby mruby) </title>
-  <!-- link rel="stylesheet" href=".css/obf.css"  -->
-  <link rel="stylesheet" href="../css/inuit.css" >
-  <link rel="stylesheet" href="../css/grid.inuit.css" >
-  <link rel="stylesheet" href="../css/2011.css" type="text/css" >
-  <link rel="stylesheet" href="../css/rdoc.css" type="text/css" >
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>
+  Module: Kernel
 
-  <script src="../js/jquery.js" type="text/javascript" charset="utf-8"></script>
-  <script src="../js/thickbox-compressed.js" type="text/javascript" charset="utf-8"></script>
-  <script src="../js/quicksearch.js" type="text/javascript" charset="utf-8"></script>
-  <script src="../js/rubydoc.js" type="text/javascript" charset="utf-8"></script> 
+    &mdash; Documentation by YARD 0.8.7.6
 
- 
-<script src="../js/highlight.min.js"></script>
-<script> 
-  hljs.tabReplace = '  ';
-  hljs.initHighlightingOnLoad();
-  </script> 
+</title>
 
-  <style type='text/css'>
+  <link rel="stylesheet" href="css/style.css" type="text/css" charset="utf-8" />
 
-    #vulns-alert #vulns{
-      background-color: #c33 ! important;
-      width: 100%;
-      text-align: center;
-   }
-   
-   #vulns-alert #vulns a {
-    color: #F99 ! important;
-   }
- </style>
+  <link rel="stylesheet" href="css/common.css" type="text/css" charset="utf-8" />
 
-</head>
+<script type="text/javascript" charset="utf-8">
+  hasFrames = window.top.frames.main ? true : false;
+  relpath = '';
+  framesUrl = "frames.html#!Kernel.html";
+</script>
 
-<body id="top" class="module rdocstar">
-<div id='actionbar' >
-<div class='wrapper'>
-  <ul class='grids g0'>
-	<li class='grid-2' ><a href='../index.html' target='_top' >Home</a></li>
-	<li class='grid-2' ><a href='../core' target='_top' >Core </a></li>
-	<li class='grid-2' ><a href='../stdlib' target='_top' >Std-lib </a></li>
 
-	 <!-- li class='grid-2' ><a href='/zems' target='_top' >Zems</a></li -->
-   <li class='grid-2' ><a href='../downloads' target='_top' >Downloads</a></li>
-	 <li class='grid-5 right' id='rd-action-search'><form id="searchbox_011815814100681837392:wnccv6st5qk" action="http://ruby-doc.com/search.html"><input type="hidden" name="cx" value="011815814100681837392:wnccv6st5qk" ><input  id='rd-search-input' name="q" type="text" size="20" >&#160;&#160;<input type="submit" name="sa" value="Search" ><input type="hidden" name="cof" value="FORID:9" ></form></li>
-	</ul>
+  <script type="text/javascript" charset="utf-8" src="js/jquery.js"></script>
+
+  <script type="text/javascript" charset="utf-8" src="js/app.js"></script>
+
+
+  </head>
+  <body>
+    <div id="header">
+      <div id="menu">
+
+    <a href="_index.html">Index (K)</a> &raquo;
+
+
+    <span class="title">Kernel</span>
+
+
+  <div class="noframes"><span class="title">(</span><a href="." target="_top">no frames</a><span class="title">)</span></div>
 </div>
-<span id='vulns-alert'></span>
-<!-- VERSION HEADER for mruby NOT FOUND --></div> <!-- end action bar -->
- <div class='wrapper'>
-  <div id="metadata">
-    <div id="home-metadata">
-      <div id="home-section" class="section">
-        <h3 class="section-header">
-          <a href="http://ruby-doc.org/core-mruby/index.html">Home</a>
-          <a href="http://ruby-doc.org/core-mruby/index.html#classes">Classes</a>
-          <a href="http://ruby-doc.org/core-mruby/index.html#methods">Methods</a>
-          
-        </h3>
-      </div>
+
+      <div id="search">
+    <a
+        href="index.html">
+      Readme
+    </a>
+
+    <a class="full_list_link" id="class_list_link"
+        href="class_list.html">
+      Classes
+    </a>
+
+    <a class="full_list_link" id="method_list_link"
+        href="method_list.html">
+      Methods
+    </a>
+
+    <a id="class_list_link"
+        href="../index.html">
+      Go to Editor ↺
+    </a>
+</div>
+      <div class="clear"></div>
     </div>
 
-    <div id="file-metadata">
-      <div id="file-list-section" class="section">
-        <h3 class="section-header">In Files</h3>
-        <div class="section-body">
-          <ul id='file-metadata'>
+    <iframe id="search_frame"></iframe>
 
-          
-          
-          
-          <li class='in-file'>mrbgems/mruby-enumerator/mrblib/enumerator.rb</li>      
-            
-          
-          <li class='in-file'>mrbgems/mruby-print/mrblib/print.rb</li>      
-            
-          
-          <li class='in-file'>mrblib/kernel.rb</li>      
-            
-          </ul>
-        </div>
-      </div>
+    <div id="content"><h1>Module: Kernel
 
-      
-    </div>
 
-    <div id="class-metadata">
-      
 
-      
+</h1>
 
-      
+<dl class="box">
 
-      
-      <!-- Method Quickref -->
-      <div id="method-list-section" class="section">
-        <h3 class="section-header">Methods</h3>
-        <ul class="link-list">
-          
-          <li><a href="Kernel.html#method-i-21-7E">#!~</a></li>
-          
-          <li><a href="Kernel.html#method-i-_inspect">#_inspect</a></li>
-          
-          <li><a href="Kernel.html#method-i-60">#`</a></li>
-          
-          <li><a href="Kernel.html#method-i-enum_for">#enum_for</a></li>
-          
-          <li><a href="Kernel.html#method-i-loop">#loop</a></li>
-          
-          <li><a href="Kernel.html#method-i-p">#p</a></li>
-          
-          <li><a href="Kernel.html#method-i-print">#print</a></li>
-          
-          <li><a href="Kernel.html#method-i-printf">#printf</a></li>
-          
-          <li><a href="Kernel.html#method-i-puts">#puts</a></li>
-          
-          <li><a href="Kernel.html#method-i-sprintf">#sprintf</a></li>
-          
-          <li><a href="Kernel.html#method-i-to_enum">#to_enum</a></li>
-          
-        </ul>
-      </div>
-      
 
-      
-    </div>
 
-    <div id="project-metadata">
-      
-      
-      <div id="fileindex-section" class="section project-section">
-        <h3 class="section-header">Files</h3>
-        <ul id='files'>
-        
-          
-          <li class="file"><a href="AUTHORS.html">AUTHORS</a></li>
-        
-          
-          <li class="file"><a href="INSTALL.html">INSTALL</a></li>
-        
-          
-          <li class="file"><a href="LEGAL.html">LEGAL</a></li>
-        
-          
-          <li class="file"><a href="MITL.html">MITL</a></li>
-        
-          
-          <li class="file"><a href="Makefile.html">Makefile</a></li>
-        
-          
-          <li class="file"><a href="NEWS.html">NEWS</a></li>
-        
-          
-          <li class="file"><a href="Rakefile.html">Rakefile</a></li>
-        
-          
-          <li class="file"><a href="TODO.html">TODO</a></li>
-        
-          
-          <li class="file"><a href="examples/mrbgems/c_and_ruby_extension_example/mrbgem_rake.html">mrbgem.rake</a></li>
-        
-          
-          <li class="file"><a href="examples/mrbgems/c_extension_example/mrbgem_rake.html">mrbgem.rake</a></li>
-        
-          
-          <li class="file"><a href="examples/mrbgems/ruby_extension_example/mrbgem_rake.html">mrbgem.rake</a></li>
-        
-          
-          <li class="file"><a href="mrbgems/default_gembox.html">default.gembox</a></li>
-        
-          
-          <li class="file"><a href="mrbgems/full-core_gembox.html">full-core.gembox</a></li>
-        
-          
-          <li class="file"><a href="mrbgems/mruby-array-ext/mrbgem_rake.html">mrbgem.rake</a></li>
-        
-          
-          <li class="file"><a href="mrbgems/mruby-bin-debugger/mrbgem_rake.html">mrbgem.rake</a></li>
-        
-          
-          <li class="file"><a href="mrbgems/mruby-bin-mirb/mrbgem_rake.html">mrbgem.rake</a></li>
-        
-          
-          <li class="file"><a href="mrbgems/mruby-bin-mruby-config/mrbgem_rake.html">mrbgem.rake</a></li>
-        
-          
-          <li class="file"><a href="mrbgems/mruby-bin-mruby-config/mruby-config.html">mruby-config</a></li>
-        
-          
-          <li class="file"><a href="mrbgems/mruby-bin-mruby-config/mruby-config_bat.html">mruby-config.bat</a></li>
-        
-          
-          <li class="file"><a href="mrbgems/mruby-bin-mruby/mrbgem_rake.html">mrbgem.rake</a></li>
-        
-          
-          <li class="file"><a href="mrbgems/mruby-bin-strip/mrbgem_rake.html">mrbgem.rake</a></li>
-        
-          
-          <li class="file"><a href="mrbgems/mruby-enum-ext/mrbgem_rake.html">mrbgem.rake</a></li>
-        
-          
-          <li class="file"><a href="mrbgems/mruby-enum-lazy/mrbgem_rake.html">mrbgem.rake</a></li>
-        
-          
-          <li class="file"><a href="mrbgems/mruby-enumerator/mrbgem_rake.html">mrbgem.rake</a></li>
-        
-          
-          <li class="file"><a href="mrbgems/mruby-eval/mrbgem_rake.html">mrbgem.rake</a></li>
-        
-          
-          <li class="file"><a href="mrbgems/mruby-exit/mrbgem_rake.html">mrbgem.rake</a></li>
-        
-          
-          <li class="file"><a href="mrbgems/mruby-fiber/mrbgem_rake.html">mrbgem.rake</a></li>
-        
-          
-          <li class="file"><a href="mrbgems/mruby-hash-ext/mrbgem_rake.html">mrbgem.rake</a></li>
-        
-          
-          <li class="file"><a href="mrbgems/mruby-kernel-ext/mrbgem_rake.html">mrbgem.rake</a></li>
-        
-          
-          <li class="file"><a href="mrbgems/mruby-math/mrbgem_rake.html">mrbgem.rake</a></li>
-        
-          
-          <li class="file"><a href="mrbgems/mruby-numeric-ext/mrbgem_rake.html">mrbgem.rake</a></li>
-        
-          
-          <li class="file"><a href="mrbgems/mruby-object-ext/mrbgem_rake.html">mrbgem.rake</a></li>
-        
-          
-          <li class="file"><a href="mrbgems/mruby-objectspace/mrbgem_rake.html">mrbgem.rake</a></li>
-        
-          
-          <li class="file"><a href="mrbgems/mruby-print/mrbgem_rake.html">mrbgem.rake</a></li>
-        
-          
-          <li class="file"><a href="mrbgems/mruby-proc-ext/mrbgem_rake.html">mrbgem.rake</a></li>
-        
-          
-          <li class="file"><a href="mrbgems/mruby-random/mrbgem_rake.html">mrbgem.rake</a></li>
-        
-          
-          <li class="file"><a href="mrbgems/mruby-range-ext/mrbgem_rake.html">mrbgem.rake</a></li>
-        
-          
-          <li class="file"><a href="mrbgems/mruby-sprintf/mrbgem_rake.html">mrbgem.rake</a></li>
-        
-          
-          <li class="file"><a href="mrbgems/mruby-string-ext/mrbgem_rake.html">mrbgem.rake</a></li>
-        
-          
-          <li class="file"><a href="mrbgems/mruby-string-utf8/mrbgem_rake.html">mrbgem.rake</a></li>
-        
-          
-          <li class="file"><a href="mrbgems/mruby-struct/mrbgem_rake.html">mrbgem.rake</a></li>
-        
-          
-          <li class="file"><a href="mrbgems/mruby-symbol-ext/mrbgem_rake.html">mrbgem.rake</a></li>
-        
-          
-          <li class="file"><a href="mrbgems/mruby-time/mrbgem_rake.html">mrbgem.rake</a></li>
-        
-          
-          <li class="file"><a href="mrbgems/mruby-toplevel-ext/mrbgem_rake.html">mrbgem.rake</a></li>
-        
-          
-          <li class="file"><a href="mrblib/mrblib_rake.html">mrblib.rake</a></li>
-        
-          
-          <li class="file"><a href="src/keywords.html">keywords</a></li>
-        
-          
-          <li class="file"><a href="src/lex_def.html">lex.def</a></li>
-        
-          
-          <li class="file"><a href="src/mruby_core_rake.html">mruby_core.rake</a></li>
-        
-          
-          <li class="file"><a href="tasks/libmruby_rake.html">libmruby.rake</a></li>
-        
-          
-          <li class="file"><a href="tasks/mrbgem_spec_rake.html">mrbgem_spec.rake</a></li>
-        
-          
-          <li class="file"><a href="tasks/mrbgems_rake.html">mrbgems.rake</a></li>
-        
-          
-          <li class="file"><a href="tasks/mrbgems_test_rake.html">mrbgems_test.rake</a></li>
-        
-          
-          <li class="file"><a href="tasks/mruby_build_rake.html">mruby_build.rake</a></li>
-        
-          
-          <li class="file"><a href="tasks/mruby_build_commands_rake.html">mruby_build_commands.rake</a></li>
-        
-          
-          <li class="file"><a href="tasks/mruby_build_gem_rake.html">mruby_build_gem.rake</a></li>
-        
-          
-          <li class="file"><a href="tasks/ruby_ext_rake.html">ruby_ext.rake</a></li>
-        
-          
-          <li class="file"><a href="tasks/toolchains/androideabi_rake.html">androideabi.rake</a></li>
-        
-          
-          <li class="file"><a href="tasks/toolchains/clang_rake.html">clang.rake</a></li>
-        
-          
-          <li class="file"><a href="tasks/toolchains/gcc_rake.html">gcc.rake</a></li>
-        
-          
-          <li class="file"><a href="tasks/toolchains/visualcpp_rake.html">visualcpp.rake</a></li>
-        
-          
-          <li class="file"><a href="tools/mrbc/mrbc_rake.html">mrbc.rake</a></li>
-        
-        </ul>
-      </div>
-      
 
-      <div id="classindex-section" class="section project-section">
-        <h3 class="section-header">Class/Module Index
-          <span class="search-toggle"><img src="images/find.png"
-            height="16" width="16" alt="[+]"
-            title="show/hide quicksearch" /></span></h3>
-        <form action="Kernel.html#" method="get" accept-charset="utf-8" class="initially-hidden">
-        <fieldset>
-          <legend>Quicksearch</legend>
-          <input type="text" name="quicksearch" value=""
-            class="quicksearch-field" />
-        </fieldset>
-        </form>
 
-        <ul class="link-list">
-          
-          
-          
-          <li><a href="ArgumentError.html">ArgumentError</a></li>
-        
-          
-          
-          <li><a href="Array.html">Array</a></li>
-        
-          
-          
-          <li><a href="BinTest_MrubyBinDebugger.html">BinTest_MrubyBinDebugger</a></li>
-        
-          
-          
-          <li><a href="CRubyExtension.html">CRubyExtension</a></li>
-        
-          
-          
-          <li><a href="Comparable.html">Comparable</a></li>
-        
-          
-          
-          <li><a href="Enumerable.html">Enumerable</a></li>
-        
-          
-          
-          <li><a href="Enumerable/Lazy.html">Enumerable::Lazy</a></li>
-        
-          
-          
-          <li><a href="Enumerator.html">Enumerator</a></li>
-        
-          
-          
-          <li><a href="Enumerator/Generator.html">Enumerator::Generator</a></li>
-        
-          
-          
-          <li><a href="Enumerator/Yielder.html">Enumerator::Yielder</a></li>
-        
-          
-          
-          <li><a href="Exception.html">Exception</a></li>
-        
-          
-          
-          <li><a href="Float.html">Float</a></li>
-        
-          
-          
-          <li><a href="FloatDomainError.html">FloatDomainError</a></li>
-        
-          
-          
-          <li><a href="Hash.html">Hash</a></li>
-        
-          
-          
-          <li><a href="IndexError.html">IndexError</a></li>
-        
-          
-          
-          <li><a href="Integer.html">Integer</a></li>
-        
-          
-          
-          <li><a href="Integral.html">Integral</a></li>
-        
-          
-          
-          <li><a href="Isect.html">Isect</a></li>
-        
-          
-          
-          <li><a href="Kernel.html">Kernel</a></li>
-        
-          
-          
-          <li><a href="KeyError.html">KeyError</a></li>
-        
-          
-          
-          <li><a href="KlassWithSecret.html">KlassWithSecret</a></li>
-        
-          
-          
-          <li><a href="LocalJumpError.html">LocalJumpError</a></li>
-        
-          
-          
-          <li><a href="MRBDoc.html">MRBDoc</a></li>
-        
-          
-          
-          <li><a href="MRBFile.html">MRBFile</a></li>
-        
-          
-          
-          <li><a href="MRuby.html">MRuby</a></li>
-        
-          
-          
-          <li><a href="Math.html">Math</a></li>
-        
-          
-          
-          <li><a href="MiniRake.html">MiniRake</a></li>
-        
-          
-          
-          <li><a href="MiniRake/DSL.html">MiniRake::DSL</a></li>
-        
-          
-          
-          <li><a href="MiniRake/FileTask.html">MiniRake::FileTask</a></li>
-        
-          
-          
-          <li><a href="MiniRake/Task.html">MiniRake::Task</a></li>
-        
-          
-          
-          <li><a href="Module.html">Module</a></li>
-        
-          
-          
-          <li><a href="NameError.html">NameError</a></li>
-        
-          
-          
-          <li><a href="NilClass.html">NilClass</a></li>
-        
-          
-          
-          <li><a href="NoMethodError.html">NoMethodError</a></li>
-        
-          
-          
-          <li><a href="NotImplementedError.html">NotImplementedError</a></li>
-        
-          
-          
-          <li><a href="Numeric.html">Numeric</a></li>
-        
-          
-          
-          <li><a href="Object.html">Object</a></li>
-        
-          
-          
-          <li><a href="Plane.html">Plane</a></li>
-        
-          
-          
-          <li><a href="Proc.html">Proc</a></li>
-        
-          
-          
-          <li><a href="Rake.html">Rake</a></li>
-        
-          
-          
-          <li><a href="RakeApp.html">RakeApp</a></li>
-        
-          
-          
-          <li><a href="Rand.html">Rand</a></li>
-        
-          
-          
-          <li><a href="Range.html">Range</a></li>
-        
-          
-          
-          <li><a href="RangeError.html">RangeError</a></li>
-        
-          
-          
-          <li><a href="Ray.html">Ray</a></li>
-        
-          
-          
-          <li><a href="RegexpError.html">RegexpError</a></li>
-        
-          
-          
-          <li><a href="RubyExtension.html">RubyExtension</a></li>
-        
-          
-          
-          <li><a href="Scene.html">Scene</a></li>
-        
-          
-          
-          <li><a href="Sphere.html">Sphere</a></li>
-        
-          
-          
-          <li><a href="StopIteration.html">StopIteration</a></li>
-        
-          
-          
-          <li><a href="String.html">String</a></li>
-        
-          
-          
-          <li><a href="Struct.html">Struct</a></li>
-        
-          
-          
-          <li><a href="Symbol.html">Symbol</a></li>
-        
-          
-          
-          <li><a href="TestEvalConstScope.html">TestEvalConstScope</a></li>
-        
-          
-          
-          <li><a href="Time.html">Time</a></li>
-        
-          
-          
-          <li><a href="ToplevelTestModule1.html">ToplevelTestModule1</a></li>
-        
-          
-          
-          <li><a href="ToplevelTestModule2.html">ToplevelTestModule2</a></li>
-        
-          
-          
-          <li><a href="TypeError.html">TypeError</a></li>
-        
-          
-          
-          <li><a href="Vec.html">Vec</a></li>
-        
-        </ul>
-        <div id="no-class-search-results" style="display: none;">No matching classes.</div>
-      </div>
 
-      
-      <div id="debugging-toggle"><img src="images/bug.png"
-        alt="toggle debugging" height="16" width="16" /></div>
-      
-    </div>
-  </div> <!-- metadata -->
-  <div class='adzbox'  id="azk83167">
-    
-   <div id="carbonads-container"><div class="carbonad"><div id="azcarbon"></div><script type="text/javascript">var z = document.createElement("script"); z.type = "text/javascript"; z.async = true; z.src = "http://engine.carbonads.com/z/19647/azcarbon_2_1_0_VERT"; var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(z, s);</script></div></div>
 
-   
-  </div> 
-  <div id="documentation">
-    <h1 class="module">Kernel</h1>
 
-    <div id="description" class="description">
-      
-<p><a href="Kernel.html">Kernel</a></p>
+    <dt class="r1 last">Defined in:</dt>
+    <dd class="r1 last">mrblib/kernel.rb<span class="defines">,<br />
+  mrbgems/mruby-print/mrblib/print.rb,<br /> mrbgems/mruby-enumerator/mrblib/enumerator.rb</span>
+</dd>
+
+</dl>
+<div class="clear"></div>
+
+<h2>Overview</h2><div class="docstring">
+  <div class="discussion">
+
+<p>Kernel</p>
 
 <p>ISO 15.3.1</p>
 
-<p><a href="Kernel.html">Kernel</a></p>
 
-<p>ISO 15.3.1</p>
+  </div>
+</div>
+<div class="tags">
 
-    </div><!-- description -->
 
-    
-    
-    
-    <div id="5Buntitled-5D" class="documentation-section">
-      
+</div>
 
-      
 
-      
 
-      
 
-      <!-- Methods -->
-      
-      <div id="public-instance-method-details" class="method-section section">
-        <h3 class="section-header">Public Instance Methods</h3>
 
-      
-        <div id="21-7E-method" class="method-detail ">
-          <a name="method-i-21-7E"></a>
 
-          
-          <div class="method-heading">
-            <span class="method-name">!~</span><span
-              class="method-args">(y)</span>
-            <span class="method-click-advice">click to toggle source</span>
-          </div>
-          
-          <div>
-  
-            
-            <p>11.4.4 Step c)</p>
-            
 
-            
-            <div class="method-source-code" id="21-7E-source">
-              <pre> <!-- method.markup_code 290 -->
-               <span class="ruby-comment"># File mrblib/kernel.rb, line 38</span>
-<span class="ruby-keyword">def</span> <span class="ruby-operator">!~</span>(<span class="ruby-identifier">y</span>)
-  <span class="ruby-operator">!</span>(<span class="ruby-keyword">self</span> <span class="ruby-operator">=~</span> <span class="ruby-identifier">y</span>)
-<span class="ruby-keyword">end</span>
-            </pre> 
-            </div><!-- 21-7E-source -->
-            
-          </div>
+    <h2>
+      Instance Method Summary
+      <small>(<a href="#" class="summary_toggle">collapse</a>)</small>
+    </h2>
 
-          
+    <ul class="summary">
 
-          
-        </div><!-- 21-7E-method -->
-      
-        <div id="_inspect-method" class="method-detail ">
-          <a name="method-i-_inspect"></a>
+        <li class="public ">
+  <span class="summary_signature">
 
-          
-          <div class="method-heading">
-            <span class="method-name">_inspect</span><span
-              class="method-args">()</span>
-            <span class="method-click-advice">click to toggle source</span>
-          </div>
-          
-          <div>
-  
-            
-            <p>internal method for inspect</p>
-            
+      <a href="#%21%7E-instance_method" title="#!~ (instance method)">- (Object) <strong>!~</strong>(y) </a>
 
-            
-            <div class="method-source-code" id="_inspect-source">
-              <pre> <!-- method.markup_code 290 -->
-               <span class="ruby-comment"># File mrblib/kernel.rb, line 43</span>
-<span class="ruby-keyword">def</span> <span class="ruby-identifier">_inspect</span>
-  <span class="ruby-keyword">self</span>.<span class="ruby-identifier">inspect</span>
-<span class="ruby-keyword">end</span>
-            </pre> 
-            </div><!-- _inspect-source -->
-            
-          </div>
 
-          
 
-          
-        </div><!-- _inspect-method -->
-      
-        <div id="60-method" class="method-detail ">
-          <a name="method-i-60"></a>
+  </span>
 
-          
-          <div class="method-heading">
-            <span class="method-name">`</span><span
-              class="method-args">(s)</span>
-            <span class="method-click-advice">click to toggle source</span>
-          </div>
-          
-          <div>
-  
-            
-            <p>15.3.1.2.1 <a href="Kernel.html">Kernel</a>.` provided by Kernel#`
-15.3.1.3.5</p>
-            
 
-            
-            <div class="method-source-code" id="60-source">
-              <pre> <!-- method.markup_code 290 -->
-               <span class="ruby-comment"># File mrblib/kernel.rb, line 10</span>
-<span class="ruby-keyword">def</span> <span class="ruby-operator">`</span>(<span class="ruby-identifier">s</span>)
-  <span class="ruby-identifier">raise</span> <span class="ruby-constant">NotImplementedError</span>.<span class="ruby-identifier">new</span>(<span class="ruby-string">&quot;backquotes not implemented&quot;</span>)
-<span class="ruby-keyword">end</span>
-            </pre> 
-            </div><!-- 60-source -->
-            
-          </div>
 
-          
 
-          
-        </div><!-- 60-method -->
-      
-        <div id="enum_for-method" class="method-detail method-alias">
-          <a name="method-i-enum_for"></a>
 
-          
-          <div class="method-heading">
-            <span class="method-name">enum_for</span><span
-              class="method-args">(meth=:each, *args)</span>
-            <span class="method-click-advice">click to toggle source</span>
-          </div>
-          
-          <div>
-  
-            
-            
-            
 
-            
-          </div>
 
-          
 
-          
-          <div class="aliases">
-            Alias for: <a href="Kernel.html#method-i-to_enum">to_enum</a>
-          </div>
-          
-        </div><!-- enum_for-method -->
-      
-        <div id="loop-method" class="method-detail ">
-          <a name="method-i-loop"></a>
 
-          
-          <div class="method-heading">
-            <span class="method-name">loop</span><span
-              class="method-args">(&block)</span>
-            <span class="method-click-advice">click to toggle source</span>
-          </div>
-          
-          <div>
-  
-            
-            <p>Calls the given block repetitively.</p>
+    <span class="summary_desc"><div class='inline'>
+<p>11.4.4 Step c).</p>
+</div></span>
+
+</li>
+
+
+        <li class="public ">
+  <span class="summary_signature">
+
+      <a href="#_inspect-instance_method" title="#_inspect (instance method)">- (Object) <strong>_inspect</strong> </a>
+
+
+
+  </span>
+
+
+
+
+
+
+
+
+
+    <span class="summary_desc"><div class='inline'>
+<p>internal method for inspect.</p>
+</div></span>
+
+</li>
+
+
+        <li class="public ">
+  <span class="summary_signature">
+
+      <a href="#%60-instance_method" title="#` (instance method)">- (Object) <strong>`</strong>(s) </a>
+
+
+
+  </span>
+
+
+
+
+
+
+
+
+
+    <span class="summary_desc"><div class='inline'>
+<p>15.3.1.2.1 Kernel.` provided by Kernel#` 15.3.1.3.5.</p>
+</div></span>
+
+</li>
+
+
+        <li class="public ">
+  <span class="summary_signature">
+
+      <a href="#loop-instance_method" title="#loop (instance method)">- (Object) <strong>loop</strong>(&amp;block) </a>
+
+
+
+  </span>
+
+
+
+
+
+
+
+
+
+    <span class="summary_desc"><div class='inline'>
+<p>Calls the given block repetitively.</p>
+</div></span>
+
+</li>
+
+
+        <li class="public ">
+  <span class="summary_signature">
+
+      <a href="#p-instance_method" title="#p (instance method)">- (Object) <strong>p</strong>(*args) </a>
+
+
+
+  </span>
+
+
+
+
+
+
+
+
+
+    <span class="summary_desc"><div class='inline'>
+<p>Print human readable object description.</p>
+</div></span>
+
+</li>
+
+
+        <li class="public ">
+  <span class="summary_signature">
+
+      <a href="#print-instance_method" title="#print (instance method)">- (Object) <strong>print</strong>(*args) </a>
+
+
+
+  </span>
+
+
+
+
+
+
+
+
+
+    <span class="summary_desc"><div class='inline'>
+<p>Invoke method <code>print</code> on STDOUT and passing <tt>*args</tt>.</p>
+</div></span>
+
+</li>
+
+
+        <li class="public ">
+  <span class="summary_signature">
+
+      <a href="#printf-instance_method" title="#printf (instance method)">- (Object) <strong>printf</strong>(*args) </a>
+
+
+
+  </span>
+
+
+
+
+
+
+
+
+
+    <span class="summary_desc"><div class='inline'></div></span>
+
+</li>
+
+
+        <li class="public ">
+  <span class="summary_signature">
+
+      <a href="#puts-instance_method" title="#puts (instance method)">- (Object) <strong>puts</strong>(*args) </a>
+
+
+
+  </span>
+
+
+
+
+
+
+
+
+
+    <span class="summary_desc"><div class='inline'>
+<p>Invoke method <code>puts</code> on STDOUT and passing
+<tt><strong>args</strong></tt>.</p>
+</div></span>
+
+</li>
+
+
+        <li class="public ">
+  <span class="summary_signature">
+
+      <a href="#sprintf-instance_method" title="#sprintf (instance method)">- (Object) <strong>sprintf</strong>(*args) </a>
+
+
+
+  </span>
+
+
+
+
+
+
+
+
+
+    <span class="summary_desc"><div class='inline'></div></span>
+
+</li>
+
+
+        <li class="public ">
+  <span class="summary_signature">
+
+      <a href="#to_enum-instance_method" title="#to_enum (instance method)">- (Object) <strong>to_enum</strong>(meth = :each, *args) </a>
+
+
+
+      (also: #enum_for)
+
+  </span>
+
+
+
+
+
+
+
+
+
+    <span class="summary_desc"><div class='inline'>
+<p>call-seq:   obj.to_enum(method = :each, *args)                 -&gt; enum
+obj.enum_for(method = :each, *args)                -&gt; enum
+obj.to_enum(method = :each, *args) {|*args| block} -&gt; enum
+obj.enum_for(method = :each, *args){|*args| block} -&gt; enum.</p>
+</div></span>
+
+</li>
+
+
+    </ul>
+
+
+
+
+  <div id="instance_method_details" class="method_details_list">
+    <h2>Instance Method Details</h2>
+
+
+      <div class="method_details first">
+  <h3 class="signature first" id="!~-instance_method">
+
+    - (<tt><span class='object_link'><a href="Object.html" title="Object (class)">Object</a></span></tt>) <strong>!~</strong>(y)
+
+
+
+
+
+</h3><div class="docstring">
+  <div class="discussion">
+
+<p>11.4.4 Step c)</p>
+
+
+  </div>
+</div>
+<div class="tags">
+
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+38
+39
+40</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'mrblib/kernel.rb', line 38</span>
+
+<span class='kw'>def</span> <span class='op'>!~</span><span class='lparen'>(</span><span class='id identifier rubyid_y'>y</span><span class='rparen'>)</span>
+  <span class='op'>!</span><span class='lparen'>(</span><span class='kw'>self</span> <span class='op'>=~</span> <span class='id identifier rubyid_y'>y</span><span class='rparen'>)</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+
+      <div class="method_details ">
+  <h3 class="signature " id="_inspect-instance_method">
+
+    - (<tt><span class='object_link'><a href="Object.html" title="Object (class)">Object</a></span></tt>) <strong>_inspect</strong>
+
+
+
+
+
+</h3><div class="docstring">
+  <div class="discussion">
+
+<p>internal method for inspect</p>
+
+
+  </div>
+</div>
+<div class="tags">
+
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+43
+44
+45</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'mrblib/kernel.rb', line 43</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid__inspect'>_inspect</span>
+  <span class='kw'>self</span><span class='period'>.</span><span class='id identifier rubyid_inspect'>inspect</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+
+      <div class="method_details ">
+  <h3 class="signature " id="`-instance_method">
+
+    - (<tt><span class='object_link'><a href="Object.html" title="Object (class)">Object</a></span></tt>) <strong>`</strong>(s)
+
+
+
+
+
+</h3><div class="docstring">
+  <div class="discussion">
+
+<p>15.3.1.2.1 Kernel.` provided by Kernel#` 15.3.1.3.5</p>
+
+
+  </div>
+</div>
+<div class="tags">
+
+<p class="tag_title">Raises:</p>
+<ul class="raise">
+
+    <li>
+
+
+        <span class='type'>(<tt><span class='object_link'><a href="NotImplementedError.html" title="NotImplementedError (class)">NotImplementedError</a></span></tt>)</span>
+
+
+
+    </li>
+
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+10
+11
+12</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'mrblib/kernel.rb', line 10</span>
+
+<span class='kw'>def</span> <span class='backtick'>`</span><span class='lparen'>(</span><span class='id identifier rubyid_s'>s</span><span class='rparen'>)</span>
+  <span class='id identifier rubyid_raise'>raise</span> <span class='const'>NotImplementedError</span><span class='period'>.</span><span class='id identifier rubyid_new'>new</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>backquotes not implemented</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+
+      <div class="method_details ">
+  <h3 class="signature " id="loop-instance_method">
+
+    - (<tt><span class='object_link'><a href="Object.html" title="Object (class)">Object</a></span></tt>) <strong>loop</strong>(&amp;block)
+
+
+
+
+
+</h3><div class="docstring">
+  <div class="discussion">
+
+<p>Calls the given block repetitively.</p>
 
 <p>ISO 15.3.1.3.29</p>
-            
 
-            
-            <div class="method-source-code" id="loop-source">
-              <pre> <!-- method.markup_code 290 -->
-               <span class="ruby-comment"># File mrblib/kernel.rb, line 27</span>
-<span class="ruby-keyword">def</span> <span class="ruby-identifier">loop</span>(<span class="ruby-operator">&amp;</span><span class="ruby-identifier">block</span>)
-  <span class="ruby-keyword">return</span> <span class="ruby-identifier">to_enum</span> <span class="ruby-operator">:</span><span class="ruby-identifier">loop</span> <span class="ruby-keyword">unless</span> <span class="ruby-identifier">block</span>
 
-  <span class="ruby-keyword">while</span>(<span class="ruby-keyword">true</span>)
-    <span class="ruby-keyword">yield</span>
-  <span class="ruby-keyword">end</span>
-<span class="ruby-keyword">rescue</span> <span class="ruby-constant">StopIteration</span>
-  <span class="ruby-keyword">nil</span>
-<span class="ruby-keyword">end</span>
-            </pre> 
-            </div><!-- loop-source -->
-            
-          </div>
+  </div>
+</div>
+<div class="tags">
 
-          
 
-          
-        </div><!-- loop-method -->
-      
-        <div id="p-method" class="method-detail ">
-          <a name="method-i-p"></a>
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
 
-          
-          <div class="method-heading">
-            <span class="method-name">p</span><span
-              class="method-args">(*args)</span>
-            <span class="method-click-advice">click to toggle source</span>
-          </div>
-          
-          <div>
-  
-            
-            <p>Print human readable object description</p>
+
+27
+28
+29
+30
+31
+32
+33
+34
+35</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'mrblib/kernel.rb', line 27</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_loop'>loop</span><span class='lparen'>(</span><span class='op'>&amp;</span><span class='id identifier rubyid_block'>block</span><span class='rparen'>)</span>
+  <span class='kw'>return</span> <span class='id identifier rubyid_to_enum'>to_enum</span> <span class='symbol'>:loop</span> <span class='kw'>unless</span> <span class='id identifier rubyid_block'>block</span>
+
+  <span class='kw'>while</span> <span class='kw'>true</span>
+    <span class='kw'>yield</span>
+  <span class='kw'>end</span>
+<span class='kw'>rescue</span> <span class='const'>StopIteration</span>
+  <span class='kw'>nil</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+
+      <div class="method_details ">
+  <h3 class="signature " id="p-instance_method">
+
+    - (<tt><span class='object_link'><a href="Object.html" title="Object (class)">Object</a></span></tt>) <strong>p</strong>(*args)
+
+
+
+
+
+</h3><div class="docstring">
+  <div class="discussion">
+
+<p>Print human readable object description</p>
 
 <p>ISO 15.3.1.3.34</p>
-            
 
-            
-            <div class="method-source-code" id="p-source">
-              <pre> <!-- method.markup_code 290 -->
-               <span class="ruby-comment"># File mrbgems/mruby-print/mrblib/print.rb, line 40</span>
-<span class="ruby-keyword">def</span> <span class="ruby-identifier">p</span>(<span class="ruby-operator">*</span><span class="ruby-identifier">args</span>)
-  <span class="ruby-identifier">i</span> = <span class="ruby-value">0</span>
-  <span class="ruby-identifier">len</span> = <span class="ruby-identifier">args</span>.<span class="ruby-identifier">size</span>
-  <span class="ruby-keyword">while</span> <span class="ruby-identifier">i</span> <span class="ruby-operator">&lt;</span> <span class="ruby-identifier">len</span>
-    <span class="ruby-identifier">__printstr__</span> <span class="ruby-identifier">args</span>[<span class="ruby-identifier">i</span>].<span class="ruby-identifier">inspect</span>
-    <span class="ruby-identifier">__printstr__</span> <span class="ruby-string">&quot;\n&quot;</span>
-    <span class="ruby-identifier">i</span> <span class="ruby-operator">+=</span> <span class="ruby-value">1</span>
-  <span class="ruby-keyword">end</span>
-  <span class="ruby-identifier">args</span>[<span class="ruby-value">0</span>]
-<span class="ruby-keyword">end</span>
-            </pre> 
-            </div><!-- p-source -->
-            
-          </div>
 
-          
+  </div>
+</div>
+<div class="tags">
 
-          
-        </div><!-- p-method -->
-      
-        <div id="print-method" class="method-detail ">
-          <a name="method-i-print"></a>
 
-          
-          <div class="method-heading">
-            <span class="method-name">print</span><span
-              class="method-args">(*args)</span>
-            <span class="method-click-advice">click to toggle source</span>
-          </div>
-          
-          <div>
-  
-            
-            <p>Invoke method <code>print</code> on STDOUT and passing +*args+</p>
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'mrbgems/mruby-print/mrblib/print.rb', line 40</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_p'>p</span><span class='lparen'>(</span><span class='op'>*</span><span class='id identifier rubyid_args'>args</span><span class='rparen'>)</span>
+  <span class='id identifier rubyid_i'>i</span> <span class='op'>=</span> <span class='int'>0</span>
+  <span class='id identifier rubyid_len'>len</span> <span class='op'>=</span> <span class='id identifier rubyid_args'>args</span><span class='period'>.</span><span class='id identifier rubyid_size'>size</span>
+  <span class='kw'>while</span> <span class='id identifier rubyid_i'>i</span> <span class='op'>&lt;</span> <span class='id identifier rubyid_len'>len</span>
+    <span class='id identifier rubyid___printstr__'>__printstr__</span> <span class='id identifier rubyid_args'>args</span><span class='lbracket'>[</span><span class='id identifier rubyid_i'>i</span><span class='rbracket'>]</span><span class='period'>.</span><span class='id identifier rubyid_inspect'>inspect</span>
+    <span class='id identifier rubyid___printstr__'>__printstr__</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>\n</span><span class='tstring_end'>&quot;</span></span>
+    <span class='id identifier rubyid_i'>i</span> <span class='op'>+=</span> <span class='int'>1</span>
+  <span class='kw'>end</span>
+  <span class='id identifier rubyid_args'>args</span><span class='lbracket'>[</span><span class='int'>0</span><span class='rbracket'>]</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+
+      <div class="method_details ">
+  <h3 class="signature " id="print-instance_method">
+
+    - (<tt><span class='object_link'><a href="Object.html" title="Object (class)">Object</a></span></tt>) <strong>print</strong>(*args)
+
+
+
+
+
+</h3><div class="docstring">
+  <div class="discussion">
+
+<p>Invoke method <code>print</code> on STDOUT and passing <tt>*args</tt></p>
 
 <p>ISO 15.3.1.2.10</p>
-            
 
-            
-            <div class="method-source-code" id="print-source">
-              <pre> <!-- method.markup_code 290 -->
-               <span class="ruby-comment"># File mrbgems/mruby-print/mrblib/print.rb, line 10</span>
-<span class="ruby-keyword">def</span> <span class="ruby-identifier">print</span>(<span class="ruby-operator">*</span><span class="ruby-identifier">args</span>)
-  <span class="ruby-identifier">i</span> = <span class="ruby-value">0</span>
-  <span class="ruby-identifier">len</span> = <span class="ruby-identifier">args</span>.<span class="ruby-identifier">size</span>
-  <span class="ruby-keyword">while</span> <span class="ruby-identifier">i</span> <span class="ruby-operator">&lt;</span> <span class="ruby-identifier">len</span>
-    <span class="ruby-identifier">__printstr__</span> <span class="ruby-identifier">args</span>[<span class="ruby-identifier">i</span>].<span class="ruby-identifier">to_s</span>
-    <span class="ruby-identifier">i</span> <span class="ruby-operator">+=</span> <span class="ruby-value">1</span>
-  <span class="ruby-keyword">end</span>
-<span class="ruby-keyword">end</span>
-            </pre> 
-            </div><!-- print-source -->
-            
-          </div>
 
-          
+  </div>
+</div>
+<div class="tags">
 
-          
-        </div><!-- print-method -->
-      
-        <div id="printf-method" class="method-detail ">
-          <a name="method-i-printf"></a>
 
-          
-          <div class="method-heading">
-            <span class="method-name">printf</span><span
-              class="method-args">(*args)</span>
-            <span class="method-click-advice">click to toggle source</span>
-          </div>
-          
-          <div>
-  
-            
-            
-            
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
 
-            
-            <div class="method-source-code" id="printf-source">
-              <pre> <!-- method.markup_code 290 -->
-               <span class="ruby-comment"># File mrbgems/mruby-print/mrblib/print.rb, line 52</span>
-<span class="ruby-keyword">def</span> <span class="ruby-identifier">printf</span>(<span class="ruby-operator">*</span><span class="ruby-identifier">args</span>)
-  <span class="ruby-identifier">raise</span> <span class="ruby-constant">NotImplementedError</span>.<span class="ruby-identifier">new</span>(<span class="ruby-string">'printf not available'</span>)
-<span class="ruby-keyword">end</span>
-            </pre> 
-            </div><!-- printf-source -->
-            
-          </div>
 
-          
+10
+11
+12
+13
+14
+15
+16
+17</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'mrbgems/mruby-print/mrblib/print.rb', line 10</span>
 
-          
-        </div><!-- printf-method -->
-      
-        <div id="puts-method" class="method-detail ">
-          <a name="method-i-puts"></a>
+<span class='kw'>def</span> <span class='id identifier rubyid_print'>print</span><span class='lparen'>(</span><span class='op'>*</span><span class='id identifier rubyid_args'>args</span><span class='rparen'>)</span>
+  <span class='id identifier rubyid_i'>i</span> <span class='op'>=</span> <span class='int'>0</span>
+  <span class='id identifier rubyid_len'>len</span> <span class='op'>=</span> <span class='id identifier rubyid_args'>args</span><span class='period'>.</span><span class='id identifier rubyid_size'>size</span>
+  <span class='kw'>while</span> <span class='id identifier rubyid_i'>i</span> <span class='op'>&lt;</span> <span class='id identifier rubyid_len'>len</span>
+    <span class='id identifier rubyid___printstr__'>__printstr__</span> <span class='id identifier rubyid_args'>args</span><span class='lbracket'>[</span><span class='id identifier rubyid_i'>i</span><span class='rbracket'>]</span><span class='period'>.</span><span class='id identifier rubyid_to_s'>to_s</span>
+    <span class='id identifier rubyid_i'>i</span> <span class='op'>+=</span> <span class='int'>1</span>
+  <span class='kw'>end</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
 
-          
-          <div class="method-heading">
-            <span class="method-name">puts</span><span
-              class="method-args">(*args)</span>
-            <span class="method-click-advice">click to toggle source</span>
-          </div>
-          
-          <div>
-  
-            
-            <p>Invoke method <code>puts</code> on STDOUT and passing
-+<strong>args</strong>+</p>
+      <div class="method_details ">
+  <h3 class="signature " id="printf-instance_method">
+
+    - (<tt><span class='object_link'><a href="Object.html" title="Object (class)">Object</a></span></tt>) <strong>printf</strong>(*args)
+
+
+
+
+
+</h3><div class="docstring">
+  <div class="discussion">
+
+
+  </div>
+</div>
+<div class="tags">
+
+<p class="tag_title">Raises:</p>
+<ul class="raise">
+
+    <li>
+
+
+        <span class='type'>(<tt><span class='object_link'><a href="NotImplementedError.html" title="NotImplementedError (class)">NotImplementedError</a></span></tt>)</span>
+
+
+
+    </li>
+
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+52
+53
+54</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'mrbgems/mruby-print/mrblib/print.rb', line 52</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_printf'>printf</span><span class='lparen'>(</span><span class='op'>*</span><span class='id identifier rubyid_args'>args</span><span class='rparen'>)</span>
+  <span class='id identifier rubyid_raise'>raise</span> <span class='const'>NotImplementedError</span><span class='period'>.</span><span class='id identifier rubyid_new'>new</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>printf not available</span><span class='tstring_end'>&#39;</span></span><span class='rparen'>)</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+
+      <div class="method_details ">
+  <h3 class="signature " id="puts-instance_method">
+
+    - (<tt><span class='object_link'><a href="Object.html" title="Object (class)">Object</a></span></tt>) <strong>puts</strong>(*args)
+
+
+
+
+
+</h3><div class="docstring">
+  <div class="discussion">
+
+<p>Invoke method <code>puts</code> on STDOUT and passing
+<tt><strong>args</strong></tt></p>
 
 <p>ISO 15.3.1.2.11</p>
-            
 
-            
-            <div class="method-source-code" id="puts-source">
-              <pre> <!-- method.markup_code 290 -->
-               <span class="ruby-comment"># File mrbgems/mruby-print/mrblib/print.rb, line 23</span>
-<span class="ruby-keyword">def</span> <span class="ruby-identifier">puts</span>(<span class="ruby-operator">*</span><span class="ruby-identifier">args</span>)
-  <span class="ruby-identifier">i</span> = <span class="ruby-value">0</span>
-  <span class="ruby-identifier">len</span> = <span class="ruby-identifier">args</span>.<span class="ruby-identifier">size</span>
-  <span class="ruby-keyword">while</span> <span class="ruby-identifier">i</span> <span class="ruby-operator">&lt;</span> <span class="ruby-identifier">len</span>
-    <span class="ruby-identifier">s</span> = <span class="ruby-identifier">args</span>[<span class="ruby-identifier">i</span>].<span class="ruby-identifier">to_s</span>
-    <span class="ruby-identifier">__printstr__</span> <span class="ruby-identifier">s</span>
-    <span class="ruby-identifier">__printstr__</span> <span class="ruby-string">&quot;\n&quot;</span> <span class="ruby-keyword">if</span> (<span class="ruby-identifier">s</span>[<span class="ruby-value">-1</span>] <span class="ruby-operator">!=</span> <span class="ruby-string">&quot;\n&quot;</span>)
-    <span class="ruby-identifier">i</span> <span class="ruby-operator">+=</span> <span class="ruby-value">1</span>
-  <span class="ruby-keyword">end</span>
-  <span class="ruby-identifier">__printstr__</span> <span class="ruby-string">&quot;\n&quot;</span> <span class="ruby-keyword">if</span> <span class="ruby-identifier">len</span> <span class="ruby-operator">==</span> <span class="ruby-value">0</span>
-  <span class="ruby-keyword">nil</span>
-<span class="ruby-keyword">end</span>
-            </pre> 
-            </div><!-- puts-source -->
-            
-          </div>
 
-          
+  </div>
+</div>
+<div class="tags">
 
-          
-        </div><!-- puts-method -->
-      
-        <div id="sprintf-method" class="method-detail ">
-          <a name="method-i-sprintf"></a>
 
-          
-          <div class="method-heading">
-            <span class="method-name">sprintf</span><span
-              class="method-args">(*args)</span>
-            <span class="method-click-advice">click to toggle source</span>
-          </div>
-          
-          <div>
-  
-            
-            
-            
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
 
-            
-            <div class="method-source-code" id="sprintf-source">
-              <pre> <!-- method.markup_code 290 -->
-               <span class="ruby-comment"># File mrbgems/mruby-print/mrblib/print.rb, line 55</span>
-<span class="ruby-keyword">def</span> <span class="ruby-identifier">sprintf</span>(<span class="ruby-operator">*</span><span class="ruby-identifier">args</span>)
-  <span class="ruby-identifier">raise</span> <span class="ruby-constant">NotImplementedError</span>.<span class="ruby-identifier">new</span>(<span class="ruby-string">'sprintf not available'</span>)
-<span class="ruby-keyword">end</span>
-            </pre> 
-            </div><!-- sprintf-source -->
-            
-          </div>
 
-          
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'mrbgems/mruby-print/mrblib/print.rb', line 23</span>
 
-          
-        </div><!-- sprintf-method -->
-      
-        <div id="to_enum-method" class="method-detail ">
-          <a name="method-i-to_enum"></a>
+<span class='kw'>def</span> <span class='id identifier rubyid_puts'>puts</span><span class='lparen'>(</span><span class='op'>*</span><span class='id identifier rubyid_args'>args</span><span class='rparen'>)</span>
+  <span class='id identifier rubyid_i'>i</span> <span class='op'>=</span> <span class='int'>0</span>
+  <span class='id identifier rubyid_len'>len</span> <span class='op'>=</span> <span class='id identifier rubyid_args'>args</span><span class='period'>.</span><span class='id identifier rubyid_size'>size</span>
+  <span class='kw'>while</span> <span class='id identifier rubyid_i'>i</span> <span class='op'>&lt;</span> <span class='id identifier rubyid_len'>len</span>
+    <span class='id identifier rubyid_s'>s</span> <span class='op'>=</span> <span class='id identifier rubyid_args'>args</span><span class='lbracket'>[</span><span class='id identifier rubyid_i'>i</span><span class='rbracket'>]</span><span class='period'>.</span><span class='id identifier rubyid_to_s'>to_s</span>
+    <span class='id identifier rubyid___printstr__'>__printstr__</span> <span class='id identifier rubyid_s'>s</span>
+    <span class='id identifier rubyid___printstr__'>__printstr__</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>\n</span><span class='tstring_end'>&quot;</span></span> <span class='kw'>if</span> <span class='lparen'>(</span><span class='id identifier rubyid_s'>s</span><span class='lbracket'>[</span><span class='op'>-</span><span class='int'>1</span><span class='rbracket'>]</span> <span class='op'>!=</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>\n</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span>
+    <span class='id identifier rubyid_i'>i</span> <span class='op'>+=</span> <span class='int'>1</span>
+  <span class='kw'>end</span>
+  <span class='id identifier rubyid___printstr__'>__printstr__</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>\n</span><span class='tstring_end'>&quot;</span></span> <span class='kw'>if</span> <span class='id identifier rubyid_len'>len</span> <span class='op'>==</span> <span class='int'>0</span>
+  <span class='kw'>nil</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
 
-          
-          
-          <div class="method-heading">
-            <span class="method-callseq">to_enum(method = :each, *args)                 &rarr; enum</span>
-            
-            <span class="method-click-advice">click to toggle source</span>
-            
-          </div>
-          
-          <div class="method-heading">
-            <span class="method-callseq">enum_for(method = :each, *args)                &rarr; enum</span>
-            
-          </div>
-          
-          <div class="method-heading">
-            <span class="method-callseq">to_enum(method = :each, *args) {|*args| block} &rarr; enum</span>
-            
-          </div>
-          
-          <div class="method-heading">
-            <span class="method-callseq">enum_for(method = :each, *args){|*args| block} &rarr; enum</span>
-            
-          </div>
-          
-          
-          <div>
-  
-            
-            <p>Creates a new <a href="Enumerator.html">Enumerator</a> which will enumerate
-by calling <code>method</code> on <code>obj</code>, passing
-<code>args</code> if any.</p>
+      <div class="method_details ">
+  <h3 class="signature " id="sprintf-instance_method">
+
+    - (<tt><span class='object_link'><a href="Object.html" title="Object (class)">Object</a></span></tt>) <strong>sprintf</strong>(*args)
+
+
+
+
+
+</h3><div class="docstring">
+  <div class="discussion">
+
+
+  </div>
+</div>
+<div class="tags">
+
+<p class="tag_title">Raises:</p>
+<ul class="raise">
+
+    <li>
+
+
+        <span class='type'>(<tt><span class='object_link'><a href="NotImplementedError.html" title="NotImplementedError (class)">NotImplementedError</a></span></tt>)</span>
+
+
+
+    </li>
+
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+55
+56
+57</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'mrbgems/mruby-print/mrblib/print.rb', line 55</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_sprintf'>sprintf</span><span class='lparen'>(</span><span class='op'>*</span><span class='id identifier rubyid_args'>args</span><span class='rparen'>)</span>
+  <span class='id identifier rubyid_raise'>raise</span> <span class='const'>NotImplementedError</span><span class='period'>.</span><span class='id identifier rubyid_new'>new</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>sprintf not available</span><span class='tstring_end'>&#39;</span></span><span class='rparen'>)</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+
+      <div class="method_details ">
+  <h3 class="signature " id="to_enum-instance_method">
+
+    - (<tt><span class='object_link'><a href="Object.html" title="Object (class)">Object</a></span></tt>) <strong>to_enum</strong>(meth = :each, *args)
+
+
+
+    <span class="aliases">Also known as:
+    <span class="names"><span id='enum_for-instance_method'>enum_for</span></span>
+    </span>
+
+
+
+</h3><div class="docstring">
+  <div class="discussion">
+
+<p>call-seq:</p>
+
+<pre class="code ruby"><code class="ruby">obj.to_enum(method = :each, *args)                 -&gt; enum
+obj.enum_for(method = :each, *args)                -&gt; enum
+obj.to_enum(method = :each, *args) {|*args| block} -&gt; enum
+obj.enum_for(method = :each, *args){|*args| block} -&gt; enum</code></pre>
+
+<p>Creates a new Enumerator which will enumerate by calling
+<code>method</code> on <code>obj</code>, passing <code>args</code> if any.</p>
 
 <p>If a block is given, it will be used to calculate the size of the
 enumerator without the need to iterate it (see Enumerator#size).</p>
 
-<h3 id="method-i-to_enum-label-Examples">Examples<span><a href="Kernel.html#method-i-to_enum-label-Examples">&para;</a> <a href="Kernel.html#top">&uarr;</a></span></h3>
+<h3 id="label-Examples">Examples</h3>
 
-<pre class="ruby"><span class="ruby-identifier">str</span> = <span class="ruby-string">&quot;xyz&quot;</span>
+<pre class="code ruby"><code class="ruby"><span class='id identifier rubyid_str'>str</span> <span class='op'>=</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>xyz</span><span class='tstring_end'>&quot;</span></span>
 
-<span class="ruby-identifier">enum</span> = <span class="ruby-identifier">str</span>.<span class="ruby-identifier">enum_for</span>(:<span class="ruby-identifier">each_byte</span>)
-<span class="ruby-identifier">enum</span>.<span class="ruby-identifier">each</span> { <span class="ruby-operator">|</span><span class="ruby-identifier">b</span><span class="ruby-operator">|</span> <span class="ruby-identifier">puts</span> <span class="ruby-identifier">b</span> }
-<span class="ruby-comment"># =&gt; 120</span>
-<span class="ruby-comment"># =&gt; 121</span>
-<span class="ruby-comment"># =&gt; 122</span>
+<span class='id identifier rubyid_enum'>enum</span> <span class='op'>=</span> <span class='id identifier rubyid_str'>str</span><span class='period'>.</span><span class='id identifier rubyid_enum_for'>enum_for</span><span class='lparen'>(</span><span class='symbol'>:each_byte</span><span class='rparen'>)</span>
+<span class='id identifier rubyid_enum'>enum</span><span class='period'>.</span><span class='id identifier rubyid_each'>each</span> <span class='lbrace'>{</span> <span class='op'>|</span><span class='id identifier rubyid_b'>b</span><span class='op'>|</span> <span class='id identifier rubyid_puts'>puts</span> <span class='id identifier rubyid_b'>b</span> <span class='rbrace'>}</span>
+<span class='comment'># =&gt; 120
+</span><span class='comment'># =&gt; 121
+</span><span class='comment'># =&gt; 122
+</span>
+<span class='comment'># protect an array from being modified by some_method
+</span><span class='id identifier rubyid_a'>a</span> <span class='op'>=</span> <span class='lbracket'>[</span><span class='int'>1</span><span class='comma'>,</span> <span class='int'>2</span><span class='comma'>,</span> <span class='int'>3</span><span class='rbracket'>]</span>
+<span class='id identifier rubyid_some_method'>some_method</span><span class='lparen'>(</span><span class='id identifier rubyid_a'>a</span><span class='period'>.</span><span class='id identifier rubyid_to_enum'>to_enum</span><span class='rparen'>)</span>
+</code></pre>
 
-<span class="ruby-comment"># protect an array from being modified by some_method</span>
-<span class="ruby-identifier">a</span> = [<span class="ruby-value">1</span>, <span class="ruby-value">2</span>, <span class="ruby-value">3</span>]
-<span class="ruby-identifier">some_method</span>(<span class="ruby-identifier">a</span>.<span class="ruby-identifier">to_enum</span>)
-</pre>
-
-<p>It is typical to call <a href="Kernel.html#method-i-to_enum">#to_enum</a>
-when defining methods for a generic <a
-href="Enumerable.html">Enumerable</a>, in case no block is passed.</p>
+<p>It is typical to call to_enum when defining methods for a generic
+Enumerable, in case no block is passed.</p>
 
 <p>Here is such an example, with parameter passing and a sizing block:</p>
 
-<pre>module Enumerable
-  # a generic method to repeat the values of any enumerable
-  def repeat(n)
-    raise ArgumentError, &quot;#{n} is negative!&quot; if n &lt; 0
-    unless block_given?
-      return to_enum(__method__, n) do # __method__ is :repeat here
-        sz = size     # Call size and multiply by n...
-        sz * n if sz  # but return nil if size itself is nil
-      end
-    end
-    each do |*val|
-      n.times { yield *val }
-    end
-  end
-end
+<pre class="code ruby"><code class="ruby"><span class='kw'>module</span> <span class='const'>Enumerable</span>
+  <span class='comment'># a generic method to repeat the values of any enumerable
+</span>  <span class='kw'>def</span> <span class='id identifier rubyid_repeat'>repeat</span><span class='lparen'>(</span><span class='id identifier rubyid_n'>n</span><span class='rparen'>)</span>
+    <span class='id identifier rubyid_raise'>raise</span> <span class='const'>ArgumentError</span><span class='comma'>,</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='embexpr_beg'>#{</span><span class='id identifier rubyid_n'>n</span><span class='embexpr_end'>}</span><span class='tstring_content'> is negative!</span><span class='tstring_end'>&quot;</span></span> <span class='kw'>if</span> <span class='id identifier rubyid_n'>n</span> <span class='op'>&lt;</span> <span class='int'>0</span>
+    <span class='kw'>unless</span> <span class='id identifier rubyid_block_given?'>block_given?</span>
+      <span class='kw'>return</span> <span class='id identifier rubyid_to_enum'>to_enum</span><span class='lparen'>(</span><span class='id identifier rubyid___method__'>__method__</span><span class='comma'>,</span> <span class='id identifier rubyid_n'>n</span><span class='rparen'>)</span> <span class='kw'>do</span> <span class='comment'># __method__ is :repeat here
+</span>        <span class='id identifier rubyid_sz'>sz</span> <span class='op'>=</span> <span class='id identifier rubyid_size'>size</span>     <span class='comment'># Call size and multiply by n...
+</span>        <span class='id identifier rubyid_sz'>sz</span> <span class='op'>*</span> <span class='id identifier rubyid_n'>n</span> <span class='kw'>if</span> <span class='id identifier rubyid_sz'>sz</span>  <span class='comment'># but return nil if size itself is nil
+</span>      <span class='kw'>end</span>
+    <span class='kw'>end</span>
+    <span class='id identifier rubyid_each'>each</span> <span class='kw'>do</span> <span class='op'>|</span><span class='op'>*</span><span class='id identifier rubyid_val'>val</span><span class='op'>|</span>
+      <span class='id identifier rubyid_n'>n</span><span class='period'>.</span><span class='id identifier rubyid_times'>times</span> <span class='lbrace'>{</span> <span class='kw'>yield</span> <span class='op'>*</span><span class='id identifier rubyid_val'>val</span> <span class='rbrace'>}</span>
+    <span class='kw'>end</span>
+  <span class='kw'>end</span>
+<span class='kw'>end</span>
 
-%i[hello world].repeat(2) { |w| puts w }
-  # =&gt; Prints 'hello', 'hello', 'world', 'world'
-enum = (1..14).repeat(3)
-  # =&gt; returns an Enumerator when called without a block
-enum.first(4) # =&gt; [1, 1, 1, 2]</pre>
-            
-
-            
-            <div class="method-source-code" id="to_enum-source">
-              <pre> <!-- method.markup_code 290 -->
-               <span class="ruby-comment"># File mrbgems/mruby-enumerator/mrblib/enumerator.rb, line 607</span>
-<span class="ruby-keyword">def</span> <span class="ruby-identifier">to_enum</span>(<span class="ruby-identifier">meth</span>=<span class="ruby-value">:each</span>, <span class="ruby-operator">*</span><span class="ruby-identifier">args</span>)
-  <span class="ruby-constant">Enumerator</span>.<span class="ruby-identifier">new</span> <span class="ruby-keyword">self</span>, <span class="ruby-identifier">meth</span>, <span class="ruby-operator">*</span><span class="ruby-identifier">args</span>
-<span class="ruby-keyword">end</span>
-            </pre> 
-            </div><!-- to_enum-source -->
-            
-          </div>
-
-          
-          <div class="aliases">
-            Also aliased as: <a href="Kernel.html#method-i-enum_for">enum_for</a>
-          </div>
-          
-
-          
-        </div><!-- to_enum-method -->
-      
-      </div><!-- public-instance-method-details -->
-    
-    </div><!-- 5Buntitled-5D -->
-  
-  <div id='tx_Kernel_versioned' class='associated_wrapper'></div><script type='text/javascript'>$("#tx_Kernel_versioned").load("/associated/mruby/Kernel.html");</script> <div id='tx_Kernel' class='associated_wrapper'></div><script type='text/javascript'>$("#tx_Kernel").load("/associated/Kernel.html");</script> 
-      
-  <!-- disqus ? -->
-   <div class='info'>
-  <p>Commenting is here to help enhance the documentation.  For example, code samples, or clarification of the documentation.</p>
-  <p>If you have questions about Ruby or the documentation, please post to one of the <a href='http://www.ruby-lang.org/en/community/mailing-lists/'>Ruby mailing lists</a>.  You will get better, faster, help that way.</p>
-  <p>If you wish to post a correction of the docs, please do so, but also <a href='http://bugs.ruby-lang.org' >file bug report</a> so that it can be corrected for the next release. Thank you.</p>
-  <p>If you want to help improve the Ruby documentation, please visit <a href='http://documenting-ruby.org/'>Documenting-ruby.org</a>.</p> 
-    </div>
+<span class='qsymbols_beg'>%i[</span><span class='tstring_content'>hello</span><span class='words_sep'> </span><span class='tstring_content'>world</span><span class='words_sep'>]</span><span class='period'>.</span><span class='id identifier rubyid_repeat'>repeat</span><span class='lparen'>(</span><span class='int'>2</span><span class='rparen'>)</span> <span class='lbrace'>{</span> <span class='op'>|</span><span class='id identifier rubyid_w'>w</span><span class='op'>|</span> <span class='id identifier rubyid_puts'>puts</span> <span class='id identifier rubyid_w'>w</span> <span class='rbrace'>}</span>
+  <span class='comment'># =&gt; Prints &#39;hello&#39;, &#39;hello&#39;, &#39;world&#39;, &#39;world&#39;
+</span><span class='id identifier rubyid_enum'>enum</span> <span class='op'>=</span> <span class='lparen'>(</span><span class='int'>1</span><span class='op'>..</span><span class='int'>14</span><span class='rparen'>)</span><span class='period'>.</span><span class='id identifier rubyid_repeat'>repeat</span><span class='lparen'>(</span><span class='int'>3</span><span class='rparen'>)</span>
+  <span class='comment'># =&gt; returns an Enumerator when called without a block
+</span><span class='id identifier rubyid_enum'>enum</span><span class='period'>.</span><span class='id identifier rubyid_first'>first</span><span class='lparen'>(</span><span class='int'>4</span><span class='rparen'>)</span> <span class='comment'># =&gt; [1, 1, 1, 2]
+</span></code></pre>
 
 
-  
-  </div><!-- documentation -->
-  <div id='dynamic'>
-  </div>
-      
-        <div id="disqus_thread"></div>
-  <script type="text/javascript">
-     function setDisqusUrl(){
-      var _loc = window.location.href;
-      disqus_url = _loc.split("?")[0];
-    }
-
-     var disqus_url;
-     
-    
-     setDisqusUrl();
-    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-    // var disqus_shortname = 'rubydocbeta'; // required 
-    var disqus_shortname = 'ruby-doc'; // required 
-
-
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
-
-      
-<div class='grids wrapper' id="footer">
-  <p><small>This page was generated for Ruby mruby</small></p> 
-  
-   <p><a href="../index.html">Ruby-doc.org</a> is provided by <a href="../../jamesbritt.com/index.html">James Britt</a> and <a href="../../neurogami.com/index.html">Neurogami</a>. <a href="../../neurogami.com/index.html">Maximum R+D</a>.</p>
- 
-    <p><small>Generated with Ruby-doc Rdoc Generator 0.33.0</small>.</p>
   </div>
 </div>
-  
-  <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-335317-2', 'auto');
-  ga('send', 'pageview');
-
-</script>
+<div class="tags">
 
 
-    
- <script type='text/javascript'>
-$(document).ready(function() {
-      $.ajaxSetup({ cache: false });
-      $("#vulns-alert").load("/associated/vulns.html");
-    });
-
-    </script>
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
 
 
- 
-		<script type='text/javascript'>
+607
+608
+609</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'mrbgems/mruby-enumerator/mrblib/enumerator.rb', line 607</span>
 
-	function loadPlus(plusdocs){
-		var img_h = $("img.carbonad-image").css('height');
-		//if(img_h != undefined) { //---
-			$(plusdocs).find("div[class='associated_wrapper']").each (function() {
-					$("#" + this.id).append($(plusdocs).find("#" + this.id ));
-					});
-		//} // ---
-	} // end loadPlusdocs
+<span class='kw'>def</span> <span class='id identifier rubyid_to_enum'>to_enum</span><span class='lparen'>(</span><span class='op'>*</span><span class='id identifier rubyid_a'>a</span><span class='rparen'>)</span>
+  <span class='id identifier rubyid_raise'>raise</span> <span class='const'>NotImplementedError</span><span class='period'>.</span><span class='id identifier rubyid_new'>new</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>fiber required for enumerator</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
 
+  </div>
 
-$(document).ready(function() {
-		$.ajaxSetup({ cache: false });
-			$.get('/associated/mruby/plus_Kernel.html', 
-			function(plusdocs) {
-			setTimeout(function() {
-				loadPlus(plusdocs);
-				}, 2000);
-			}
-			);
-		});
-</script>
-		
-</body>
+</div>
+
+    <div id="footer">
+  Generated on Wed Jul 15 12:30:24 2015 by
+  <a href="http://yardoc.org" title="Yay! A Ruby Documentation Tool" target="_parent">yard</a>
+  0.8.7.6 (ruby-2.2.0).
+</div>
+
+  </body>
 </html>
-
-
