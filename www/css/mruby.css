@@ -4,30 +4,12 @@
   -webkit-overflow-scrolling: touch;
 }
 
-html, body {
-  /*height: 100%;*/
-}
-
 .wrapper {
   height: auto;
 }
 
 .footer, .push {
-  /*height: 8em;*/
-  /*padding-top: 10px;*/
   position: relative;
-}
-
-.ruby_button {
-  width: 95px;
-  height: 40px;
-  background-color: red;
-  color: #FFFFFF;
-  padding: 10px;
-  margin-top: 10px;
-  border-radius: 10px;
-  -moz-border-radius: 10px;
-  -webkit-border-radius: 10px;
 }
 
 .button-bar {
@@ -171,20 +153,20 @@ pre {
   width: 100%;
 }
 
-  .nav-bar.nav-bar-inline {
-    display: block;
+.nav-bar.nav-bar-inline {
+  display: block;
+  width: auto;
+  *zoom: 1; }
+  .nav-bar.nav-bar-inline:before, .nav-bar.nav-bar-inline:after {
+    display: table;
+    content: "";
+    line-height: 0; }
+  .nav-bar.nav-bar-inline:after {
+    clear: both; }
+  .nav-bar.nav-bar-inline > .nav {
     width: auto;
-    *zoom: 1; }
-    .nav-bar.nav-bar-inline:before, .nav-bar.nav-bar-inline:after {
-      display: table;
-      content: "";
-      line-height: 0; }
-    .nav-bar.nav-bar-inline:after {
-      clear: both; }
-    .nav-bar.nav-bar-inline > .nav {
-      width: auto;
-      display: inline-block;
-      float: left; }
+    display: inline-block;
+    float: left; }
 
 .nav-bar > .nav {
   -webkit-box-flex: 1;
@@ -243,9 +225,6 @@ pre {
       background-image: linear-gradient(180deg, #0a9ec7, #0a9ec7 50%, transparent 50%); }
 
 .nav-small {
-  /*padding: 2px 4px 1px;*/
-/*  min-width: 28px;
-  min-height: 30px;*/
   font-size: 18px;
   line-height: 37px;
   text-decoration: none;
@@ -253,6 +232,4 @@ pre {
 
 .nav-small .icon:before, .nav-small.icon:before, .nav-small.icon-left:before, .nav-small.icon-right:before {
     font-size: 16px;
-    /*line-height: 19px;*/
-    /*margin-top: 3px;*/
   }
